@@ -4,7 +4,9 @@ Endpoints /free/ no requieren autenticación.
 """
 
 import logging
+import warnings
 import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from typing import Optional
 
 logger = logging.getLogger(__name__)
@@ -22,6 +24,11 @@ class BYMAClient:
     def __init__(self, timeout: int = 30):
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
+        # BYMA's server presents an incomplete certificate chain that fails
+        # verification on Linux runners (GitHub Actions). Safe to disable here
+        # since this is a public read-only API with no credentials involved.
+        self.session.verify = False
+        warnings.filterwarnings("ignore", category=InsecureRequestWarning)
         self.timeout = timeout
 
     def get(self, endpoint: str, params: Optional[dict] = None) -> object:
