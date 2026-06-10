@@ -161,18 +161,14 @@ def cards_html(df: pd.DataFrame) -> str:
             up   = float(row["upside_pct"])
             uclr = main_color
             upside_html = (
-                f'<span title="Variación de precio estimada si el bono cotizara en línea con sus comparables: '
-                f'(precio teórico - precio actual) / precio actual" '
-                f'style="font-size:0.82rem;font-weight:700;color:{uclr};cursor:help">'
+                f'<span style="font-size:0.82rem;font-weight:700;color:{uclr}">'
                 f'Ganancia por convergencia: {up:+.1f}%</span>'
             )
         carry_html = ""
         if pd.notna(row.get("carry_advantage_pct")):
             ca = float(row["carry_advantage_pct"])
             carry_html = (
-                f'<span title="Diferencia entre la YTM del bono y la YTM promedio de sus comparables, '
-                f'ponderada por la duración: (YTM bono − YTM pares) × duración" '
-                f'style="font-size:0.75rem;color:#666;margin-left:10px;cursor:help">'
+                f'<span style="font-size:0.75rem;color:#666;margin-left:10px">'
                 f'Rendimiento extra vs pares: {ca:+.1f}% anual</span>'
             )
 
@@ -228,12 +224,9 @@ def cards_html(df: pd.DataFrame) -> str:
     <div style="font-size:0.72rem;color:#777;margin-top:6px;padding:8px 12px;
                 background:#F5F5F5;border-radius:4px">
       Scores de calidad (0–100, mayor = mejor):
-      <span title="Calidad de cashflows (0–100): mide si los flujos de fondos usados para calcular el YTM son confiables. 100 = verificado manualmente contra prospecto. 70 = datos de la API MAE sin verificar. 35 = parámetros estimados. También penaliza si hay pocos cupones conocidos o la estructura es incierta."
-            style="cursor:help;border-bottom:1px dotted #999"><strong>CF</strong> calidad de cashflows</span> ·
-      <span title="Confianza de la señal (0–100): mide qué tan robusta es la señal de valor relativo. Depende de la calidad de los cashflows, la cantidad y diversidad de bonos comparables, y si la comparación es cross-credit (distintos emisores) o intra-curva (mismo emisor). Un RV score muy extremo sin cashflows verificados reduce la confianza."
-            style="cursor:help;border-bottom:1px dotted #999"><strong>SC</strong> confianza de la señal</span> ·
-      <span title="Ejecución (0–100): mide si es posible operar este bono hoy a un precio razonable. Considera: antigüedad del precio (un precio de hace 20 días vale 0 pts), spread bid/ask (un spread de 250bp vale 0 pts), cantidad de ruedas activas en los últimos 30 días, y volumen relativo dentro del universo. Nota: con menos de 30 días de historial acumulado, este score es conservador."
-            style="cursor:help;border-bottom:1px dotted #999"><strong>EJ</strong> ejecución</span>.
+      <strong>CF</strong> calidad de cashflows ·
+      <strong>SC</strong> confianza de la señal ·
+      <strong>EJ</strong> ejecución.
       &nbsp;
       <span style="background:#E8F5E9;color:#1B5E20;border-radius:3px;padding:0 4px">verde ≥75</span>
       <span style="background:#FFF3E0;color:#E65100;border-radius:3px;padding:0 4px">naranja 60–74</span>
@@ -452,9 +445,9 @@ def tabla_html(df: pd.DataFrame) -> str:
     rows_html = "\n".join(rows)
 
     quality_headers = ("""
-          <th style="padding:8px 10px;text-align:center" title="Cashflow Quality Score">Calidad cashflows</th>
-          <th style="padding:8px 10px;text-align:center" title="Signal Confidence Score">Confianza señal</th>
-          <th style="padding:8px 10px;text-align:center" title="Execution Score">Ejecución</th>
+          <th style="padding:8px 10px;text-align:center">Calidad cashflows</th>
+          <th style="padding:8px 10px;text-align:center">Confianza señal</th>
+          <th style="padding:8px 10px;text-align:center">Ejecución</th>
           <th style="padding:8px 10px;text-align:left">Señal</th>
     """ if has_sq else "")
 
@@ -470,7 +463,7 @@ def tabla_html(df: pd.DataFrame) -> str:
           <th style="padding:8px 10px;text-align:right">YTM pares</th>
           <th style="padding:8px 10px;text-align:right">Spread</th>
           <th style="padding:8px 10px;text-align:right">RV score</th>
-          <th style="padding:8px 10px;text-align:right" title="Ganancia por convergencia: variación de precio estimada si el bono cotizara en línea con sus comparables — (precio teórico − precio actual) / precio actual">Ganancia convergencia</th>
+          <th style="padding:8px 10px;text-align:right">Ganancia convergencia</th>
           {quality_headers}
         </tr>
       </thead>
