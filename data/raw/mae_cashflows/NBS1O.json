@@ -1,0 +1,29 @@
+{
+  "especie": "NBS1O",
+  "numeroCuponActual": "001",
+  "renta": 2.5,
+  "amortizacion": 0,
+  "amasR": 2.5,
+  "moneda": "USD",
+  "descripcion": "ON.BALANZ CAPITAL VALORES S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.05,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.I, AR0340052312, 5.00% semi-annual bullet. Pr\u00f3ximo a vencer.",
+  "detalle": [
+    {
+      "fechaPago": "2026-06-06T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.5,
+      "renta": 2.5,
+      "amortizacion": 100.0,
+      "amasR": 102.5
+    }
+  ]
+}

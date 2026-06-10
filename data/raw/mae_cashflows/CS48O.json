@@ -1,0 +1,69 @@
+{
+  "especie": "CS48O",
+  "numeroCuponActual": "001",
+  "renta": 4.0,
+  "amortizacion": 0,
+  "amasR": 4.0,
+  "moneda": "USD",
+  "descripcion": "ON.CRESUD S.A.C.I.F. Y A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.08,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XLVIII, 8.00% semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-07-11T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2027-01-11T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2027-07-11T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2028-01-11T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2028-07-11T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.0,
+      "renta": 4.0,
+      "amortizacion": 100.0,
+      "amasR": 104.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "especie": "MGCNO",
+  "numeroCuponActual": "004",
+  "renta": 2.88,
+  "amortizacion": 0.0,
+  "amasR": 2.88,
+  "moneda": "USD",
+  "descripcion": "ON PAMPA ENERGIA S.A. CL 22",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-10-04T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.88,
+      "renta": 2.88,
+      "amortizacion": 0.0,
+      "amasR": 2.88
+    },
+    {
+      "fechaPago": "2027-04-04T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.87,
+      "renta": 2.87,
+      "amortizacion": 0.0,
+      "amasR": 2.87
+    },
+    {
+      "fechaPago": "2027-10-04T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.88,
+      "renta": 2.88,
+      "amortizacion": 0.0,
+      "amasR": 2.88
+    },
+    {
+      "fechaPago": "2028-04-04T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.88,
+      "renta": 2.88,
+      "amortizacion": 0.0,
+      "amasR": 2.88
+    },
+    {
+      "fechaPago": "2028-10-04T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.88,
+      "renta": 2.88,
+      "amortizacion": 100.0,
+      "amasR": 102.88
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "especie": "YM34O",
+  "numeroCuponActual": "003",
+  "renta": 4.09,
+  "amortizacion": 0.0,
+  "amasR": 4.09,
+  "moneda": "USD",
+  "descripcion": "ON.YPF CL 34 EMISOR FREQUENTE",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-17T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.09,
+      "renta": 4.09,
+      "amortizacion": 0.0,
+      "amasR": 4.09
+    },
+    {
+      "fechaPago": "2027-01-17T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.16,
+      "renta": 4.16,
+      "amortizacion": 0.0,
+      "amasR": 4.16
+    },
+    {
+      "fechaPago": "2027-07-17T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.09,
+      "renta": 4.09,
+      "amortizacion": 0.0,
+      "amasR": 4.09
+    },
+    {
+      "fechaPago": "2028-01-17T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.16,
+      "renta": 4.16,
+      "amortizacion": 0.0,
+      "amasR": 4.16
+    },
+    {
+      "fechaPago": "2028-07-17T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.11,
+      "renta": 4.11,
+      "amortizacion": 0.0,
+      "amasR": 4.11
+    },
+    {
+      "fechaPago": "2029-01-17T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.16,
+      "renta": 4.16,
+      "amortizacion": 0.0,
+      "amasR": 4.16
+    },
+    {
+      "fechaPago": "2029-07-17T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.09,
+      "renta": 4.09,
+      "amortizacion": 0.0,
+      "amasR": 4.09
+    },
+    {
+      "fechaPago": "2030-01-17T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.16,
+      "renta": 4.16,
+      "amortizacion": 0.0,
+      "amasR": 4.16
+    },
+    {
+      "fechaPago": "2030-07-17T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.09,
+      "renta": 4.09,
+      "amortizacion": 0.0,
+      "amasR": 4.09
+    },
+    {
+      "fechaPago": "2031-01-17T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.16,
+      "renta": 4.16,
+      "amortizacion": 0.0,
+      "amasR": 4.16
+    },
+    {
+      "fechaPago": "2031-07-17T00:00:00",
+      "numeroCupon": "013",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.09,
+      "renta": 4.09,
+      "amortizacion": 0.0,
+      "amasR": 4.09
+    },
+    {
+      "fechaPago": "2032-01-17T00:00:00",
+      "numeroCupon": "014",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 34.16,
+      "renta": 4.16,
+      "amortizacion": 30.0,
+      "amasR": 34.16
+    },
+    {
+      "fechaPago": "2032-07-17T00:00:00",
+      "numeroCupon": "015",
+      "vr": 70.0,
+      "vrCartera": 70.0,
+      "cashFlow": 2.88,
+      "renta": 2.88,
+      "amortizacion": 0.0,
+      "amasR": 2.88
+    },
+    {
+      "fechaPago": "2033-01-17T00:00:00",
+      "numeroCupon": "016",
+      "vr": 70.0,
+      "vrCartera": 70.0,
+      "cashFlow": 32.91,
+      "renta": 2.91,
+      "amortizacion": 30.0,
+      "amasR": 32.91
+    },
+    {
+      "fechaPago": "2033-07-17T00:00:00",
+      "numeroCupon": "017",
+      "vr": 40.0,
+      "vrCartera": 40.0,
+      "cashFlow": 1.64,
+      "renta": 1.64,
+      "amortizacion": 0.0,
+      "amasR": 1.64
+    },
+    {
+      "fechaPago": "2034-01-17T00:00:00",
+      "numeroCupon": "018",
+      "vr": 40.0,
+      "vrCartera": 40.0,
+      "cashFlow": 41.66,
+      "renta": 1.66,
+      "amortizacion": 40.0,
+      "amasR": 41.66
+    }
+  ]
+}

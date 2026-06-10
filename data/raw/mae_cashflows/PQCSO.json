@@ -1,0 +1,119 @@
+{
+  "especie": "PQCSO",
+  "numeroCuponActual": "001",
+  "renta": 4.0,
+  "amortizacion": 0,
+  "amasR": 4.0,
+  "moneda": "USD",
+  "descripcion": "ON.PETROQU\u00cdMICA COMODORO RIVADAVI",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.08,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.S, US$65M, 8.00% semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-08-17T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2027-02-17T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2027-08-17T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2028-02-17T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2028-08-17T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2029-02-17T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2029-08-17T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2030-02-17T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2030-08-17T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.0,
+      "renta": 4.0,
+      "amortizacion": 0.0,
+      "amasR": 4.0
+    },
+    {
+      "fechaPago": "2031-02-17T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.0,
+      "renta": 4.0,
+      "amortizacion": 100.0,
+      "amasR": 104.0
+    }
+  ]
+}

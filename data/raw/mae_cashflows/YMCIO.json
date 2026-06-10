@@ -1,0 +1,84 @@
+{
+  "especie": "YMCIO",
+  "numeroCuponActual": "011",
+  "renta": 4.5,
+  "amortizacion": 14.28,
+  "amasR": 18.78,
+  "moneda": "USD",
+  "descripcion": "ON.YPF CLASE 17EMISOR FREQUENT",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-30T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 18.78,
+      "renta": 4.5,
+      "amortizacion": 14.28,
+      "amasR": 18.78
+    },
+    {
+      "fechaPago": "2026-12-30T00:00:00",
+      "numeroCupon": "012",
+      "vr": 85.715,
+      "vrCartera": 85.715,
+      "cashFlow": 18.14,
+      "renta": 3.86,
+      "amortizacion": 14.28,
+      "amasR": 18.14
+    },
+    {
+      "fechaPago": "2027-06-30T00:00:00",
+      "numeroCupon": "013",
+      "vr": 71.43,
+      "vrCartera": 71.43,
+      "cashFlow": 17.49,
+      "renta": 3.21,
+      "amortizacion": 14.28,
+      "amasR": 17.49
+    },
+    {
+      "fechaPago": "2027-12-30T00:00:00",
+      "numeroCupon": "014",
+      "vr": 57.145,
+      "vrCartera": 57.145,
+      "cashFlow": 16.85,
+      "renta": 2.57,
+      "amortizacion": 14.28,
+      "amasR": 16.85
+    },
+    {
+      "fechaPago": "2028-06-30T00:00:00",
+      "numeroCupon": "015",
+      "vr": 42.86,
+      "vrCartera": 42.86,
+      "cashFlow": 16.21,
+      "renta": 1.93,
+      "amortizacion": 14.28,
+      "amasR": 16.21
+    },
+    {
+      "fechaPago": "2028-12-30T00:00:00",
+      "numeroCupon": "016",
+      "vr": 28.575,
+      "vrCartera": 28.575,
+      "cashFlow": 15.57,
+      "renta": 1.29,
+      "amortizacion": 14.28,
+      "amasR": 15.57
+    },
+    {
+      "fechaPago": "2029-06-30T00:00:00",
+      "numeroCupon": "017",
+      "vr": 14.29,
+      "vrCartera": 14.29,
+      "cashFlow": 14.92,
+      "renta": 0.64,
+      "amortizacion": 14.28,
+      "amasR": 14.92
+    }
+  ]
+}

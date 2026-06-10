@@ -1,0 +1,24 @@
+{
+  "especie": "DNC3O",
+  "numeroCuponActual": "006",
+  "renta": 4.88,
+  "amortizacion": 100.0,
+  "amasR": 104.88,
+  "moneda": "USD",
+  "descripcion": "ON.EDENOR SA CLASE 3",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-11-22T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.88,
+      "renta": 4.88,
+      "amortizacion": 100.0,
+      "amasR": 104.88
+    }
+  ]
+}

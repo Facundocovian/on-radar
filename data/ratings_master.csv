@@ -1,0 +1,174 @@
+prefijo,cuit,razon_social,sector,fuente,rating_lp,rating_cp,outlook,rating_date,fixscr_entity,source
+ARC,30696170580,Aeropuertos Argentina 2000 S.A.,Infraestructura - Aeropuertos,manual_confirmado,AA+(arg),,Perspectiva Estable,2026-05-08 00:00:00,Aeropuertos Argentina 2000,fixscr
+DEC,30690633635,Empresa Distrib. de Electricidad Salta S.A.,Energía - Electricidad,manual_confirmado,A+(arg),,Perspectiva Estable,2026-05-06 00:00:00,Empresa Distribuidora Electricidad de Salta S.A. (EDESA),fixscr
+IRC,30524688673,IRSA Inversiones y Representaciones S.A.,Real Estate,manual_confirmado,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,IRSA Inversiones y Representaciones S.A.,fixscr
+MGC,30526552659,Pampa Energía S.A.,Energía - Electricidad,manual_confirmado,AAA(arg),A1+(arg),Perspectiva Estable,2026-03-27 00:00:00,Pampa Energia S.A.,fixscr
+MSS,30607597193,MSU S.A.,Energía,manual_confirmado,A+(arg),,Perspectiva Estable,2026-05-05 00:00:00,MSU S.A.,fixscr
+MTC,30547242331,Mastellone Hermanos S.A.,Alimentos - Lácteos,manual_confirmado,,,,,,
+NBS,30710630670,Balanz Capital Valores S.A.,Financiero,manual_confirmado,A(arg),A2(arg),Perspectiva Estable,2026-05-06 00:00:00,Balanz Capital Valores S.A.U.,fixscr
+PLC,30678224010,Pluspetrol S.A.,Energía - Petróleo y Gas,manual_confirmado,AAA(arg),,Perspectiva Estable,2026-05-06 00:00:00,Pluspetrol S.A.,fixscr
+PN,30714813583,Pan American Energy LLC (PAE Sucursal),Energía - Petróleo y Gas,manual_confirmado,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,Pan American Energy S.L. - Sucursal Argentina (PAME),fixscr
+T6,30685376349,Tarjeta Naranja S.A.U.,Financiero - Consumo,manual_confirmado,AA(arg),A1+(arg),Perspectiva Estable,2026-04-29 00:00:00,Naranja Digital Compañía Financiera S.A.U.,fixscr
+TTC,30592665472,Tecpetrol S.A.,Energía - Petróleo y Gas,manual_confirmado,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-15 00:00:00,Tecpetrol S.A.,fixscr
+XMC,30709667587,Minera Exar S.A.,Minería - Litio,manual_confirmado,AA(arg),,Perspectiva Estable,2026-05-08 00:00:00,Minera Exar S.A.,fixscr
+397,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial,,,,,,
+AB,30708142693,AGROBICIUFFA SRL,,afip_oficial,,,,,,
+AFC,30604731018,Banco Comafi S.A.,Financiero - Bancos,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-04-14 00:00:00,Banco Comafi S.A.,fixscr
+AG,30640783199,ARGENSUN S.A,,afip_oficial,,,,,,
+AHC,30501863129,RICARDO ALMAR E HIJOS S.A.,,afip_oficial,,,,,,
+ALC,30716620472,ALPARGATAS TEXTIL S.A.,,afip_oficial,,,,,,
+AT,30542790780,AGROTECNOLOGIA SALA S.A.,,afip_oficial,,,,,,
+AV,30715595105,ASPRO SERVICIOS PETROLEROS SA,,afip_oficial,,,,,,
+AWS,30678534214,ARBITRA S.A.,,afip_oficial,,,,,,
+BCC,30576614299,Banco CMF S.A.,Financiero - Bancos,afip_oficial,A+(arg),A1(arg),Perspectiva Estable,2026-04-22 00:00:00,Banco CMF S.A.,fixscr
+BDC,30707227415,Banco de Crédito y Securitización S.A.,Financiero - Bancos,afip_oficial,AA-(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,BACS Banco de Crédito y Securitización S.A.,fixscr
+BF,30500003193,BANCO BBVA ARGENTINA S.A.,,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-15 00:00:00,Banco BBVA Argentina S.A.,fixscr
+BNCT,30500008454,BANCO SANTANDER ARGENTINA S.A,,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-30 00:00:00,Banco Santander Argentina S.A.,fixscr
+BO,30710218192,PROCHEM BIO S.A.,,afip_oficial,,,,,,
+BPC,33500005179,Banco Supervielle S.A.,Financiero - Bancos,afip_oficial,,,,,,
+BSCR,30697265895,BANCO DE SERVICIOS FINANCIEROS S.A.,,afip_oficial,A+(arg),A1(arg),Perspectiva Estable,2026-05-18 00:00:00,Banco de Servicios Financieros Carrefour S.A.U.,fixscr
+BT,30707810927,COMPAÑIA TSB SA,,afip_oficial,,,,,,
+BUC,30517637498,BANCO COLUMBIA S.A.,,afip_oficial,BBB(arg),A3(arg),Perspectiva Negativa,2026-05-06 00:00:00,Banco Columbia S.A.,fixscr
+BVC,30704960995,Banco de Servicios y Transacciones S.A.,Financiero - Bancos,afip_oficial,A+(arg),A1(arg),Perspectiva Estable,2026-04-30 00:00:00,Banco de Servicios y Transacciones S.A.U. - BST,fixscr
+BYC,30500001735,Banco de Galicia y Buenos Aires S.A.,Financiero - Bancos,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-01 00:00:00,Banco de Galicia y Buenos Aires S.A.,fixscr
+BZSB,30534672434,BANCO SAENZ S.A.,,afip_oficial,A-(arg),A2(arg),RW Positivo,2026-05-12 00:00:00,Banco Sáenz S.A.,fixscr
+CA,30707651675,CAIMAN SRL,,afip_oficial,,,,,,
+CAC,30629827060,Capex S.A.,Energía - Electricidad,afip_oficial,AA(arg),,Perspectiva Estable,2026-05-22 00:00:00,CAPEX S.A.,fixscr
+CFS,30641056177,CFN S.A.,,afip_oficial,A(arg),A1(arg),Perspectiva Estable,2026-03-13 00:00:00,CFN S.R.L.,fixscr
+CH,33572266449,CARSA SA,,afip_oficial,,,,,,
+CIC,30714322938,CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,CNH Industrial Capital Argentina S.A.,fixscr
+CMS,30714763225,CREATIVE PMO INTERNATIONAL S.A.,,afip_oficial,,,,,,
+CNQ,30538006404,COMPANIA FINANCIERA ARGENTINA S.A.,,afip_oficial,BB+(arg),B(arg),Perspectiva Negativa,2026-04-27 00:00:00,Compañía Financiera Argentina S.A.,fixscr
+CP,30506733932,CIA GENERAL DE COMBUSTIBLES S.A.,,afip_oficial,AA-(arg),,Perspectiva Estable,2026-05-08 00:00:00,Compañía General de Combustibles S.A. - (CGC),fixscr
+CRCK,30501062150,CELULOSA ARGENTINA S.A.,,afip_oficial,D(arg),D(arg),N.C,2026-04-09 00:00:00,Celulosa Argentina S.A.,fixscr
+CRS,30672812808,CEDISUR S.A.,,afip_oficial,,,,,,
+CS,30509300700,CRESUD S.A.C.I.F. Y A.,,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-24 00:00:00,Cresud S.A.C.I.F. y A.,fixscr
+CT,30641487267,ACTUAL S.A.,,afip_oficial,,,,,,
+CWC,30709346268,CROWN POINT ENERGIA S.A.,,afip_oficial,BBB(arg),,Perspectiva Estable,2026-05-08 00:00:00,Crown Point Energía S.A.,fixscr
+CXCW,30712101136,CREDITO DIRECTO S.A.,,afip_oficial,BBB+(arg),A2(arg),Perspectiva Estable,2026-05-06 00:00:00,Crédito Directo S.A.,fixscr
+DDS,30713701803,3D LATINOAMERICA S.A.,,afip_oficial,,,,,,
+DHD,30710911580,CREDICUOTAS CONSUMO S.A.,,afip_oficial,A+(arg),A1(arg),Perspectiva Estable,2026-05-20 00:00:00,Credicuotas Consumo S.A.,fixscr
+DM,30707912673,DEMAGRO S.R.L,,afip_oficial,,,,,,
+DNC,30655116202,EDENOR S.A.,,afip_oficial,A+(arg),A1+(arg),Perspectiva Estable,2026-03-25 00:00:00,Edenor S.A.,fixscr
+DPS,30716155680,DARUMA PAGOS S.A.,,afip_oficial,,,,,,
+DRDA,30589527115,SURCOS S.A.,,afip_oficial,,,,,,
+EAC,30714155128,MSU GREEN ENERGY S.A.U.,,afip_oficial,A+(arg),,Perspectiva Estable,2026-05-08 00:00:00,MSU Green Energy S.A.,fixscr
+EH,30708587415,HECTOR A. BERTONE SA,,afip_oficial,,,,,,
+EK,30503339788,ESKABE S.A.,,afip_oficial,,,,,,
+EL,30519527703,TERMOELECTRICA SA,,afip_oficial,,,,,,
+ENC,30716684594,ASOCIACION CIVIL SUMATORIA PARA UNA NUEVA ECONOMIA,,afip_oficial,,,,,,
+EOS,30505607925,ECOSUR BAHIA SOCIEDAD ANONIMA,,afip_oficial,,,,,,
+EP,33708830599,TRESNAL AGROPECUARIA S.A.,,afip_oficial,,,,,,
+ESS,33710735609,ASSERCA S.R.L.,,afip_oficial,,,,,,
+EXS,30708847247,EXPRESO LANCIONI S.A,,afip_oficial,,,,,,
+FN,30707816410,FERRETERIA DEL NORTE SRL,,afip_oficial,,,,,,
+FSS,30716837994,AFS GROUP S.A.,,afip_oficial,,,,,,
+FTL,30692304884,FCA CIA. FINANCIERA SA,,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-08 00:00:00,FCA Compañía Financiera S.A.,fixscr
+GB,30660920451,GRUAS SAN BLAS S.A,,afip_oficial,,,,,,
+GE,30516139451,GEORGALOS HERMANOS Y CIA,,afip_oficial,,,,,,
+GF,30539301388,GARRO FABRIL S.A,,afip_oficial,,,,,,
+GHC,30558543317,GRUPO COHEN S.A.,,afip_oficial,,,,,,
+GK,30640576428,GUALOK SRL,,afip_oficial,,,,,,
+GLS,30715157299,GALERENT S.A.,,afip_oficial,,,,,,
+GMC,30682434720,Generación Mediterránea S.A.,Energía - Electricidad,afip_oficial,D(arg),D(arg),N.C,2026-04-14 00:00:00,Generación Mediterránea S.A.,fixscr
+GN,30665234114,GENNEIA S.A.,,afip_oficial,,,,,,
+GOC,33715184139,GENERACION LITORAL SA,,afip_oficial,,,,,,
+GU,30710685696,TRACE GROUP S.A.,,afip_oficial,,,,,,
+GZS,33715043519,GESTION DE PRESTAMOS Y COBRANZAS,,afip_oficial,,,,,,
+HA,33657476639,MADERO HARBOUR S.A.,,afip_oficial,,,,,,
+HBC,30500011072,BANCO HIPOTECARIO S.A.,,afip_oficial,AA-(arg),A1+(arg),Perspectiva Estable,2026-04-15 00:00:00,Banco Hipotecario S.A.,fixscr
+HC,30711075905,HIDROTEC S.A.,,afip_oficial,,,,,,
+HG,30539081086,GASTALDI HNOS. S.A.I. y C.F. e I.,,afip_oficial,,,,,,
+HJC,30707024859,John Deere Credit Cía. Financiera S.A.,Financiero - Crédito Industrial,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-28 00:00:00,John Deere Credit Compañía Financiera S.A.,fixscr
+HN,30541416540,RATTO HNOS S.AC.F.A.,,afip_oficial,,,,,,
+HT,30715857460,HATTRICK ENERGY SAS,,afip_oficial,,,,,,
+IC,33711217679,INSUGA CHACO S.A,,afip_oficial,,,,,,
+IF,30718592425,INCLUSION FINANCIERA INTEGRAL S.R.L.,,afip_oficial,,,,,,
+INS,33688256149,INTERCONNECT S.A.,,afip_oficial,,,,,,
+IP,30716855372,PROCESOS INDUSTRIALES METALLO SA,,afip_oficial,,,,,,
+JOS,30590762233,ALBERTO J. OLIVERO E HIJOS S.A.,,afip_oficial,,,,,,
+JTS,30714228346,FERRETERA CENTRAL JT S.R.L.,,afip_oficial,,,,,,
+KIS,33717152749,MILKYNET S.A.,,afip_oficial,,,,,,
+KLS,30574564367,KLONAL SRL,,afip_oficial,,,,,,
+KR,30641234601,BISORDI KREMAR SRL,,afip_oficial,,,,,,
+LA,30714108235,LATITUD 45 PETROLEO Y GAS SA,,afip_oficial,,,,,,
+LEC,30682504125,ALBANESI S.A.,,afip_oficial,,,,,,
+LLS,33714669899,COLLINS S.A.,,afip_oficial,,,,,,
+LMS,30718221516,BLM DESARROLLOS SA,,afip_oficial,,,,,,
+LN,30516877223,LILIANA SRL,,afip_oficial,,,,,,
+LR,30501152826,LABORATORIOS RICHMOND S.A.C.I.F.,,afip_oficial,A(arg),A2(arg),Perspectiva Estable,2026-05-29 00:00:00,Laboratorios Richmond S.A.,fixscr
+LTS,30710716923,LATAMLY S.A.,,afip_oficial,,,,,,
+LVS,30714954071,LOS VALIENTES S.A.,,afip_oficial,,,,,,
+ME,30561785402,AUTOTRANSPORTES ANDESMAR S.A.,,afip_oficial,,,,,,
+MIC,30578036071,MIRGOR S.A.,,afip_oficial,,,,,,
+MR,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial,,,,,,
+MRCX,30500645772,MERANOL S.A.C.I.,,afip_oficial,A-(arg),A2(arg),Perspectiva Positiva,2026-03-05 00:00:00,Meranol S.A.C.I.,fixscr
+NDS,30550246771,ANTA DEL DORADO S.A.,,afip_oficial,,,,,,
+NHC,30670157799,NUEVO BANCO DEL CHACO S.A.,,afip_oficial,A-(arg),A2(arg),Perspectiva Estable,2026-04-24 00:00:00,Nuevo Banco del Chaco S.A,fixscr
+NLCD,30500235566,ANGEL ESTRADA Y CIA. S.A.,,afip_oficial,A(arg),A1(arg),Perspectiva Estable,2026-05-26 00:00:00,Angel Estrada y Cia.S.A.,fixscr
+NOS,30707418849,MERIDIANO NORTE S.A.,,afip_oficial,,,,,,
+NUS,30708132337,NUEVAS TIERRAS S.A.,,afip_oficial,,,,,,
+NV,30707012672,NAVARRO S.A.,,afip_oficial,,,,,,
+OC,30710855850,CLORONOR S.A.,,afip_oficial,,,,,,
+OLC,30658840165,OLEODUCTOS DEL VALLE S.A.,,afip_oficial,AAA(arg),,Perspectiva Estable,2026-05-07 00:00:00,Oleoductos del Valle S.A.,fixscr
+OM,30642412899,MAQUINAS AGRICOLAS OMBU S.A,,afip_oficial,,,,,,
+ONXA,30710125909,NEXO EMPRENDIMIENTOS S.A.,,afip_oficial,,,,,,
+OR,30547794482,AGRONORTE S.R.L.,,afip_oficial,,,,,,
+OV,30713722703,OZOG VIAL S.R.L,,afip_oficial,,,,,,
+OZC,30699542454,EMPRESA DISTRIB DE ELECTRICIDAD DE MENDOZA S.A.,,afip_oficial,A+(arg),A1(arg),Perspectiva Estable,2026-05-05 00:00:00,Empresa Distribuidora de Electricidad de Mendoza -EDEMSA,fixscr
+PB,30619780635,PROMEDON S.A.,,afip_oficial,,,,,,
+PDS,30707009892,PROSEIND S.A.,,afip_oficial,,,,,,
+PEC,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial,,,,,,
+PES,30651084241,PEDROLGA S.A.,,afip_oficial,,,,,,
+PF,30690967541,PATAGONIA FRUITS TRADE S.A,,afip_oficial,,,,,,
+PG,30714436194,PRIGIONI AGRO SRL,,afip_oficial,,,,,,
+PJS,30711424195,PALLETS JAUREGUI S.A.,,afip_oficial,,,,,,
+PM,33669088499,PRODEMAN S.A.,,afip_oficial,,,,,,
+PO,30693383427,PRODUSEM S.A.,,afip_oficial,,,,,,
+PQC,30563598111,Petroquímica Comodoro Rivadavia S.A.,Industria - Petroquímica,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-08 00:00:00,Petroquímica Comodoro Rivadavia S.A. - PCR,fixscr
+PR,30697172773,PARAMERICA S.A.,,afip_oficial,,,,,,
+PS,30707847367,PSA FINANCE ARGENTINA CIA FINANCIERA SA,,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-04-30 00:00:00,PSA Finance Argentina Compañía Financiera SA,fixscr
+PZC,30655942382,Plaza Logística S.R.L.,Logística - Real Estate,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-04 00:00:00,Plaza Logística S.R.L.,fixscr
+RAS,30708658819,AGROIDEAS S.A,,afip_oficial,,,,,,
+RB,33707124909,ROMBO COMPANIA FINANCIERA S.A.,,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-08 00:00:00,FCA Compañía Financiera S.A.,fixscr
+RC,30502793175,ARCOR S.A.I.C.,,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-15 00:00:00,Arcor S.A.I.C.,fixscr
+RD,30712257357,RDA RENTING S.A.,,afip_oficial,A(arg),,Perspectiva Estable,2025-12-23 00:00:00,RDA Renting S.A.,fixscr
+RES,30691479400,RECARD S.A.,,afip_oficial,,,,,,
+RMS,30711913439,PRESIDENT PETROLEUM S.A.,,afip_oficial,,,,,,
+ROS,30654691726,RADIADORES PRATS S.A.,,afip_oficial,,,,,,
+RU,30710080085,CERAMICA RUTA 16 S.R.L.,,afip_oficial,,,,,,
+RYS,30707211942,ROLCAR S.A,,afip_oficial,,,,,,
+RZ,30593174057,RIZOBACTER ARGENTINA S.A.,,afip_oficial,CC(arg),C(arg),N.C,2026-04-27 00:00:00,Rizobacter Argentina S.A.,fixscr
+RZS,30707955267,MATIAS RUIZ Y CI(cid:141)A. S.A.,,afip_oficial,,,,,,
+SA,30712129766,AGRONEA PRODUCCIONES SRL,,afip_oficial,,,,,,
+SB,30715659340,SAN BAUTISTA DEL SUR SA,,afip_oficial,,,,,,
+SG,30510968413,SUC. DE GUSTAVO LAGERHEIM S.A.,,afip_oficial,,,,,,
+SN,30690076043,SION S.A.,,afip_oficial,,,,,,
+SNA,30511190238,S.A. San Miguel,Agro - Frutícola,afip_oficial,,,,,,
+SOC,30600615889,SPECIAL GRAINS S.A/PETROAGRO S.A.,,afip_oficial,,,,,,
+SSC,33550300899,SANTIAGO SAENZ S.A.,,afip_oficial,,,,,,
+STCA,30708633417,GRUPO ST S.A.,,afip_oficial,,,,,,
+SXC,30716999498,MERCADO PAGO SERVICIOS DE PROCESAMIENTO S.R.L.,,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-11 00:00:00,Mercado Pago Servicios de Procesamiento S.R.L.,fixscr
+SYS,30709159182,YACOPINI SUD SA,,afip_oficial,,,,,,
+SZ,30707923446,AGRO DE SOUZA S.A.,,afip_oficial,,,,,,
+TL,30503423347,TALLERES METALURGICOS CRUCIANELLI S.A.,,afip_oficial,,,,,,
+TLC,30639453738,Telecom Argentina S.A.,Telecomunicaciones,afip_oficial,AA+(arg),A1+(arg),Perspectiva Positiva,2026-05-05 00:00:00,Telecom Argentina S.A.,fixscr
+TY,30709000426,TOYOTA COMPANIA FINANCIERA DE ARGENTINA,,afip_oficial,AA+(arg),A1+(arg),Perspectiva Estable,2026-04-22 00:00:00,Toyota Cia. Financiera Argentina S.A.,fixscr
+UFS,30678145366,SEGUFER S.A.,,afip_oficial,,,,,,
+UTC,30540127251,RUTA 3 AUTOMOTORES SA,,afip_oficial,,,,,,
+UXS,30714347159,TUX SA,,afip_oficial,,,,,,
+VE,30698318895,RICARDO VENTURINO S.A,,afip_oficial,,,,,,
+VM,33708128649,ESTACION DE SERVICIOS 25 DE MAYO SRL,,afip_oficial,,,,,,
+VP,30707807810,OVOPROT INTERNATIONAL SA,,afip_oficial,,,,,,
+VSC,33515950899,Vista Oil & Gas Argentina S.A.U.,Energía - Petróleo y Gas,afip_oficial,,,,,,
+VWC,30682419578,Volkswagen Financial Services Cía. Financiera S.A.,Financiero - Crédito Automotriz,afip_oficial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,Volkswagen Financial Services Compañía Financiera S.A.,fixscr
+WBS,30516420444,BANCO MARIVA S.A.,,afip_oficial,,,,,,
+WI,30715980246,WIN S.A.S.,,afip_oficial,,,,,,
+WNCN,30642617555,NEW SAN SA,,afip_oficial,,,,,,
+YF,30714128309,YPF Energía Eléctrica S.A.,Energía - Electricidad,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,YPF Energía Eléctrica S.A.,fixscr
+YIS,30715744941,YACOPINI MIRAI S.A.,,afip_oficial,,,,,,
+YM,30546689979,YPF S.A.,Energía - Petróleo y Gas,afip_oficial,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-05 00:00:00,YPF S.A.,fixscr
+YSS,30707174702,C&C MEDICAL S S.A.,,afip_oficial,,,,,,
+ZF,30592486268,ZAFRA S.A.,,afip_oficial,,,,,,
+ZI,30715999141,SPAZIOS INMUEBLES S.A.,,afip_oficial,,,,,,
+ZUS,33712110959,ZUAMAR S.A.,,afip_oficial,,,,,,

@@ -1,0 +1,59 @@
+{
+  "especie": "T671O",
+  "numeroCuponActual": "001",
+  "renta": 1.975,
+  "amortizacion": 0,
+  "amasR": 1.975,
+  "moneda": "USD",
+  "descripcion": "ON.TARJETA NARANJA S.A.U.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.079,
+  "_frequency": 4,
+  "_confidence": "confirmed",
+  "_notes": "Cl.LXIV Ser.I, 7.90% quarterly bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-08-22T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.975,
+      "renta": 1.975,
+      "amortizacion": 0.0,
+      "amasR": 1.975
+    },
+    {
+      "fechaPago": "2026-11-22T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.975,
+      "renta": 1.975,
+      "amortizacion": 0.0,
+      "amasR": 1.975
+    },
+    {
+      "fechaPago": "2027-02-22T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.975,
+      "renta": 1.975,
+      "amortizacion": 0.0,
+      "amasR": 1.975
+    },
+    {
+      "fechaPago": "2027-05-22T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.975,
+      "renta": 1.975,
+      "amortizacion": 100.0,
+      "amasR": 101.975
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "especie": "HJCIO",
+  "numeroCuponActual": "003",
+  "renta": 3.26,
+  "amortizacion": 0.0,
+  "amasR": 3.26,
+  "moneda": "USD",
+  "descripcion": "ON.JOHN DEERE CL XVII EMIS FR.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-10-21T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.26,
+      "renta": 3.26,
+      "amortizacion": 0.0,
+      "amasR": 3.26
+    },
+    {
+      "fechaPago": "2027-04-21T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.24,
+      "renta": 3.24,
+      "amortizacion": 0.0,
+      "amasR": 3.24
+    },
+    {
+      "fechaPago": "2027-10-21T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.26,
+      "renta": 3.26,
+      "amortizacion": 0.0,
+      "amasR": 3.26
+    },
+    {
+      "fechaPago": "2028-04-21T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.26,
+      "renta": 3.26,
+      "amortizacion": 0.0,
+      "amasR": 3.26
+    },
+    {
+      "fechaPago": "2028-10-21T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.26,
+      "renta": 3.26,
+      "amortizacion": 100.0,
+      "amasR": 103.26
+    }
+  ]
+}

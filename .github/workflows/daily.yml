@@ -1,0 +1,62 @@
+name: Pipeline diario
+
+on:
+  schedule:
+    # Lunes a viernes a las 21:15 UTC = 18:15 ARS (UTC-3)
+    - cron: '15 21 * * 1-5'
+  workflow_dispatch:
+    # Permite correr manualmente desde GitHub → Actions → "Run workflow"
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # necesario para hacer commit y push
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: 1 — Fetch datos de BYMA (precios del mercado)
+        run: python main.py
+
+      - name: 2 — Construir métricas de renta fija (YTM, Duration)
+        run: python build_fixed_income_metrics.py --all
+
+      - name: 3 — Guardar snapshot de liquidez del día
+        run: python build_liquidity_history.py --from-cache
+
+      - name: 4 — Motor de Relative Value
+        run: python build_relative_value.py
+
+      - name: 5 — Signal Quality (scores de calidad)
+        run: python build_signal_quality.py
+
+      - name: 6 — Generar dashboard HTML
+        run: python build_dashboard.py
+
+      - name: 7 — Copiar dashboard a public/
+        run: |
+          mkdir -p public
+          cp outputs/dashboard.html public/index.html
+
+      - name: 8 — Commit y push de outputs
+        run: |
+          git config --global user.name "ON Radar Bot"
+          git config --global user.email "action@github.com"
+          git add outputs/ data/processed/liquidity_history.csv public/index.html
+          git diff --staged --quiet && echo "Sin cambios." || (
+            git commit -m "chore: pipeline $(date '+%Y-%m-%d')" &&
+            git push
+          )

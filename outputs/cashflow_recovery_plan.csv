@@ -1,0 +1,31 @@
+symbol,issuer,volume,currency,rate_type,coupon_rate,frequency,amortization_type,recoverable,difficulty,cashflow_source,notes
+TLCP,Telecom Argentina S.A.,762134598.8,USD,FIXED,7.00%,semi-annual,amortizing_3tr,A,2,aviso_resultados+broker,"Cl.23 local, 7% bullet. Maturity 2033-05-28 may map to intl tranche — cross-check ISIN"
+PLC4,Pluspetrol S.A.,398860800.0,USD,FIXED,8.50%,semi-annual,bullet,A,1,CNV+cbonds,"US$450M + US$200M add-on, mat 2032-05-30. Confirmed structure."
+T671,Tarjeta Naranja S.A.U.,329943000.0,USD,FIXED,7.90%,quarterly,bullet,A,1,PAGBAM+broker,"Cl.LXIV Ser.I, 7.90% quarterly bullet, mat 2027-05-22. Confirmed."
+PNEC,Pan American Energy (PAE),310750000.0,USD,FIXED,8.50%,semi-annual,amortizing_3tr,A,2,aviso_resultados,"3 equal installments ~33.3% each: Apr-2030, Apr-2031, Apr-2032. Standard PAE structure."
+TTCE,Tecpetrol S.A.,238356543.1,USD,FIXED,~5.00%,semi-annual,bullet,B,3,cbonds,cbonds shows TTC8O=5%/2027 but TTCE maturity is 2029-05-21 → class mismatch. Need aviso for exact class.
+PQCS,Petroquímica Comodoro Rivadavia S.A.,222235243.5,USD,FIXED,8.00%,semi-annual,bullet,A,1,CNV+cbonds,"US$65M, issued Feb-2025, mat 2031-02-17. Very clean bullet structure."
+YM39,YPF S.A.,191231006.8,USD,FIXED,8.75%,quarterly,bullet,A,1,broker+market,"YPF Cl.XXXIX, 8.75% TNA, quarterly coupons, bullet, mat 2030-07-22."
+YM38,YPF S.A.,170562397.1,USD,FIXED,7.50%,quarterly,bullet,A,1,broker+market,"YPF Cl.XXXVIII, 7.50%, US$100M, quarterly bullet, mat 2027-07-22."
+MSSG,MSU S.A.,109502880.1,USD,FIXED,9.75%,semi-annual,amortizing_3tr,B,3,broker+market,"Cl.XII = 9.75%, 3-tranche amort. MSSG maturity Apr-2029 ≠ Cl.XII Dec-2030 → class mapping uncertain."
+TTC9,Tecpetrol S.A.,95951247.4,USD,FIXED,6.80%,semi-annual,bullet,A,1,cbonds,"Cl.9, AR0482976963, 6.80%, mat 2029-10-24. Confirmed bullet."
+OZC3,EDEMSA,87781288.4,USD,FIXED,8.00%,semi-annual,bullet,A,1,CNV+cbonds,"Cl.3, 8%, mat 2027-11-29, bullet. Additional tranche May-2025."
+CACB,Capex S.A.,75288367.4,USD,FIXED,9.25%,semi-annual,amortizing_8tr,A,2,aviso_resultados,8 equal semi-annual installments of ~12.5% starting Feb-2025. Mat 2028-06-17.
+CS48,Cresud S.A.C.I.F. y A.,71505901.1,USD,FIXED,8.00%,semi-annual,bullet,A,2,cresud.com.ar,"Cl.XLVIII, 8.00%, mat Jul-2028, bullet. Frequency assumed semi-annual per Cresud pattern."
+CS45,Cresud S.A.C.I.F. y A.,66898885.8,USD,FIXED,6.00%,semi-annual,bullet,A,2,PAGBAM,"Cl.XLV, US$10.2M, 6.00%, mat 2026-08-22, bullet. Issued Apr-2024."
+YM37,YPF S.A.,54842622.7,USD,FIXED,7.00%,quarterly,bullet,A,1,Adcap+market,"YPF Cl.XXXVII, 7.00% corte, US$139.5M, quarterly bullet, mat 2027-05-07."
+SNEA,SION S.A.,51383616.0,UNKNOWN,UNKNOWN,?,?,?,C,5,no_data,PyME SVS bond. Could be ARS/BADLAR or USD. No prospectus data retrieved. Manual lookup required.
+MGCQ,Pampa Energía S.A.,50976726.2,USD,FIXED,7.25%,semi-annual,bullet,A,1,Mariva+market,"Cl.25, 7.25% corte, AR0519406398, bullet, mat 2028-08-06. Confirmed."
+RC2C,ARCOR S.A.I.C.,50097353.0,USD,FIXED,5.90%,semi-annual,bullet,A,1,cbonds+market,"Cl.2, 5.90% TNA, mat 2026-10-06, bullet. Confirmed."
+HJCK,John Deere Credit Cía. Financiera S.A.,48520900.0,USD,FIXED,~5-7%,semi-annual,bullet,A,3,broker+market,"Cl.XIV(est.), mat 2029-01-16, semi-annual bullet. Rate not confirmed — JD Credit always fixed bullet."
+YMCY,YPF S.A.,43093766.1,USD,FIXED,6.50%,quarterly,bullet,A,2,market,"YPF Cl.XXXV(est.), 6.50%, quarterly bullet, mat 2028-10-10."
+PLC3,Pluspetrol S.A.,40010310.7,USD,FIXED,~6.00%,semi-annual,bullet,A,2,market,"Cl.3, ~6%, semi-annual bullet, mat 2028-04-30. Rate needs aviso confirmation."
+TLCW,Telecom Argentina S.A.,35642500.0,USD,FIXED,9.25%,semi-annual,amortizing_2tr,B,3,aviso_resultados,"Cl.24 intl, 9.25%, US$800M, amort. yr7/yr8. TLCW mat 2030-05-29 → verify exact class mapping."
+DEC2,Empresa Distrib. de Electricidad Salta S.A.,28967065.0,USD,FIXED,~7-9%,semi-annual,bullet,B,3,market,"Cl.2, USD, mat 2027-02-24. Likely semi-annual bullet but coupon rate not retrieved. Small issuer."
+BYCW,Banco de Galicia y Buenos Aires S.A.,27937100.0,USD,FIXED,6.25%,semi-annual,bullet,A,1,broker+CNV,"Cl.XXIX, 6.25%, US$110.9M, mat 2026-11-30, bullet. Confirmed."
+CS49,Cresud S.A.C.I.F. y A.,20580321.0,USD,FIXED,7.25%,semi-annual,bullet,A,2,cresud.com.ar,"Cl.XLIX, 7.25%, mat Sep-2027, bullet."
+MSSF,MSU S.A.,20392833.9,USD,FIXED,7.50%,quarterly,amortizing_2tr,A,2,broker,"Cl.XIII, 7.50% TNA, quarterly, 50% Jul-2027 + 50% Oct-2027. 21mo term."
+NBS1,Balanz Capital Valores S.A.,19832200.0,USD,FIXED,5.00%,semi-annual,bullet,A,2,cbonds,"Cl.I, AR0340052312, 5.00%, mat 2026-06-06, bullet. Near maturity."
+HJCJ,John Deere Credit Cía. Financiera S.A.,18142000.0,USD,FIXED,~6.50%,semi-annual,bullet,A,2,broker+market,"Cl.XV(est.), ~6.50%, semi-annual bullet, mat 2027-07-25. Rate estimated from similar class."
+EMC1,DESCONOCIDO [EMC],17970060.9,UNKNOWN,UNKNOWN,?,?,?,C,5,no_data,Emisor no identificado. EMC prefix no mapeado. Requiere búsqueda por ISIN en BYMA/CNV.
+PECN,Petrolera Aconcagua Energía S.A.,17684376.0,USD,FIXED_STEPUP,3%→7% step-up,annual,amortizing_3tr,B,4,exchange_offer_docs,"Step-up: 3%/3%/3%/5%/6%/7%/7% (yrs 1-7). Amort: 20% y5, 20% y6, 60% y7 (2030/2031/2032). Reconstructable with schedule array. Debt restructuring Aug-2025."

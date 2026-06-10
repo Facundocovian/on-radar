@@ -1,0 +1,24 @@
+{
+  "especie": "SNABO",
+  "numeroCuponActual": "005",
+  "renta": 2.24,
+  "amortizacion": 100.0,
+  "amasR": 102.24,
+  "moneda": "USD",
+  "descripcion": "ON S.A. SAN MIGUEL S X CL B",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-29T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.24,
+      "renta": 2.24,
+      "amortizacion": 100.0,
+      "amasR": 102.24
+    }
+  ]
+}

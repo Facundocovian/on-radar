@@ -1,0 +1,134 @@
+{
+    "especie": "PNXCO",
+    "numeroCuponActual": "005",
+    "renta": 4.25,
+    "amortizacion": 0.0,
+    "amasR": 4.25,
+    "moneda": "USD",
+    "descripcion": "ON.PAN AMERICAN ENERGY C 31 EF",
+    "precio": 0,
+    "tir": 0,
+    "md": 0,
+    "detalle": [
+        {
+            "fechaPago": "2026-10-30T00:00:00",
+            "numeroCupon": "005",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2027-04-30T00:00:00",
+            "numeroCupon": "006",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2027-10-30T00:00:00",
+            "numeroCupon": "007",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2028-04-30T00:00:00",
+            "numeroCupon": "008",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2028-10-30T00:00:00",
+            "numeroCupon": "009",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2029-04-30T00:00:00",
+            "numeroCupon": "010",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2029-10-30T00:00:00",
+            "numeroCupon": "011",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 4.25,
+            "renta": 4.25,
+            "amortizacion": 0.0,
+            "amasR": 4.25
+        },
+        {
+            "fechaPago": "2030-04-30T00:00:00",
+            "numeroCupon": "012",
+            "vr": 100.0,
+            "vrCartera": 100.0,
+            "cashFlow": 37.25,
+            "renta": 4.25,
+            "amortizacion": 33.0,
+            "amasR": 37.25
+        },
+        {
+            "fechaPago": "2030-10-30T00:00:00",
+            "numeroCupon": "013",
+            "vr": 67.0,
+            "vrCartera": 67.0,
+            "cashFlow": 2.85,
+            "renta": 2.85,
+            "amortizacion": 0.0,
+            "amasR": 2.85
+        },
+        {
+            "fechaPago": "2031-04-30T00:00:00",
+            "numeroCupon": "014",
+            "vr": 67.0,
+            "vrCartera": 67.0,
+            "cashFlow": 35.85,
+            "renta": 2.85,
+            "amortizacion": 33.0,
+            "amasR": 35.85
+        },
+        {
+            "fechaPago": "2031-10-30T00:00:00",
+            "numeroCupon": "015",
+            "vr": 34.0,
+            "vrCartera": 34.0,
+            "cashFlow": 1.44,
+            "renta": 1.44,
+            "amortizacion": 0.0,
+            "amasR": 1.44
+        },
+        {
+            "fechaPago": "2032-04-30T00:00:00",
+            "numeroCupon": "016",
+            "vr": 34.0,
+            "vrCartera": 34.0,
+            "cashFlow": 35.44,
+            "renta": 1.44,
+            "amortizacion": 34.0,
+            "amasR": 35.44
+        }
+    ]
+}

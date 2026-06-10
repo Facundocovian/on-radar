@@ -1,0 +1,29 @@
+{
+  "especie": "RC2CO",
+  "numeroCuponActual": "001",
+  "renta": 2.95,
+  "amortizacion": 0,
+  "amasR": 2.95,
+  "moneda": "USD",
+  "descripcion": "ON.ARCOR S.A.I.C.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.059,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.2, 5.90% TNA semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-10-06T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.95,
+      "renta": 2.95,
+      "amortizacion": 100.0,
+      "amasR": 102.95
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "especie": "BYCWO",
+  "numeroCuponActual": "001",
+  "renta": 3.125,
+  "amortizacion": 0,
+  "amasR": 3.125,
+  "moneda": "USD",
+  "descripcion": "ON.BANCO DE GALICIA Y BUENOS AIRE",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.0625,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XXIX, US$110.9M, 6.25% semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-11-30T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.125,
+      "renta": 3.125,
+      "amortizacion": 100.0,
+      "amasR": 103.125
+    }
+  ]
+}

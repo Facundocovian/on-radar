@@ -1,0 +1,54 @@
+{
+  "especie": "LMS8O",
+  "numeroCuponActual": "008",
+  "renta": 1.56,
+  "amortizacion": 25.0,
+  "amasR": 26.56,
+  "moneda": "USD",
+  "descripcion": "ON.ALUAR ALUMINIO ARGENTINO S8",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-21T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 26.56,
+      "renta": 1.56,
+      "amortizacion": 25.0,
+      "amasR": 26.56
+    },
+    {
+      "fechaPago": "2026-09-21T00:00:00",
+      "numeroCupon": "009",
+      "vr": 75.0,
+      "vrCartera": 75.0,
+      "cashFlow": 26.17,
+      "renta": 1.17,
+      "amortizacion": 25.0,
+      "amasR": 26.17
+    },
+    {
+      "fechaPago": "2026-12-21T00:00:00",
+      "numeroCupon": "010",
+      "vr": 50.0,
+      "vrCartera": 50.0,
+      "cashFlow": 25.78,
+      "renta": 0.78,
+      "amortizacion": 25.0,
+      "amasR": 25.78
+    },
+    {
+      "fechaPago": "2027-03-21T00:00:00",
+      "numeroCupon": "011",
+      "vr": 25.0,
+      "vrCartera": 25.0,
+      "cashFlow": 25.39,
+      "renta": 0.39,
+      "amortizacion": 25.0,
+      "amasR": 25.39
+    }
+  ]
+}

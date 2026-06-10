@@ -1,0 +1,64 @@
+{
+  "especie": "CAC5O",
+  "numeroCuponActual": "006",
+  "renta": 2.87,
+  "amortizacion": 12.5,
+  "amasR": 15.37,
+  "moneda": "USD",
+  "descripcion": "ON. CAPEX CLASE 5",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-08-25T00:00:00",
+      "numeroCupon": "006",
+      "vr": 62.5,
+      "vrCartera": 62.5,
+      "cashFlow": 15.37,
+      "renta": 2.87,
+      "amortizacion": 12.5,
+      "amasR": 15.37
+    },
+    {
+      "fechaPago": "2027-02-25T00:00:00",
+      "numeroCupon": "007",
+      "vr": 50.0,
+      "vrCartera": 50.0,
+      "cashFlow": 14.83,
+      "renta": 2.33,
+      "amortizacion": 12.5,
+      "amasR": 14.83
+    },
+    {
+      "fechaPago": "2027-08-25T00:00:00",
+      "numeroCupon": "008",
+      "vr": 37.5,
+      "vrCartera": 37.5,
+      "cashFlow": 14.22,
+      "renta": 1.72,
+      "amortizacion": 12.5,
+      "amasR": 14.22
+    },
+    {
+      "fechaPago": "2028-02-25T00:00:00",
+      "numeroCupon": "009",
+      "vr": 25.0,
+      "vrCartera": 25.0,
+      "cashFlow": 13.67,
+      "renta": 1.17,
+      "amortizacion": 12.5,
+      "amasR": 13.67
+    },
+    {
+      "fechaPago": "2028-08-25T00:00:00",
+      "numeroCupon": "010",
+      "vr": 12.5,
+      "vrCartera": 12.5,
+      "cashFlow": 13.08,
+      "renta": 0.58,
+      "amortizacion": 12.5,
+      "amasR": 13.08
+    }
+  ]
+}

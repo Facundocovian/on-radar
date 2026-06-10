@@ -1,0 +1,34 @@
+{
+  "especie": "IRCJO",
+  "numeroCuponActual": "005",
+  "renta": 3.5,
+  "amortizacion": 0.0,
+  "amasR": 3.5,
+  "moneda": "USD",
+  "descripcion": "ON.IRSA S.A CLASE 18 nuevo PR",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-08-28T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2027-02-28T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.5,
+      "renta": 3.5,
+      "amortizacion": 100.0,
+      "amasR": 103.5
+    }
+  ]
+}

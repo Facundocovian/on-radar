@@ -1,0 +1,293 @@
+# Tabla maestra de emisores de ONs — ON Radar
+# Generado por build_issuer_master.py
+# prefijo,cuit_emisor,razon_social,sector,fuente
+prefijo,cuit_emisor,razon_social,sector,fuente
+397,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+AB,30708142693,AGROBICIUFFA SRL,,afip_oficial
+AFC,30604731018,Banco Comafi S.A.,Financiero - Bancos,afip_oficial
+AFCB,30604731018,BANCO COMAFI S.A.,,afip_oficial
+AFCD,30604731018,BANCO COMAFI S.A.,,afip_oficial
+AFCG,30604731018,BANCO COMAFI S.A.,,afip_oficial
+AG,30640783199,ARGENSUN S.A,,afip_oficial
+AHC,30501863129,RICARDO ALMAR E HIJOS S.A.,,afip_oficial
+ALC,30716620472,ALPARGATAS TEXTIL S.A.,,afip_oficial
+ARC,30696170580,Aeropuertos Argentina 2000 S.A.,Infraestructura - Aeropuertos,manual_confirmado
+AT,30542790780,AGROTECNOLOGIA SALA S.A.,,afip_oficial
+AV,30715595105,ASPRO SERVICIOS PETROLEROS SA,,afip_oficial
+AWS,30678534214,ARBITRA S.A.,,afip_oficial
+BCC,30576614299,Banco CMF S.A.,Financiero - Bancos,afip_oficial
+BCCJ,30576614299,BANCO CMF S.A.,,afip_oficial
+BDC,30707227415,Banco de Crédito y Securitización S.A.,Financiero - Bancos,afip_oficial
+BDCK,30707227415,BANCO DE CREDITO Y SECURITIZACION SA,,afip_oficial
+BF,30500003193,BANCO BBVA ARGENTINA S.A.,,afip_oficial
+BF3,30500003193,Banco BBVA Argentina S.A.,Financiero - Bancos,afip_oficial
+BNCT,30500008454,BANCO SANTANDER ARGENTINA S.A,,afip_oficial
+BNCU,30500008454,BANCO SANTANDER ARGENTINA S.A,,afip_oficial
+BNCW,30500008454,BANCO SANTANDER ARGENTINA S.A,,afip_oficial
+BO,30710218192,PROCHEM BIO S.A.,,afip_oficial
+BPC,33500005179,Banco Supervielle S.A.,Financiero - Bancos,afip_oficial
+BPCL,33500005179,BANCO SUPERVIELLE S.A.,,afip_oficial
+BSCR,30697265895,BANCO DE SERVICIOS FINANCIEROS S.A.,,afip_oficial
+BT,30707810927,COMPAÑIA TSB SA,,afip_oficial
+BT2,30707810927,Compañía TSB S.A.,Consumo - Automotriz,afip_oficial
+BTS,30707810927,COMPAÑIA TSB SA,,afip_oficial
+BUC,30517637498,BANCO COLUMBIA S.A.,,afip_oficial
+BVC,30704960995,Banco de Servicios y Transacciones S.A.,Financiero - Bancos,afip_oficial
+BVCN,30704960995,BANCO DE SERVICIOS Y TRANSACCIONES S.A.,,afip_oficial
+BYC,30500001735,Banco de Galicia y Buenos Aires S.A.,Financiero - Bancos,afip_oficial
+BYCJ,30500001735,BANCO DE GALICIA Y BUENOS AIRES S.A.,,afip_oficial
+BYCM,30500001735,BANCO DE GALICIA Y BUENOS AIRES S.A.,,afip_oficial
+BYCQ,30500001735,BANCO DE GALICIA Y BUENOS AIRES S.A.,,afip_oficial
+BZSB,30534672434,BANCO SAENZ S.A.,,afip_oficial
+CA,30707651675,CAIMAN SRL,,afip_oficial
+CAC,30629827060,Capex S.A.,Energía - Electricidad,afip_oficial
+CACA,30629827060,CAPEX S.A.,,afip_oficial
+CFS,30641056177,CFN S.A.,,afip_oficial
+CH,33572266449,CARSA SA,,afip_oficial
+CHS,33572266449,CARSA SA,,afip_oficial
+CIC,30714322938,CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,,afip_oficial
+CMS,30714763225,CREATIVE PMO INTERNATIONAL S.A.,,afip_oficial
+CNQ,30538006404,COMPANIA FINANCIERA ARGENTINA S.A.,,afip_oficial
+CP,30506733932,CIA GENERAL DE COMBUSTIBLES S.A.,,afip_oficial
+CP3,30506733932,Cía. General de Combustibles S.A.,Energía - Gas,afip_oficial
+CRCK,30501062150,CELULOSA ARGENTINA S.A.,,afip_oficial
+CRS,30672812808,CEDISUR S.A.,,afip_oficial
+CS,30509300700,CRESUD S.A.C.I.F. Y A.,,afip_oficial
+CS3,30509300700,Cresud S.A.C.I.F. y A.,Agro - Real Estate,afip_oficial
+CS4,30509300700,Cresud S.A.C.I.F. y A.,Agro - Real Estate,afip_oficial
+CS5,30509300700,Cresud S.A.C.I.F. y A.,Agro - Real Estate,afip_oficial
+CT,30641487267,ACTUAL S.A.,,afip_oficial
+CWC,30709346268,CROWN POINT ENERGIA S.A.,,afip_oficial
+CXCW,30712101136,CREDITO DIRECTO S.A.,,afip_oficial
+DDS,30713701803,3D LATINOAMERICA S.A.,,afip_oficial
+DEC,30690633635,Empresa Distrib. de Electricidad Salta S.A.,Energía - Electricidad,manual_confirmado
+DHD,30710911580,CREDICUOTAS CONSUMO S.A.,,afip_oficial
+DHS,30710911580,Credicuotas Consumo S.A.,Financiero - Crédito Consumo,afip_oficial
+DHSE,30710911580,CREDICUOTAS CONSUMO S.A.,,afip_oficial
+DM,30707912673,DEMAGRO S.R.L,,afip_oficial
+DNC,30655116202,EDENOR S.A.,,afip_oficial
+DPS,30716155680,DARUMA PAGOS S.A.,,afip_oficial
+DRDA,30589527115,SURCOS S.A.,,afip_oficial
+DRDC,30589527115,SURCOS S.A.,,afip_oficial
+DRFA,30589527115,SURCOS S.A.,,afip_oficial
+DRFC,30589527115,SURCOS S.A.,,afip_oficial
+DRSE,30589527115,SURCOS S.A.,,afip_oficial
+EAC,30714155128,MSU GREEN ENERGY S.A.U.,,afip_oficial
+EH,30708587415,HECTOR A. BERTONE SA,,afip_oficial
+EK,30503339788,ESKABE S.A.,,afip_oficial
+EL,30519527703,TERMOELECTRICA SA,,afip_oficial
+ELS,30519527703,TERMOELECTRICA SA,,afip_oficial
+ENC,30716684594,ASOCIACION CIVIL SUMATORIA PARA UNA NUEVA ECONOMIA,,afip_oficial
+EOS,30505607925,ECOSUR BAHIA SOCIEDAD ANONIMA,,afip_oficial
+EP,33708830599,TRESNAL AGROPECUARIA S.A.,,afip_oficial
+ESS,33710735609,ASSERCA S.R.L.,,afip_oficial
+EXS,30708847247,EXPRESO LANCIONI S.A,,afip_oficial
+FN,30707816410,FERRETERIA DEL NORTE SRL,,afip_oficial
+FSS,30716837994,AFS GROUP S.A.,,afip_oficial
+FTL,30692304884,FCA CIA. FINANCIERA SA,,afip_oficial
+FTM,30692304884,FCA CIA. FINANCIERA SA,,afip_oficial
+GB,30660920451,GRUAS SAN BLAS S.A,,afip_oficial
+GBS,30660920451,GRUAS SAN BLAS S.A,,afip_oficial
+GE,30516139451,GEORGALOS HERMANOS Y CIA,,afip_oficial
+GF,30539301388,GARRO FABRIL S.A,,afip_oficial
+GHC,30558543317,GRUPO COHEN S.A.,,afip_oficial
+GK,30640576428,GUALOK SRL,,afip_oficial
+GLS,30715157299,GALERENT S.A.,,afip_oficial
+GMC,30682434720,Generación Mediterránea S.A.,Energía - Electricidad,afip_oficial
+GMCG,30682434720,GENERACION MEDITERRANEA S.A.,,afip_oficial
+GMCJ,30682434720,GENERACION MEDITERRANEA S.A.,,afip_oficial
+GN,30665234114,GENNEIA S.A.,,afip_oficial
+GN3,30665234114,Genneia S.A.,Energía - Renovable,afip_oficial
+GN4,30665234114,Genneia S.A.,Energía - Renovable,afip_oficial
+GOC,33715184139,GENERACION LITORAL SA,,afip_oficial
+GU,30710685696,TRACE GROUP S.A.,,afip_oficial
+GZS,33715043519,GESTION DE PRESTAMOS Y COBRANZAS,,afip_oficial
+HA,33657476639,MADERO HARBOUR S.A.,,afip_oficial
+HBC,30500011072,BANCO HIPOTECARIO S.A.,,afip_oficial
+HBCA,30500011072,BANCO HIPOTECARIO S.A.,,afip_oficial
+HBCB,30500011072,BANCO HIPOTECARIO S.A.,,afip_oficial
+HC,30711075905,HIDROTEC S.A.,,afip_oficial
+HG,30539081086,GASTALDI HNOS. S.A.I. y C.F. e I.,,afip_oficial
+HJC,30707024859,John Deere Credit Cía. Financiera S.A.,Financiero - Crédito Industrial,afip_oficial
+HJCA,30707024859,JOHN DEERE CREDIT COMPANIA FINANCIERA S.A.,,afip_oficial
+HN,30541416540,RATTO HNOS S.AC.F.A.,,afip_oficial
+HT,30715857460,HATTRICK ENERGY SAS,,afip_oficial
+IC,33711217679,INSUGA CHACO S.A,,afip_oficial
+IF,30718592425,INCLUSION FINANCIERA INTEGRAL S.R.L.,,afip_oficial
+INS,33688256149,INTERCONNECT S.A.,,afip_oficial
+IP,30716855372,PROCESOS INDUSTRIALES METALLO SA,,afip_oficial
+IRC,30524688673,IRSA Inversiones y Representaciones S.A.,Real Estate,manual_confirmado
+JOS,30590762233,ALBERTO J. OLIVERO E HIJOS S.A.,,afip_oficial
+JTS,30714228346,FERRETERA CENTRAL JT S.R.L.,,afip_oficial
+KIS,33717152749,MILKYNET S.A.,,afip_oficial
+KLS,30574564367,KLONAL SRL,,afip_oficial
+KR,30641234601,BISORDI KREMAR SRL,,afip_oficial
+LA,30714108235,LATITUD 45 PETROLEO Y GAS SA,,afip_oficial
+LEC,30682504125,ALBANESI S.A.,,afip_oficial
+LECA,30682504125,ALBANESI S.A.,,afip_oficial
+LECD,30682504125,ALBANESI S.A.,,afip_oficial
+LECH,30682504125,ALBANESI S.A.,,afip_oficial
+LECI,30682504125,ALBANESI S.A.,,afip_oficial
+LECJ,30682504125,ALBANESI S.A.,,afip_oficial
+LECL,30682504125,ALBANESI S.A.,,afip_oficial
+LLS,33714669899,COLLINS S.A.,,afip_oficial
+LMS,30718221516,BLM DESARROLLOS SA,,afip_oficial
+LN,30516877223,LILIANA SRL,,afip_oficial
+LNS,30516877223,LILIANA SRL,,afip_oficial
+LR,30501152826,LABORATORIOS RICHMOND S.A.C.I.F.,,afip_oficial
+LR6,30501152826,Laboratorios Richmond S.A.C.I.F.,Salud - Farma,afip_oficial
+LTS,30710716923,LATAMLY S.A.,,afip_oficial
+LVS,30714954071,LOS VALIENTES S.A.,,afip_oficial
+ME,30561785402,AUTOTRANSPORTES ANDESMAR S.A.,,afip_oficial
+MGC,30526552659,Pampa Energía S.A.,Energía - Electricidad,manual_confirmado
+MIC,30578036071,MIRGOR S.A.,,afip_oficial
+MR,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MR3,33711944899,Generación Mediterránea / Central Térmica Roca S.A.,Energía - Electricidad,afip_oficial
+MR4,33711944899,Generación Mediterránea / Central Térmica Roca S.A.,Energía - Electricidad,afip_oficial
+MRC,33711944899,Generación Mediterránea / Central Térmica Roca S.A.,Energía - Electricidad,afip_oficial
+MRCH,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MRCK,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MRCR,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MRCT,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MRCW,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MRCX,30500645772,MERANOL S.A.C.I.,,afip_oficial
+MRCZ,33711944899,GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,,afip_oficial
+MSS,30607597193,MSU S.A.,Energía,manual_confirmado
+MTC,30547242331,Mastellone Hermanos S.A.,Alimentos - Lácteos,manual_confirmado
+NBS,30710630670,Balanz Capital Valores S.A.,Financiero,manual_confirmado
+NDS,30550246771,ANTA DEL DORADO S.A.,,afip_oficial
+NHC,30670157799,NUEVO BANCO DEL CHACO S.A.,,afip_oficial
+NLCD,30500235566,ANGEL ESTRADA Y CIA. S.A.,,afip_oficial
+NLCI,30500235566,ANGEL ESTRADA Y CIA. S.A.,,afip_oficial
+NOS,30707418849,MERIDIANO NORTE S.A.,,afip_oficial
+NUS,30708132337,NUEVAS TIERRAS S.A.,,afip_oficial
+NV,30707012672,NAVARRO S.A.,,afip_oficial
+OC,30710855850,CLORONOR S.A.,,afip_oficial
+OLC,30658840165,OLEODUCTOS DEL VALLE S.A.,,afip_oficial
+OM,30642412899,MAQUINAS AGRICOLAS OMBU S.A,,afip_oficial
+ONXA,30710125909,NEXO EMPRENDIMIENTOS S.A.,,afip_oficial
+OR,30547794482,AGRONORTE S.R.L.,,afip_oficial
+OR2,30547794482,Agronorte S.R.L.,Agro,afip_oficial
+OR3,30547794482,Agronorte S.R.L.,Agro,afip_oficial
+OV,30713722703,OZOG VIAL S.R.L,,afip_oficial
+OZC,30699542454,EMPRESA DISTRIB DE ELECTRICIDAD DE MENDOZA S.A.,,afip_oficial
+PB,30619780635,PROMEDON S.A.,,afip_oficial
+PDS,30707009892,PROSEIND S.A.,,afip_oficial
+PEC,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PECD,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PECF,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PECJ,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PECK,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PECL,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PECM,30714814229,PETROLERA ACONCAGUA ENERGIA S.A.,,afip_oficial
+PES,30651084241,PEDROLGA S.A.,,afip_oficial
+PF,30690967541,PATAGONIA FRUITS TRADE S.A,,afip_oficial
+PG,30714436194,PRIGIONI AGRO SRL,,afip_oficial
+PJS,30711424195,PALLETS JAUREGUI S.A.,,afip_oficial
+PLC,30678224010,Pluspetrol S.A.,Energía - Petróleo y Gas,manual_confirmado
+PM,33669088499,PRODEMAN S.A.,,afip_oficial
+PN,30714813583,Pan American Energy LLC (PAE Sucursal),Energía - Petróleo y Gas,manual_confirmado
+PNZ,30714813583,Pan American Energy LLC (Sucursal Argentina),Energía - Petróleo y Gas,afip_oficial
+PNZC,30714813583,PAN AMERICAN ENERGY LLC (PAE SUCURSAL),,afip_oficial
+PO,30693383427,PRODUSEM S.A.,,afip_oficial
+PQC,30563598111,Petroquímica Comodoro Rivadavia S.A.,Industria - Petroquímica,afip_oficial
+PQCQ,30563598111,PETROQUIMICA COMODORO RIVADAVIA S.A,,afip_oficial
+PR,30697172773,PARAMERICA S.A.,,afip_oficial
+PS,30707847367,PSA FINANCE ARGENTINA CIA FINANCIERA SA,,afip_oficial
+PS3,30707847367,PSA Finance Argentina Cía. Financiera S.A.,Financiero - Crédito Automotriz,afip_oficial
+PSS,30707847367,PSA Finance Argentina Cía. Financiera S.A.,Financiero - Crédito Automotriz,afip_oficial
+PSSW,30707847367,PSA FINANCE ARGENTINA CIA FINANCIERA SA,,afip_oficial
+PZC,30655942382,Plaza Logística S.R.L.,Logística - Real Estate,afip_oficial
+PZCD,30655942382,PLAZA LOGISTICA S.R.L.,,afip_oficial
+PZCE,30655942382,PLAZA LOGISTICA S.R.L.,,afip_oficial
+RAS,30708658819,AGROIDEAS S.A,,afip_oficial
+RB,33707124909,ROMBO COMPANIA FINANCIERA S.A.,,afip_oficial
+RB5,33707124909,Rombo Cía. Financiera S.A.,Financiero - Crédito Automotriz,afip_oficial
+RB6,33707124909,Rombo Cía. Financiera S.A.,Financiero - Crédito Automotriz,afip_oficial
+RC,30502793175,ARCOR S.A.I.C.,,afip_oficial
+RC3,30502793175,Arcor S.A.I.C.,Consumo - Alimentos,afip_oficial
+RCC,30502793175,Arcor S.A.I.C.,Consumo - Alimentos,afip_oficial
+RCCT,30502793175,ARCOR S.A.I.C.,,afip_oficial
+RD,30712257357,RDA RENTING S.A.,,afip_oficial
+RDS,30712257357,RDA RENTING S.A.,,afip_oficial
+RES,30691479400,RECARD S.A.,,afip_oficial
+RICL,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RICM,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RICO,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RIK,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RIP,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RIQ,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RIR,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RIS,30525966859,RIBEIRO S.A.C.I.F.A. E I.,,afip_oficial
+RMS,30711913439,PRESIDENT PETROLEUM S.A.,,afip_oficial
+ROS,30654691726,RADIADORES PRATS S.A.,,afip_oficial
+RU,30710080085,CERAMICA RUTA 16 S.R.L.,,afip_oficial
+RYS,30707211942,ROLCAR S.A,,afip_oficial
+RZ,30593174057,RIZOBACTER ARGENTINA S.A.,,afip_oficial
+RZ9,30593174057,Rizobacter Argentina S.A.,Agro - Biotech,afip_oficial
+RZA,30593174057,Rizobacter Argentina S.A.,Agro - Biotech,afip_oficial
+RZAA,30593174057,RIZOBACTER ARGENTINA S.A.,,afip_oficial
+RZS,30707955267,MATIAS RUIZ Y CI(cid:141)A. S.A.,,afip_oficial
+SA,30712129766,AGRONEA PRODUCCIONES SRL,,afip_oficial
+SB,30715659340,SAN BAUTISTA DEL SUR SA,,afip_oficial
+SG,30510968413,SUC. DE GUSTAVO LAGERHEIM S.A.,,afip_oficial
+SN,30690076043,SION S.A.,,afip_oficial
+SNA,30511190238,S.A. San Miguel,Agro - Frutícola,afip_oficial
+SNAA,30511190238,S.A. SAN MIGUEL,,afip_oficial
+SNHB,30690076043,SION S.A.,,afip_oficial
+SNS,30690076043,SION S.A.,,afip_oficial
+SNSD,30690076043,SION S.A.,,afip_oficial
+SNSE,30690076043,SION S.A.,,afip_oficial
+SOC,30600615889,SPECIAL GRAINS S.A/PETROAGRO S.A.,,afip_oficial
+SSC,33550300899,SANTIAGO SAENZ S.A.,,afip_oficial
+STCA,30708633417,GRUPO ST S.A.,,afip_oficial
+STCB,30708633417,GRUPO ST S.A.,,afip_oficial
+SXC,30716999498,MERCADO PAGO SERVICIOS DE PROCESAMIENTO S.R.L.,,afip_oficial
+SYS,30709159182,YACOPINI SUD SA,,afip_oficial
+SZ,30707923446,AGRO DE SOUZA S.A.,,afip_oficial
+T6,30685376349,Tarjeta Naranja S.A.U.,Financiero - Consumo,manual_confirmado
+T64,30685376349,Tarjeta Naranja S.A.,Financiero - Crédito Consumo,afip_oficial
+T65,30685376349,Tarjeta Naranja S.A.,Financiero - Crédito Consumo,afip_oficial
+T66,30685376349,Tarjeta Naranja S.A.,Financiero - Crédito Consumo,afip_oficial
+TL,30503423347,TALLERES METALURGICOS CRUCIANELLI S.A.,,afip_oficial
+TLC,30639453738,Telecom Argentina S.A.,Telecomunicaciones,afip_oficial
+TLCJ,30639453738,TELECOM ARGENTINA S.A.,,afip_oficial
+TLCK,30639453738,TELECOM ARGENTINA S.A.,,afip_oficial
+TLCL,30639453738,TELECOM ARGENTINA S.A.,,afip_oficial
+TLCN,30639453738,TELECOM ARGENTINA S.A.,,afip_oficial
+TTC,30592665472,Tecpetrol S.A.,Energía - Petróleo y Gas,manual_confirmado
+TY,30709000426,TOYOTA COMPANIA FINANCIERA DE ARGENTINA,,afip_oficial
+TY3,30709000426,Toyota Compañía Financiera de Argentina S.A.,Financiero - Crédito Automotriz,afip_oficial
+TYC,30709000426,Toyota Compañía Financiera de Argentina S.A.,Financiero - Crédito Automotriz,afip_oficial
+TYCZ,30709000426,TOYOTA COMPANIA FINANCIERA DE ARGENTINA,,afip_oficial
+UFS,30678145366,SEGUFER S.A.,,afip_oficial
+UTC,30540127251,RUTA 3 AUTOMOTORES SA,,afip_oficial
+UXS,30714347159,TUX SA,,afip_oficial
+VE,30698318895,RICARDO VENTURINO S.A,,afip_oficial
+VES,30698318895,RICARDO VENTURINO S.A,,afip_oficial
+VM,33708128649,ESTACION DE SERVICIOS 25 DE MAYO SRL,,afip_oficial
+VP,30707807810,OVOPROT INTERNATIONAL SA,,afip_oficial
+VSC,33515950899,Vista Oil & Gas Argentina S.A.U.,Energía - Petróleo y Gas,afip_oficial
+VWC,30682419578,Volkswagen Financial Services Cía. Financiera S.A.,Financiero - Crédito Automotriz,afip_oficial
+VWCD,30682419578,VOLKSWAGEN FINANCIAL SERVICES COMPAÑIA FINANCIERA SA,,afip_oficial
+VWCE,30682419578,VOLKSWAGEN FINANCIAL SERVICES COMPA?IA FINANCIERA SA,,afip_oficial
+WBS,30516420444,BANCO MARIVA S.A.,,afip_oficial
+WI,30715980246,WIN S.A.S.,,afip_oficial
+WNCN,30642617555,NEW SAN SA,,afip_oficial
+XMC,30709667587,Minera Exar S.A.,Minería - Litio,manual_confirmado
+YF,30714128309,YPF Energía Eléctrica S.A.,Energía - Electricidad,afip_oficial
+YFC,30714128309,YPF Energía Eléctrica S.A.,Energía - Electricidad,afip_oficial
+YFCD,30714128309,YPF ENERGIA ELECTRICA S.A.,,afip_oficial
+YFCF,30714128309,YPF ENERGIA ELECTRICA S.A.,,afip_oficial
+YFCH,30714128309,YPF ENERGIA ELECTRICA S.A.,,afip_oficial
+YIS,30715744941,YACOPINI MIRAI S.A.,,afip_oficial
+YM,30546689979,YPF S.A.,Energía - Petróleo y Gas,afip_oficial
+YMC,30546689979,YPF S.A.,Energía - Petróleo y Gas,afip_oficial
+YMCT,30546689979,YPF S.A.,,afip_oficial
+YMCW,30546689979,YPF S.A.,,afip_oficial
+YSS,30707174702,C&C MEDICAL S S.A.,,afip_oficial
+ZF,30592486268,ZAFRA S.A.,,afip_oficial
+ZF3,30592486268,Zafra S.A.,Agro,afip_oficial
+ZI,30715999141,SPAZIOS INMUEBLES S.A.,,afip_oficial
+ZPC,30655942382,PLAZA LOGISTICA S.R.L.,,afip_oficial
+ZUS,33712110959,ZUAMAR S.A.,,afip_oficial

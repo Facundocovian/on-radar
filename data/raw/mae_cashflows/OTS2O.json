@@ -1,0 +1,54 @@
+{
+  "especie": "OTS2O",
+  "numeroCuponActual": "007",
+  "renta": 1.75,
+  "amortizacion": 0.0,
+  "amasR": 1.75,
+  "moneda": "USD",
+  "descripcion": "O.N. OILTANKING EBYTEM SA S2",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-24T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.75,
+      "renta": 1.75,
+      "amortizacion": 0.0,
+      "amasR": 1.75
+    },
+    {
+      "fechaPago": "2026-10-24T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2027-01-24T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2027-04-24T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.73,
+      "renta": 1.73,
+      "amortizacion": 100.0,
+      "amasR": 101.73
+    }
+  ]
+}

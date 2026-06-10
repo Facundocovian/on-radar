@@ -1,0 +1,99 @@
+{
+  "especie": "TLCWO",
+  "numeroCuponActual": "001",
+  "renta": 4.625,
+  "amortizacion": 0,
+  "amasR": 4.625,
+  "moneda": "USD",
+  "descripcion": "ON.TELECOM ARGENTINA S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.0925,
+  "_frequency": 2,
+  "_confidence": "estimated",
+  "_notes": "Cl.24 intl 9.25% \u2014 amort schedule pendiente confirmaci\u00f3n; usando bullet.",
+  "detalle": [
+    {
+      "fechaPago": "2026-11-29T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2027-05-29T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2027-11-29T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2028-05-29T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2028-11-29T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2029-05-29T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2029-11-29T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.625,
+      "renta": 4.625,
+      "amortizacion": 0.0,
+      "amasR": 4.625
+    },
+    {
+      "fechaPago": "2030-05-29T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.625,
+      "renta": 4.625,
+      "amortizacion": 100.0,
+      "amasR": 104.625
+    }
+  ]
+}

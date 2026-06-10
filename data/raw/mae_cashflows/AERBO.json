@@ -1,0 +1,34 @@
+{
+  "especie": "AERBO",
+  "numeroCuponActual": "003",
+  "renta": 2.74,
+  "amortizacion": 0.0,
+  "amasR": 2.74,
+  "moneda": "USD",
+  "descripcion": "OB.NEG. AEROPUERTOS 2000 C-11",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-23T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.74,
+      "renta": 2.74,
+      "amortizacion": 0.0,
+      "amasR": 2.74
+    },
+    {
+      "fechaPago": "2026-12-15T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.64,
+      "renta": 2.64,
+      "amortizacion": 100.0,
+      "amasR": 102.64
+    }
+  ]
+}

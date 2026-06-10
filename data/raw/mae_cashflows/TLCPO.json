@@ -1,0 +1,159 @@
+{
+  "especie": "TLCPO",
+  "numeroCuponActual": "001",
+  "renta": 3.5,
+  "amortizacion": 0,
+  "amasR": 3.5,
+  "moneda": "USD",
+  "descripcion": "ON.TELECOM ARGENTINA S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.07,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.23 local, 7.00%, bullet. Fuente: aviso resultados.",
+  "detalle": [
+    {
+      "fechaPago": "2026-11-28T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2027-05-28T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2027-11-28T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2028-05-28T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2028-11-28T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2029-05-28T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2029-11-28T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2030-05-28T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2030-11-28T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2031-05-28T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2031-11-28T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2032-05-28T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2032-11-28T00:00:00",
+      "numeroCupon": "013",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2033-05-28T00:00:00",
+      "numeroCupon": "014",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.5,
+      "renta": 3.5,
+      "amortizacion": 100.0,
+      "amasR": 103.5
+    }
+  ]
+}

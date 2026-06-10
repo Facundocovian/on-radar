@@ -1,0 +1,44 @@
+{
+  "especie": "XMC1O",
+  "numeroCuponActual": "004",
+  "renta": 4.03,
+  "amortizacion": 0.0,
+  "amasR": 4.03,
+  "moneda": "USD",
+  "descripcion": "ON.MINERA EXAR S.A. CLASE I",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-11-11T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.03,
+      "renta": 4.03,
+      "amortizacion": 0.0,
+      "amasR": 4.03
+    },
+    {
+      "fechaPago": "2027-05-11T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 53.97,
+      "renta": 3.97,
+      "amortizacion": 50.0,
+      "amasR": 53.97
+    },
+    {
+      "fechaPago": "2027-11-11T00:00:00",
+      "numeroCupon": "006",
+      "vr": 50.0,
+      "vrCartera": 50.0,
+      "cashFlow": 52.02,
+      "renta": 2.02,
+      "amortizacion": 50.0,
+      "amasR": 52.02
+    }
+  ]
+}

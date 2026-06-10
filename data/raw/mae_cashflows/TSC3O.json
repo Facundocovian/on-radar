@@ -1,0 +1,124 @@
+{
+  "especie": "TSC3O",
+  "numeroCuponActual": "004",
+  "renta": 4.25,
+  "amortizacion": 0.0,
+  "amasR": 4.25,
+  "moneda": "USD",
+  "descripcion": "ON.TRANSP. GAS DEL SUR CL 3",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-24T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2027-01-24T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2027-07-24T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2028-01-24T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2028-07-24T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2029-01-24T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2029-07-24T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2030-01-24T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2030-07-24T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2031-01-24T00:00:00",
+      "numeroCupon": "013",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.25,
+      "renta": 4.25,
+      "amortizacion": 0.0,
+      "amasR": 4.25
+    },
+    {
+      "fechaPago": "2031-07-24T00:00:00",
+      "numeroCupon": "014",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.25,
+      "renta": 4.25,
+      "amortizacion": 100.0,
+      "amasR": 104.25
+    }
+  ]
+}

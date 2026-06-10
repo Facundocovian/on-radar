@@ -1,0 +1,54 @@
+{
+  "especie": "IRCNO",
+  "numeroCuponActual": "003",
+  "renta": 2.85,
+  "amortizacion": 0.0,
+  "amasR": 2.85,
+  "moneda": "USD",
+  "descripcion": "ON.IRSA S.A CLASE 22 nuevo PR",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-22T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.85,
+      "renta": 2.85,
+      "amortizacion": 0.0,
+      "amasR": 2.85
+    },
+    {
+      "fechaPago": "2027-01-22T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.9,
+      "renta": 2.9,
+      "amortizacion": 0.0,
+      "amasR": 2.9
+    },
+    {
+      "fechaPago": "2027-07-22T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.85,
+      "renta": 2.85,
+      "amortizacion": 0.0,
+      "amasR": 2.85
+    },
+    {
+      "fechaPago": "2027-10-22T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.45,
+      "renta": 1.45,
+      "amortizacion": 100.0,
+      "amasR": 101.45
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "especie": "CS45O",
+  "numeroCuponActual": "001",
+  "renta": 3.0,
+  "amortizacion": 0,
+  "amasR": 3.0,
+  "moneda": "USD",
+  "descripcion": "ON.CRESUD S.A.C.I.F. Y A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.06,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XLV, US$10.2M, 6.00% semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-08-22T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.0,
+      "renta": 3.0,
+      "amortizacion": 100.0,
+      "amasR": 103.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "especie": "MTCGO",
+  "numeroCuponActual": "020",
+  "renta": 2.74,
+  "amortizacion": 100.0,
+  "amasR": 102.74,
+  "moneda": "USD",
+  "descripcion": "ON.MASTELLONE HNOS CL G",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-30T00:00:00",
+      "numeroCupon": "020",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.74,
+      "renta": 2.74,
+      "amortizacion": 100.0,
+      "amasR": 102.74
+    }
+  ]
+}

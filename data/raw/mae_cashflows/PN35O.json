@@ -1,0 +1,84 @@
+{
+  "especie": "PN35O",
+  "numeroCuponActual": "004",
+  "renta": 3.5,
+  "amortizacion": 0.0,
+  "amasR": 3.5,
+  "moneda": "USD",
+  "descripcion": "ON.PAN AMERICAN ENERGY C 35 EF",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-09-27T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2027-03-27T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2027-09-27T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2028-03-27T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2028-09-27T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2029-03-27T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.5,
+      "renta": 3.5,
+      "amortizacion": 0.0,
+      "amasR": 3.5
+    },
+    {
+      "fechaPago": "2029-09-27T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.5,
+      "renta": 3.5,
+      "amortizacion": 100.0,
+      "amasR": 103.5
+    }
+  ]
+}

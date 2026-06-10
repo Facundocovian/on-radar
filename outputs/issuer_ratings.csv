@@ -1,0 +1,174 @@
+razon_social,cuit,sector,rating_lp,rating_cp,outlook,rating_date,fixscr_entity,source,vol_total,n_ons
+YPF S.A.,30546689979,Energía - Petróleo y Gas,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-05 00:00:00,YPF S.A.,fixscr,4836404504.5,42
+Telecom Argentina S.A.,30639453738,Telecomunicaciones,AA+(arg),A1+(arg),Perspectiva Positiva,2026-05-05 00:00:00,Telecom Argentina S.A.,fixscr,883882424.0699999,18
+Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,Pan American Energy S.L. - Sucursal Argentina (PAME),fixscr,519750449.06,34
+Pluspetrol S.A.,30678224010,Energía - Petróleo y Gas,AAA(arg),,Perspectiva Estable,2026-05-06 00:00:00,Pluspetrol S.A.,fixscr,458136244.7,7
+Tarjeta Naranja S.A.U.,30685376349,Financiero - Consumo,AA(arg),A1+(arg),Perspectiva Estable,2026-04-29 00:00:00,Naranja Digital Compañía Financiera S.A.U.,fixscr,339978838.0,8
+Tecpetrol S.A.,30592665472,Energía - Petróleo y Gas,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-15 00:00:00,Tecpetrol S.A.,fixscr,337520424.47,6
+Petroquímica Comodoro Rivadavia S.A.,30563598111,Industria - Petroquímica,AA(arg),A1+(arg),Perspectiva Estable,2026-05-08 00:00:00,Petroquímica Comodoro Rivadavia S.A. - PCR,fixscr,230849575.9,6
+CRESUD S.A.C.I.F. Y A.,30509300700,,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-24 00:00:00,Cresud S.A.C.I.F. y A.,fixscr,178755249.31,25
+MSU S.A.,30607597193,Energía,A+(arg),,Perspectiva Estable,2026-05-05 00:00:00,MSU S.A.,fixscr,130922676.91,8
+Pampa Energía S.A.,30526552659,Energía - Electricidad,AAA(arg),A1+(arg),Perspectiva Estable,2026-03-27 00:00:00,Pampa Energia S.A.,fixscr,113331003.37,17
+EMPRESA DISTRIB DE ELECTRICIDAD DE MENDOZA S.A.,30699542454,,A+(arg),A1(arg),Perspectiva Estable,2026-05-05 00:00:00,Empresa Distribuidora de Electricidad de Mendoza -EDEMSA,fixscr,87906431.9,3
+Capex S.A.,30629827060,Energía - Electricidad,AA(arg),,Perspectiva Estable,2026-05-22 00:00:00,CAPEX S.A.,fixscr,79963396.30000001,14
+John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,AA(arg),A1+(arg),Perspectiva Estable,2026-05-28 00:00:00,John Deere Credit Compañía Financiera S.A.,fixscr,69788397.11,10
+Minera Exar S.A.,30709667587,Minería - Litio,AA(arg),,Perspectiva Estable,2026-05-08 00:00:00,Minera Exar S.A.,fixscr,62316305.1,3
+IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,IRSA Inversiones y Representaciones S.A.,fixscr,58211881.46,8
+SION S.A.,30690076043,,,,,,,,51419440.7,5
+Mastellone Hermanos S.A.,30547242331,Alimentos - Lácteos,,,,,,,51075912.3,2
+Aeropuertos Argentina 2000 S.A.,30696170580,Infraestructura - Aeropuertos,AA+(arg),,Perspectiva Estable,2026-05-08 00:00:00,Aeropuertos Argentina 2000,fixscr,50978321.5,3
+ARCOR S.A.I.C.,30502793175,,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-15 00:00:00,Arcor S.A.I.C.,fixscr,50265748.09,11
+Banco de Galicia y Buenos Aires S.A.,30500001735,Financiero - Bancos,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-01 00:00:00,Banco de Galicia y Buenos Aires S.A.,fixscr,29419161.0,14
+Empresa Distrib. de Electricidad Salta S.A.,30690633635,Energía - Electricidad,A+(arg),,Perspectiva Estable,2026-05-06 00:00:00,Empresa Distribuidora Electricidad de Salta S.A. (EDESA),fixscr,28967065.0,1
+GENNEIA S.A.,30665234114,,,,,,,,23437282.24,13
+Balanz Capital Valores S.A.,30710630670,Financiero,A(arg),A2(arg),Perspectiva Estable,2026-05-06 00:00:00,Balanz Capital Valores S.A.U.,fixscr,22036900.0,3
+GENER.MEDITE./CENTRAL TERMICA ROCA S.A.,33711944899,,,,,,,,21955705.400000002,4
+PETROLERA ACONCAGUA ENERGIA S.A.,30714814229,,,,,,,,17710695.01,6
+YPF Energía Eléctrica S.A.,30714128309,Energía - Electricidad,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,YPF Energía Eléctrica S.A.,fixscr,11899472.9,6
+MIRGOR S.A.,30578036071,,,,,,,,11832748.7,3
+CIA GENERAL DE COMBUSTIBLES S.A.,30506733932,,AA-(arg),,Perspectiva Estable,2026-05-08 00:00:00,Compañía General de Combustibles S.A. - (CGC),fixscr,7949123.37,13
+Banco Comafi S.A.,30604731018,Financiero - Bancos,AA(arg),A1+(arg),Perspectiva Estable,2026-04-14 00:00:00,Banco Comafi S.A.,fixscr,2089170.25,11
+EDENOR S.A.,30655116202,,A+(arg),A1+(arg),Perspectiva Estable,2026-03-25 00:00:00,Edenor S.A.,fixscr,597266.32,8
+Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,,,,,,,562244.56,23
+MERCADO PAGO SERVICIOS DE PROCESAMIENTO S.R.L.,30716999498,,AAA(arg),A1+(arg),Perspectiva Estable,2026-05-11 00:00:00,Mercado Pago Servicios de Procesamiento S.R.L.,fixscr,506804.63,4
+CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,30714322938,,AA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,CNH Industrial Capital Argentina S.A.,fixscr,373748.91000000003,4
+RIZOBACTER ARGENTINA S.A.,30593174057,,CC(arg),C(arg),N.C,2026-04-27 00:00:00,Rizobacter Argentina S.A.,fixscr,114980.0,6
+PATAGONIA FRUITS TRADE S.A,30690967541,,,,,,,,101550.66,2
+CERAMICA RUTA 16 S.R.L.,30710080085,,,,,,,,83499.5,1
+SAN BAUTISTA DEL SUR SA,30715659340,,,,,,,,56185.100000000006,4
+BANCO BBVA ARGENTINA S.A.,30500003193,,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-15 00:00:00,Banco BBVA Argentina S.A.,fixscr,40162.84,13
+BLM DESARROLLOS SA,30718221516,,,,,,,,27946.8,12
+S.A. San Miguel,30511190238,Agro - Frutícola,,,,,,,5206.0,2
+Plaza Logística S.R.L.,30655942382,Logística - Real Estate,AA(arg),A1+(arg),Perspectiva Estable,2026-05-04 00:00:00,Plaza Logística S.R.L.,fixscr,1864.99,3
+AGRO DE SOUZA S.A.,30707923446,,,,,,,,0.0,0
+MAQUINAS AGRICOLAS OMBU S.A,30642412899,,,,,,,,0.0,0
+PEDROLGA S.A.,30651084241,,,,,,,,0.0,0
+BANCO MARIVA S.A.,30516420444,,,,,,,,0.0,1
+WIN S.A.S.,30715980246,,,,,,,,0.0,0
+PROSEIND S.A.,30707009892,,,,,,,,0.0,0
+PROMEDON S.A.,30619780635,,,,,,,,0.0,2
+NEW SAN SA,30642617555,,,,,,,,0.0,0
+OZOG VIAL S.R.L,30713722703,,,,,,,,0.0,0
+AGRONORTE S.R.L.,30547794482,,,,,,,,0.0,2
+NEXO EMPRENDIMIENTOS S.A.,30710125909,,,,,,,,0.0,0
+YACOPINI MIRAI S.A.,30715744941,,,,,,,,0.0,0
+CLORONOR S.A.,30710855850,,,,,,,,0.0,0
+OLEODUCTOS DEL VALLE S.A.,30658840165,,AAA(arg),,Perspectiva Estable,2026-05-07 00:00:00,Oleoductos del Valle S.A.,fixscr,0.0,10
+PRIGIONI AGRO SRL,30714436194,,,,,,,,0.0,0
+NAVARRO S.A.,30707012672,,,,,,,,0.0,0
+NUEVAS TIERRAS S.A.,30708132337,,,,,,,,0.0,0
+C&C MEDICAL S S.A.,30707174702,,,,,,,,0.0,0
+MERIDIANO NORTE S.A.,30707418849,,,,,,,,0.0,0
+ANGEL ESTRADA Y CIA. S.A.,30500235566,,A(arg),A1(arg),Perspectiva Estable,2026-05-26 00:00:00,Angel Estrada y Cia.S.A.,fixscr,0.0,0
+NUEVO BANCO DEL CHACO S.A.,30670157799,,A-(arg),A2(arg),Perspectiva Estable,2026-04-24 00:00:00,Nuevo Banco del Chaco S.A,fixscr,0.0,2
+ANTA DEL DORADO S.A.,30550246771,,,,,,,,0.0,0
+MERANOL S.A.C.I.,30500645772,,A-(arg),A2(arg),Perspectiva Positiva,2026-03-05 00:00:00,Meranol S.A.C.I.,fixscr,0.0,0
+ZAFRA S.A.,30592486268,,,,,,,,0.0,1
+SPAZIOS INMUEBLES S.A.,30715999141,,,,,,,,0.0,0
+AUTOTRANSPORTES ANDESMAR S.A.,30561785402,,,,,,,,0.0,0
+Volkswagen Financial Services Cía. Financiera S.A.,30682419578,Financiero - Crédito Automotriz,AA(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,Volkswagen Financial Services Compañía Financiera S.A.,fixscr,0.0,2
+PRODEMAN S.A.,33669088499,,,,,,,,0.0,1
+PALLETS JAUREGUI S.A.,30711424195,,,,,,,,0.0,0
+YACOPINI SUD SA,30709159182,,,,,,,,0.0,0
+TALLERES METALURGICOS CRUCIANELLI S.A.,30503423347,,,,,,,,0.0,0
+TOYOTA COMPANIA FINANCIERA DE ARGENTINA,30709000426,,AA+(arg),A1+(arg),Perspectiva Estable,2026-04-22 00:00:00,Toyota Cia. Financiera Argentina S.A.,fixscr,0.0,1
+GRUPO ST S.A.,30708633417,,,,,,,,0.0,0
+SANTIAGO SAENZ S.A.,33550300899,,,,,,,,0.0,0
+SEGUFER S.A.,30678145366,,,,,,,,0.0,0
+SPECIAL GRAINS S.A/PETROAGRO S.A.,30600615889,,,,,,,,0.0,1
+RUTA 3 AUTOMOTORES SA,30540127251,,,,,,,,0.0,0
+SUC. DE GUSTAVO LAGERHEIM S.A.,30510968413,,,,,,,,0.0,0
+LATAMLY S.A.,30710716923,,,,,,,,0.0,0
+AGRONEA PRODUCCIONES SRL,30712129766,,,,,,,,0.0,0
+TUX SA,30714347159,,,,,,,,0.0,0
+MATIAS RUIZ Y CI(cid:141)A. S.A.,30707955267,,,,,,,,0.0,0
+RICARDO VENTURINO S.A,30698318895,,,,,,,,0.0,1
+ROLCAR S.A,30707211942,,,,,,,,0.0,0
+ESTACION DE SERVICIOS 25 DE MAYO SRL,33708128649,,,,,,,,0.0,0
+RADIADORES PRATS S.A.,30654691726,,,,,,,,0.0,0
+PRESIDENT PETROLEUM S.A.,30711913439,,,,,,,,0.0,0
+RECARD S.A.,30691479400,,,,,,,,0.0,0
+RDA RENTING S.A.,30712257357,,A(arg),,Perspectiva Estable,2025-12-23 00:00:00,RDA Renting S.A.,fixscr,0.0,0
+OVOPROT INTERNATIONAL SA,30707807810,,,,,,,,0.0,0
+ROMBO COMPANIA FINANCIERA S.A.,33707124909,,AA(arg),A1+(arg),Perspectiva Estable,2026-05-08 00:00:00,FCA Compañía Financiera S.A.,fixscr,0.0,4
+AGROIDEAS S.A,30708658819,,,,,,,,0.0,0
+PSA FINANCE ARGENTINA CIA FINANCIERA SA,30707847367,,AA(arg),A1+(arg),Perspectiva Estable,2026-04-30 00:00:00,PSA Finance Argentina Compañía Financiera SA,fixscr,0.0,2
+PARAMERICA S.A.,30697172773,,,,,,,,0.0,0
+PRODUSEM S.A.,30693383427,,,,,,,,0.0,0
+LOS VALIENTES S.A.,30714954071,,,,,,,,0.0,0
+PROCESOS INDUSTRIALES METALLO SA,30716855372,,,,,,,,0.0,0
+LABORATORIOS RICHMOND S.A.C.I.F.,30501152826,,A(arg),A2(arg),Perspectiva Estable,2026-05-29 00:00:00,Laboratorios Richmond S.A.,fixscr,0.0,3
+BANCO SAENZ S.A.,30534672434,,A-(arg),A2(arg),RW Positivo,2026-05-12 00:00:00,Banco Sáenz S.A.,fixscr,0.0,0
+CFN S.A.,30641056177,,A(arg),A1(arg),Perspectiva Estable,2026-03-13 00:00:00,CFN S.R.L.,fixscr,0.0,0
+CARSA SA,33572266449,,,,,,,,0.0,0
+CREATIVE PMO INTERNATIONAL S.A.,30714763225,,,,,,,,0.0,1
+COMPANIA FINANCIERA ARGENTINA S.A.,30538006404,,BB+(arg),B(arg),Perspectiva Negativa,2026-04-27 00:00:00,Compañía Financiera Argentina S.A.,fixscr,0.0,0
+CELULOSA ARGENTINA S.A.,30501062150,,D(arg),D(arg),N.C,2026-04-09 00:00:00,Celulosa Argentina S.A.,fixscr,0.0,0
+CEDISUR S.A.,30672812808,,,,,,,,0.0,0
+ACTUAL S.A.,30641487267,,,,,,,,0.0,0
+CROWN POINT ENERGIA S.A.,30709346268,,BBB(arg),,Perspectiva Estable,2026-05-08 00:00:00,Crown Point Energía S.A.,fixscr,0.0,0
+CREDITO DIRECTO S.A.,30712101136,,BBB+(arg),A2(arg),Perspectiva Estable,2026-05-06 00:00:00,Crédito Directo S.A.,fixscr,0.0,0
+3D LATINOAMERICA S.A.,30713701803,,,,,,,,0.0,0
+CREDICUOTAS CONSUMO S.A.,30710911580,,A+(arg),A1(arg),Perspectiva Estable,2026-05-20 00:00:00,Credicuotas Consumo S.A.,fixscr,0.0,4
+DEMAGRO S.R.L,30707912673,,,,,,,,0.0,0
+DARUMA PAGOS S.A.,30716155680,,,,,,,,0.0,0
+SURCOS S.A.,30589527115,,,,,,,,0.0,0
+MSU GREEN ENERGY S.A.U.,30714155128,,A+(arg),,Perspectiva Estable,2026-05-08 00:00:00,MSU Green Energy S.A.,fixscr,0.0,3
+CAIMAN SRL,30707651675,,,,,,,,0.0,0
+Banco de Servicios y Transacciones S.A.,30704960995,Financiero - Bancos,A+(arg),A1(arg),Perspectiva Estable,2026-04-30 00:00:00,Banco de Servicios y Transacciones S.A.U. - BST,fixscr,0.0,3
+ESKABE S.A.,30503339788,,,,,,,,0.0,0
+BANCO COLUMBIA S.A.,30517637498,,BBB(arg),A3(arg),Perspectiva Negativa,2026-05-06 00:00:00,Banco Columbia S.A.,fixscr,0.0,0
+RIBEIRO S.A.C.I.F.A. E I.,30525966859,,,,,,,,0.0,0
+AGROBICIUFFA SRL,30708142693,,,,,,,,0.0,0
+ARGENSUN S.A,30640783199,,,,,,,,0.0,0
+RICARDO ALMAR E HIJOS S.A.,30501863129,,,,,,,,0.0,0
+ALPARGATAS TEXTIL S.A.,30716620472,,,,,,,,0.0,0
+AGROTECNOLOGIA SALA S.A.,30542790780,,,,,,,,0.0,0
+ASPRO SERVICIOS PETROLEROS SA,30715595105,,,,,,,,0.0,0
+ARBITRA S.A.,30678534214,,,,,,,,0.0,0
+Banco CMF S.A.,30576614299,Financiero - Bancos,A+(arg),A1(arg),Perspectiva Estable,2026-04-22 00:00:00,Banco CMF S.A.,fixscr,0.0,1
+Banco de Crédito y Securitización S.A.,30707227415,Financiero - Bancos,AA-(arg),A1+(arg),Perspectiva Estable,2026-05-06 00:00:00,BACS Banco de Crédito y Securitización S.A.,fixscr,0.0,1
+BANCO SANTANDER ARGENTINA S.A,30500008454,,AAA(arg),A1+(arg),Perspectiva Estable,2026-04-30 00:00:00,Banco Santander Argentina S.A.,fixscr,0.0,0
+PROCHEM BIO S.A.,30710218192,,,,,,,,0.0,0
+Banco Supervielle S.A.,33500005179,Financiero - Bancos,,,,,,,0.0,7
+BANCO DE SERVICIOS FINANCIEROS S.A.,30697265895,,A+(arg),A1(arg),Perspectiva Estable,2026-05-18 00:00:00,Banco de Servicios Financieros Carrefour S.A.U.,fixscr,0.0,0
+COMPAÑIA TSB SA,30707810927,,,,,,,,0.0,1
+HECTOR A. BERTONE SA,30708587415,,,,,,,,0.0,0
+TERMOELECTRICA SA,30519527703,,,,,,,,0.0,0
+LILIANA SRL,30516877223,,,,,,,,0.0,0
+MADERO HARBOUR S.A.,33657476639,,,,,,,,0.0,0
+HIDROTEC S.A.,30711075905,,,,,,,,0.0,0
+GASTALDI HNOS. S.A.I. y C.F. e I.,30539081086,,,,,,,,0.0,0
+RATTO HNOS S.AC.F.A.,30541416540,,,,,,,,0.0,0
+HATTRICK ENERGY SAS,30715857460,,,,,,,,0.0,0
+INSUGA CHACO S.A,33711217679,,,,,,,,0.0,0
+INCLUSION FINANCIERA INTEGRAL S.R.L.,30718592425,,,,,,,,0.0,0
+INTERCONNECT S.A.,33688256149,,,,,,,,0.0,0
+ALBERTO J. OLIVERO E HIJOS S.A.,30590762233,,,,,,,,0.0,0
+FERRETERA CENTRAL JT S.R.L.,30714228346,,,,,,,,0.0,0
+MILKYNET S.A.,33717152749,,,,,,,,0.0,0
+KLONAL SRL,30574564367,,,,,,,,0.0,0
+BISORDI KREMAR SRL,30641234601,,,,,,,,0.0,0
+LATITUD 45 PETROLEO Y GAS SA,30714108235,,,,,,,,0.0,0
+ALBANESI S.A.,30682504125,,,,,,,,0.0,0
+COLLINS S.A.,33714669899,,,,,,,,0.0,0
+BANCO HIPOTECARIO S.A.,30500011072,,AA-(arg),A1+(arg),Perspectiva Estable,2026-04-15 00:00:00,Banco Hipotecario S.A.,fixscr,0.0,3
+GESTION DE PRESTAMOS Y COBRANZAS,33715043519,,,,,,,,0.0,0
+ASOCIACION CIVIL SUMATORIA PARA UNA NUEVA ECONOMIA,30716684594,,,,,,,,0.0,0
+TRACE GROUP S.A.,30710685696,,,,,,,,0.0,0
+ECOSUR BAHIA SOCIEDAD ANONIMA,30505607925,,,,,,,,0.0,0
+TRESNAL AGROPECUARIA S.A.,33708830599,,,,,,,,0.0,0
+ASSERCA S.R.L.,33710735609,,,,,,,,0.0,0
+EXPRESO LANCIONI S.A,30708847247,,,,,,,,0.0,0
+FERRETERIA DEL NORTE SRL,30707816410,,,,,,,,0.0,0
+AFS GROUP S.A.,30716837994,,,,,,,,0.0,0
+FCA CIA. FINANCIERA SA,30692304884,,AA(arg),A1+(arg),Perspectiva Estable,2026-05-08 00:00:00,FCA Compañía Financiera S.A.,fixscr,0.0,1
+GRUAS SAN BLAS S.A,30660920451,,,,,,,,0.0,0
+GEORGALOS HERMANOS Y CIA,30516139451,,,,,,,,0.0,0
+GARRO FABRIL S.A,30539301388,,,,,,,,0.0,0
+GRUPO COHEN S.A.,30558543317,,,,,,,,0.0,0
+GUALOK SRL,30640576428,,,,,,,,0.0,0
+GALERENT S.A.,30715157299,,,,,,,,0.0,0
+Generación Mediterránea S.A.,30682434720,Energía - Electricidad,D(arg),D(arg),N.C,2026-04-14 00:00:00,Generación Mediterránea S.A.,fixscr,0.0,1
+GENERACION LITORAL SA,33715184139,,,,,,,,0.0,1
+ZUAMAR S.A.,33712110959,,,,,,,,0.0,0

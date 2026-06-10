@@ -1,0 +1,69 @@
+{
+  "especie": "MSSFO",
+  "numeroCuponActual": "001",
+  "renta": 1.875,
+  "amortizacion": 0,
+  "amasR": 1.875,
+  "moneda": "USD",
+  "descripcion": "ON.MSU S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.075,
+  "_frequency": 4,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XIII, 7.50% quarterly, 2\u00d750%: \u00faltimas 2 fechas (abr-2027, jul-2027).",
+  "detalle": [
+    {
+      "fechaPago": "2026-07-23T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2026-10-23T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2027-01-23T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2027-04-23T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 51.875,
+      "renta": 1.875,
+      "amortizacion": 50.0,
+      "amasR": 51.875
+    },
+    {
+      "fechaPago": "2027-07-23T00:00:00",
+      "numeroCupon": "005",
+      "vr": 50.0,
+      "vrCartera": 50.0,
+      "cashFlow": 50.9375,
+      "renta": 0.9375,
+      "amortizacion": 50.0,
+      "amasR": 50.9375
+    }
+  ]
+}

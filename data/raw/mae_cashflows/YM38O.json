@@ -1,0 +1,69 @@
+{
+  "especie": "YM38O",
+  "numeroCuponActual": "001",
+  "renta": 1.875,
+  "amortizacion": 0,
+  "amasR": 1.875,
+  "moneda": "USD",
+  "descripcion": "ON.YPF S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.075,
+  "_frequency": 4,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XXXVIII, US$100M, 7.50% quarterly bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-07-22T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2026-10-22T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2027-01-22T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2027-04-22T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.875,
+      "renta": 1.875,
+      "amortizacion": 0.0,
+      "amasR": 1.875
+    },
+    {
+      "fechaPago": "2027-07-22T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.875,
+      "renta": 1.875,
+      "amortizacion": 100.0,
+      "amasR": 101.875
+    }
+  ]
+}

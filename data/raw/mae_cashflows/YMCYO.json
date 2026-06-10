@@ -1,0 +1,119 @@
+{
+  "especie": "YMCYO",
+  "numeroCuponActual": "001",
+  "renta": 1.625,
+  "amortizacion": 0,
+  "amasR": 1.625,
+  "moneda": "USD",
+  "descripcion": "ON.YPF S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.065,
+  "_frequency": 4,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XXXV (est.), 6.50% quarterly bullet. Confirmado via market.",
+  "detalle": [
+    {
+      "fechaPago": "2026-07-10T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2026-10-10T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2027-01-10T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2027-04-10T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2027-07-10T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2027-10-10T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2028-01-10T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2028-04-10T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2028-07-10T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.625,
+      "renta": 1.625,
+      "amortizacion": 0.0,
+      "amasR": 1.625
+    },
+    {
+      "fechaPago": "2028-10-10T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.625,
+      "renta": 1.625,
+      "amortizacion": 100.0,
+      "amasR": 101.625
+    }
+  ]
+}

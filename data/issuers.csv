@@ -1,0 +1,23 @@
+# Tabla de mapeo: prefijo BYMA → emisor
+# Estructura ticker: [PREFIJO][SERIE][SUFIJO_MONEDA]
+# Sufijos moneda: O=ARS  D=USD(pesos)  C=USD(cable)  P=USD-linked
+#
+# Columnas:
+#   prefijo       — letras iniciales del ticker antes de la serie (case-insensitive)
+#   razon_social  — nombre legal del emisor
+#   cuit          — CUIT del emisor (completar con fuente oficial)
+#   sector        — sector económico
+#
+# Ordenar de prefijos más largos a más cortos dentro de cada emisor
+# para que el matching longest-first funcione correctamente.
+prefijo,razon_social,cuit,sector
+TLC,Telecom Argentina S.A.,30-65786987-0,Telecomunicaciones
+YFC,YPF S.A.,30-54668997-9,Energía - Petróleo y Gas
+YM,YPF S.A.,30-54668997-9,Energía - Petróleo y Gas
+IRC,IRSA Inversiones y Representaciones S.A.,30-52636407-3,Real Estate
+VSC,Vista Oil & Gas S.A.U.,,Energía - Petróleo y Gas
+ARC,Arcor S.A.I.C.,,Consumo - Alimentos
+CS4,Cresud S.A.C.I.F.A.,,Agro - Real Estate
+CS3,Cresud S.A.C.I.F.A.,,Agro - Real Estate
+LOC,Loma Negra C.I.A.S.A.,,Industria - Cemento
+OZC,Oleoductos del Oeste S.A.,,Energía - Infraestructura

@@ -1,0 +1,124 @@
+{
+  "especie": "MR39O",
+  "numeroCuponActual": "002",
+  "renta": 5.42,
+  "amortizacion": 1.5,
+  "amasR": 6.92,
+  "moneda": "USD",
+  "descripcion": "ON GEN MEDIT Y CT ROCA SA CL39",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-11-01T00:00:00",
+      "numeroCupon": "002",
+      "vr": 98.5,
+      "vrCartera": 98.5,
+      "cashFlow": 6.92,
+      "renta": 5.42,
+      "amortizacion": 1.5,
+      "amasR": 6.92
+    },
+    {
+      "fechaPago": "2027-05-01T00:00:00",
+      "numeroCupon": "003",
+      "vr": 97.0,
+      "vrCartera": 97.0,
+      "cashFlow": 7.84,
+      "renta": 5.34,
+      "amortizacion": 2.5,
+      "amasR": 7.84
+    },
+    {
+      "fechaPago": "2027-11-01T00:00:00",
+      "numeroCupon": "004",
+      "vr": 94.5,
+      "vrCartera": 94.5,
+      "cashFlow": 7.7,
+      "renta": 5.2,
+      "amortizacion": 2.5,
+      "amasR": 7.7
+    },
+    {
+      "fechaPago": "2028-05-01T00:00:00",
+      "numeroCupon": "005",
+      "vr": 92.0,
+      "vrCartera": 92.0,
+      "cashFlow": 12.56,
+      "renta": 5.06,
+      "amortizacion": 7.5,
+      "amasR": 12.56
+    },
+    {
+      "fechaPago": "2028-11-01T00:00:00",
+      "numeroCupon": "006",
+      "vr": 84.5,
+      "vrCartera": 84.5,
+      "cashFlow": 12.15,
+      "renta": 4.65,
+      "amortizacion": 7.5,
+      "amasR": 12.15
+    },
+    {
+      "fechaPago": "2029-05-01T00:00:00",
+      "numeroCupon": "007",
+      "vr": 77.0,
+      "vrCartera": 77.0,
+      "cashFlow": 15.24,
+      "renta": 4.24,
+      "amortizacion": 11.0,
+      "amasR": 15.24
+    },
+    {
+      "fechaPago": "2029-11-01T00:00:00",
+      "numeroCupon": "008",
+      "vr": 66.0,
+      "vrCartera": 66.0,
+      "cashFlow": 14.63,
+      "renta": 3.63,
+      "amortizacion": 11.0,
+      "amasR": 14.63
+    },
+    {
+      "fechaPago": "2030-05-01T00:00:00",
+      "numeroCupon": "009",
+      "vr": 55.0,
+      "vrCartera": 55.0,
+      "cashFlow": 14.02,
+      "renta": 3.02,
+      "amortizacion": 11.0,
+      "amasR": 14.02
+    },
+    {
+      "fechaPago": "2030-11-01T00:00:00",
+      "numeroCupon": "010",
+      "vr": 44.0,
+      "vrCartera": 44.0,
+      "cashFlow": 13.42,
+      "renta": 2.42,
+      "amortizacion": 11.0,
+      "amasR": 13.42
+    },
+    {
+      "fechaPago": "2031-05-01T00:00:00",
+      "numeroCupon": "011",
+      "vr": 33.0,
+      "vrCartera": 33.0,
+      "cashFlow": 12.82,
+      "renta": 1.82,
+      "amortizacion": 11.0,
+      "amasR": 12.82
+    },
+    {
+      "fechaPago": "2031-11-01T00:00:00",
+      "numeroCupon": "012",
+      "vr": 22.0,
+      "vrCartera": 22.0,
+      "cashFlow": 23.21,
+      "renta": 1.21,
+      "amortizacion": 22.0,
+      "amasR": 23.21
+    }
+  ]
+}

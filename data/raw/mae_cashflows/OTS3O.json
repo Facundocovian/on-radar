@@ -1,0 +1,114 @@
+{
+  "especie": "OTS3O",
+  "numeroCuponActual": "005",
+  "renta": 1.76,
+  "amortizacion": 0.0,
+  "amasR": 1.76,
+  "moneda": "USD",
+  "descripcion": "O.N. OILTANKING EBYTEM SA S3",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-08-01T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2026-11-01T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2027-02-01T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2027-05-01T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.71,
+      "renta": 1.71,
+      "amortizacion": 0.0,
+      "amasR": 1.71
+    },
+    {
+      "fechaPago": "2027-08-01T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2027-11-01T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2028-02-01T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2028-05-01T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.73,
+      "renta": 1.73,
+      "amortizacion": 0.0,
+      "amasR": 1.73
+    },
+    {
+      "fechaPago": "2028-08-01T00:00:00",
+      "numeroCupon": "013",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.76,
+      "renta": 1.76,
+      "amortizacion": 0.0,
+      "amasR": 1.76
+    },
+    {
+      "fechaPago": "2028-11-01T00:00:00",
+      "numeroCupon": "014",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.76,
+      "renta": 1.76,
+      "amortizacion": 100.0,
+      "amasR": 101.76
+    }
+  ]
+}

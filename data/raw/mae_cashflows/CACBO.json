@@ -1,0 +1,70 @@
+{
+  "especie": "CACBO",
+  "numeroCuponActual": "001",
+  "renta": 2.890625,
+  "amortizacion": 0,
+  "amasR": 2.890625,
+  "moneda": "USD",
+  "descripcion": "ON.CAPEX S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.0925,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.V, 9.25%, 8\u00d712.5% semi-annual. VR actual 62.5%. Precio BYMA en % VR residual.",
+  "_vrActual": 62.5,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-17T00:00:00",
+      "numeroCupon": "001",
+      "vr": 62.5,
+      "vrCartera": 62.5,
+      "cashFlow": 15.390625,
+      "renta": 2.890625,
+      "amortizacion": 12.5,
+      "amasR": 15.390625
+    },
+    {
+      "fechaPago": "2026-12-17T00:00:00",
+      "numeroCupon": "002",
+      "vr": 50.0,
+      "vrCartera": 50.0,
+      "cashFlow": 14.8125,
+      "renta": 2.3125,
+      "amortizacion": 12.5,
+      "amasR": 14.8125
+    },
+    {
+      "fechaPago": "2027-06-17T00:00:00",
+      "numeroCupon": "003",
+      "vr": 37.5,
+      "vrCartera": 37.5,
+      "cashFlow": 14.234375,
+      "renta": 1.734375,
+      "amortizacion": 12.5,
+      "amasR": 14.234375
+    },
+    {
+      "fechaPago": "2027-12-17T00:00:00",
+      "numeroCupon": "004",
+      "vr": 25.0,
+      "vrCartera": 25.0,
+      "cashFlow": 13.65625,
+      "renta": 1.15625,
+      "amortizacion": 12.5,
+      "amasR": 13.65625
+    },
+    {
+      "fechaPago": "2028-06-17T00:00:00",
+      "numeroCupon": "005",
+      "vr": 12.5,
+      "vrCartera": 12.5,
+      "cashFlow": 13.078125,
+      "renta": 0.578125,
+      "amortizacion": 12.5,
+      "amasR": 13.078125
+    }
+  ]
+}

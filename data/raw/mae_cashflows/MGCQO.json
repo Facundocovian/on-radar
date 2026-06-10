@@ -1,0 +1,69 @@
+{
+  "especie": "MGCQO",
+  "numeroCuponActual": "001",
+  "renta": 3.625,
+  "amortizacion": 0,
+  "amasR": 3.625,
+  "moneda": "USD",
+  "descripcion": "ON.PAMPA ENERG\u00cdA S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.0725,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.25, AR0519406398, 7.25% bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-08-06T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.625,
+      "renta": 3.625,
+      "amortizacion": 0.0,
+      "amasR": 3.625
+    },
+    {
+      "fechaPago": "2027-02-06T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.625,
+      "renta": 3.625,
+      "amortizacion": 0.0,
+      "amasR": 3.625
+    },
+    {
+      "fechaPago": "2027-08-06T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.625,
+      "renta": 3.625,
+      "amortizacion": 0.0,
+      "amasR": 3.625
+    },
+    {
+      "fechaPago": "2028-02-06T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.625,
+      "renta": 3.625,
+      "amortizacion": 0.0,
+      "amasR": 3.625
+    },
+    {
+      "fechaPago": "2028-08-06T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.625,
+      "renta": 3.625,
+      "amortizacion": 100.0,
+      "amasR": 103.625
+    }
+  ]
+}

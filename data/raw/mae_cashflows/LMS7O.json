@@ -1,0 +1,114 @@
+{
+  "especie": "LMS7O",
+  "numeroCuponActual": "010",
+  "renta": 1.45,
+  "amortizacion": 8.33,
+  "amasR": 9.78,
+  "moneda": "USD",
+  "descripcion": "ON.ALUAR ALUMINIO ARGENTINO S7",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-12T00:00:00",
+      "numeroCupon": "010",
+      "vr": 83.34,
+      "vrCartera": 83.34,
+      "cashFlow": 9.78,
+      "renta": 1.45,
+      "amortizacion": 8.33,
+      "amasR": 9.78
+    },
+    {
+      "fechaPago": "2026-10-12T00:00:00",
+      "numeroCupon": "011",
+      "vr": 75.01,
+      "vrCartera": 75.01,
+      "cashFlow": 9.65,
+      "renta": 1.32,
+      "amortizacion": 8.33,
+      "amasR": 9.65
+    },
+    {
+      "fechaPago": "2027-01-12T00:00:00",
+      "numeroCupon": "012",
+      "vr": 66.68,
+      "vrCartera": 66.68,
+      "cashFlow": 9.51,
+      "renta": 1.18,
+      "amortizacion": 8.33,
+      "amasR": 9.51
+    },
+    {
+      "fechaPago": "2027-04-12T00:00:00",
+      "numeroCupon": "013",
+      "vr": 58.35,
+      "vrCartera": 58.35,
+      "cashFlow": 9.34,
+      "renta": 1.01,
+      "amortizacion": 8.33,
+      "amasR": 9.34
+    },
+    {
+      "fechaPago": "2027-07-12T00:00:00",
+      "numeroCupon": "014",
+      "vr": 50.02,
+      "vrCartera": 50.02,
+      "cashFlow": 9.2,
+      "renta": 0.87,
+      "amortizacion": 8.33,
+      "amasR": 9.2
+    },
+    {
+      "fechaPago": "2027-10-12T00:00:00",
+      "numeroCupon": "015",
+      "vr": 41.69,
+      "vrCartera": 41.69,
+      "cashFlow": 9.07,
+      "renta": 0.74,
+      "amortizacion": 8.33,
+      "amasR": 9.07
+    },
+    {
+      "fechaPago": "2028-01-12T00:00:00",
+      "numeroCupon": "016",
+      "vr": 33.36,
+      "vrCartera": 33.36,
+      "cashFlow": 8.92,
+      "renta": 0.59,
+      "amortizacion": 8.33,
+      "amasR": 8.92
+    },
+    {
+      "fechaPago": "2028-04-12T00:00:00",
+      "numeroCupon": "017",
+      "vr": 25.03,
+      "vrCartera": 25.03,
+      "cashFlow": 8.77,
+      "renta": 0.44,
+      "amortizacion": 8.33,
+      "amasR": 8.77
+    },
+    {
+      "fechaPago": "2028-07-12T00:00:00",
+      "numeroCupon": "018",
+      "vr": 16.7,
+      "vrCartera": 16.7,
+      "cashFlow": 8.62,
+      "renta": 0.29,
+      "amortizacion": 8.33,
+      "amasR": 8.62
+    },
+    {
+      "fechaPago": "2028-10-12T00:00:00",
+      "numeroCupon": "019",
+      "vr": 8.37,
+      "vrCartera": 8.37,
+      "cashFlow": 8.52,
+      "renta": 0.15,
+      "amortizacion": 8.37,
+      "amasR": 8.52
+    }
+  ]
+}

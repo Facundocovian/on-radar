@@ -1,0 +1,79 @@
+{
+  "especie": "TTCEO",
+  "numeroCuponActual": "001",
+  "renta": 2.5,
+  "amortizacion": 0,
+  "amasR": 2.5,
+  "moneda": "USD",
+  "descripcion": "ON.TECPETROL S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.05,
+  "_frequency": 2,
+  "_confidence": "estimated",
+  "_notes": "~5.00% semi-annual bullet. Mapeo clase incierto (diff=3).",
+  "detalle": [
+    {
+      "fechaPago": "2026-11-21T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.5,
+      "renta": 2.5,
+      "amortizacion": 0.0,
+      "amasR": 2.5
+    },
+    {
+      "fechaPago": "2027-05-21T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.5,
+      "renta": 2.5,
+      "amortizacion": 0.0,
+      "amasR": 2.5
+    },
+    {
+      "fechaPago": "2027-11-21T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.5,
+      "renta": 2.5,
+      "amortizacion": 0.0,
+      "amasR": 2.5
+    },
+    {
+      "fechaPago": "2028-05-21T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.5,
+      "renta": 2.5,
+      "amortizacion": 0.0,
+      "amasR": 2.5
+    },
+    {
+      "fechaPago": "2028-11-21T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.5,
+      "renta": 2.5,
+      "amortizacion": 0.0,
+      "amasR": 2.5
+    },
+    {
+      "fechaPago": "2029-05-21T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.5,
+      "renta": 2.5,
+      "amortizacion": 100.0,
+      "amasR": 102.5
+    }
+  ]
+}

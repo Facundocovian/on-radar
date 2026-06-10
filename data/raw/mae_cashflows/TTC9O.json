@@ -1,0 +1,89 @@
+{
+  "especie": "TTC9O",
+  "numeroCuponActual": "001",
+  "renta": 3.4,
+  "amortizacion": 0,
+  "amasR": 3.4,
+  "moneda": "USD",
+  "descripcion": "ON.TECPETROL S.A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.068,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.9, AR0482976963, 6.80% semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-10-24T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.4,
+      "renta": 3.4,
+      "amortizacion": 0.0,
+      "amasR": 3.4
+    },
+    {
+      "fechaPago": "2027-04-24T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.4,
+      "renta": 3.4,
+      "amortizacion": 0.0,
+      "amasR": 3.4
+    },
+    {
+      "fechaPago": "2027-10-24T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.4,
+      "renta": 3.4,
+      "amortizacion": 0.0,
+      "amasR": 3.4
+    },
+    {
+      "fechaPago": "2028-04-24T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.4,
+      "renta": 3.4,
+      "amortizacion": 0.0,
+      "amasR": 3.4
+    },
+    {
+      "fechaPago": "2028-10-24T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.4,
+      "renta": 3.4,
+      "amortizacion": 0.0,
+      "amasR": 3.4
+    },
+    {
+      "fechaPago": "2029-04-24T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.4,
+      "renta": 3.4,
+      "amortizacion": 0.0,
+      "amasR": 3.4
+    },
+    {
+      "fechaPago": "2029-10-24T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.4,
+      "renta": 3.4,
+      "amortizacion": 100.0,
+      "amasR": 103.4
+    }
+  ]
+}

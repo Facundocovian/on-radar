@@ -1,0 +1,327 @@
+base,issuer,cuit,sector,byma_symbols,currencies,in_byma,has_issuer,has_rating,rating,has_price,price_usd,price_src,has_mae_cf,n_cashflows,mae_currency,has_ytm,ytm_pct,in_rv,is_outlier,rv_score,exclusion_reason
+AEC2,[AEC],,Sin mapear,AEC2D AEC2O AEC2Z,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AER1,[AER],,Sin mapear,AER1D AER1Y,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AER4,[AER],,Sin mapear,AER4D AER4O,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AER9,[AER],,Sin mapear,AER9X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AERA,[AER],,Sin mapear,AERAC AERAD,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AERB,[AER],,Sin mapear,AERBC AERBD,EXT USD,True,True,False,,True,103.3,USD,True,2,USD,True,3.879,True,False,-2.453,
+AFCH,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCHD,USD,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AFCI,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCID AFCIO,ARS USD,True,True,True,AA(arg),True,101.5,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+AFCJ,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCJD AFCJO,ARS USD,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AFCK,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCKD AFCKO,ARS USD,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AFCL,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCLD AFCLO,ARS USD,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AFCM,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCMO,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+AFCN,Banco Comafi S.A.,30604731018,Financiero - Bancos,AFCNX,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+ARC1,Aeropuertos Argentina 2000 S.A.,30696170580,Infraestructura - Aeropuertos,ARC1D ARC1O ARC1X,ARS USD,True,True,True,AA+(arg),True,107.45,USD,True,21,USD,True,1.928,True,False,-9.868,
+AU1L,[AU1],,Sin mapear,AU1LD,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BACA,[BAC],,Sin mapear,BACAX BACAY,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BACG,[BAC],,Sin mapear,BACGY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BACH,[BAC],,Sin mapear,BACHY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BCCK,Banco CMF S.A.,30576614299,Financiero - Bancos,BCCKO,ARS,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BDCK,BANCO DE CREDITO Y SECURITIZACION SA,30707227415,,BDCKO,ARS,True,True,True,AA-(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BF35,Banco BBVA Argentina S.A.,30500003193,Financiero - Bancos,BF35X BF35Y,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BF36,Banco BBVA Argentina S.A.,30500003193,Financiero - Bancos,BF36X BF36Y,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BF37,Banco BBVA Argentina S.A.,30500003193,Financiero - Bancos,BF37D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BF39,Banco BBVA Argentina S.A.,30500003193,Financiero - Bancos,BF39D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BF40,BANCO BBVA ARGENTINA S.A.,30500003193,,BF40D,USD,True,True,False,,True,101.25,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+BF44,BANCO BBVA ARGENTINA S.A.,30500003193,,BF44D BF44O BF44X BF44Z,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BF45,BANCO BBVA ARGENTINA S.A.,30500003193,,BF45D BF45X,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BGC4,[BGC],,Sin mapear,BGC4O,ARS,True,True,False,,True,95.1719,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+BPCQ,Banco Supervielle S.A.,33500005179,Financiero - Bancos,BPCQY,USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BPCS,Banco Supervielle S.A.,33500005179,Financiero - Bancos,BPCSO,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BPCT,Banco Supervielle S.A.,33500005179,Financiero - Bancos,BPCTO,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BPCU,Banco Supervielle S.A.,33500005179,Financiero - Bancos,BPCUO BPCUY,ARS USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BPCV,Banco Supervielle S.A.,33500005179,Financiero - Bancos,BPCVO BPCVY,ARS USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BT21,Compañía TSB S.A.,30707810927,Consumo - Automotriz,BT21P,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BVCO,Banco de Servicios y Transacciones S.A.,30704960995,Financiero - Bancos,BVCOO,ARS,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BVCR,Banco de Servicios y Transacciones S.A.,30704960995,Financiero - Bancos,BVCRX,ARS,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BVCT,Banco de Servicios y Transacciones S.A.,30704960995,Financiero - Bancos,BVCTX,ARS,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BYC2,Banco de Galicia y Buenos Aires S.A.,30500001735,Financiero - Bancos,BYC2O BYC2P BYC2X,ARS USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BYCH,Banco de Galicia y Buenos Aires S.A.,30500001735,Financiero - Bancos,BYCHX BYCHY,ARS USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+BYCV,Banco de Galicia y Buenos Aires S.A.,30500001735,Financiero - Bancos,BYCVC BYCVD BYCVO BYCVZ,ARS EXT USD,True,True,True,AAA(arg),True,103.15,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+BYCW,Banco de Galicia y Buenos Aires S.A.,30500001735,Financiero - Bancos,BYCWD BYCWO BYCWY,ARS USD,True,True,True,AAA(arg),True,102.95,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+BYCX,Banco de Galicia y Buenos Aires S.A.,30500001735,Financiero - Bancos,BYCXD BYCXY,USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+C138,[C13],,Sin mapear,C138C,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CAC5,Capex S.A.,30629827060,Energía - Electricidad,CAC5D CAC5O CAC5Y,ARS USD,True,True,True,AA(arg),True,66.1,USD,True,5,USD,True,6.413,True,False,0.424,
+CAC6,Capex S.A.,30629827060,Energía - Electricidad,CAC6O CAC6Z,ARS EXT,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CAC7,Capex S.A.,30629827060,Energía - Electricidad,CAC7O CAC7Z,ARS EXT,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CACA,CAPEX S.A.,30629827060,,CACAO,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CACB,Capex S.A.,30629827060,Energía - Electricidad,CACBC CACBD CACBO,ARS EXT USD,True,True,True,AA(arg),True,101.9,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CACD,Capex S.A.,30629827060,Energía - Electricidad,CACDC CACDD CACDX,ARS EXT USD,True,True,True,AA(arg),True,105.1,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CIC7,CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,30714322938,,CIC7D,USD,True,True,True,AA(arg),True,99.5,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CIC8,CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,30714322938,,CIC8D,USD,True,True,True,AA(arg),True,100.5,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CIC9,CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,30714322938,,CIC9O,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CICB,CNH INDUSTRIAL CAPITAL ARGENTINA S.A.,30714322938,,CICBD,USD,True,True,True,AA(arg),True,102.0,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CLI1,[CLI],,Sin mapear,CLI1D,USD,True,True,False,,True,31.03,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CLSI,[CLS],,Sin mapear,CLSIY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CMS1,CREATIVE PMO INTERNATIONAL S.A.,30714763225,,CMS1P,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CP28,CIA GENERAL DE COMBUSTIBLES S.A.,30506733932,,CP28C CP28X CP28Y,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CP31,Cía. General de Combustibles S.A.,30506733932,Energía - Gas,CP31C CP31D CP31O,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CP36,Cía. General de Combustibles S.A.,30506733932,Energía - Gas,CP36D CP36O,ARS USD,True,True,False,,True,99.5,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CP37,Cía. General de Combustibles S.A.,30506733932,Energía - Gas,CP37O,ARS,True,True,False,,True,94.9833,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CP38,Cía. General de Combustibles S.A.,30506733932,Energía - Gas,CP38X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CP39,Cía. General de Combustibles S.A.,30506733932,Energía - Gas,CP39O CP39X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CP40,CIA GENERAL DE COMBUSTIBLES S.A.,30506733932,,CP40Y,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CS40,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS40Z,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CS44,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS44C CS44O,ARS EXT,True,True,False,,True,99.5836,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CS45,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS45C CS45D CS45O CS45Z,ARS EXT USD,True,True,False,,True,102.2845,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CS46,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS46C CS46D CS46O CS46X,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CS47,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS47C CS47D CS47O CS47Y,ARS EXT USD,True,True,False,,True,102.95,USD,True,5,USD,True,5.859,True,False,0.352,
+CS48,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS48D CS48O,ARS USD,True,True,False,,True,107.6,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CS49,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS49D CS49O,ARS USD,True,True,False,,True,104.6,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CS50,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS50C,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CS51,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS51X CS51Y,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CS52,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS52D CS52X,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CS53,Cresud S.A.C.I.F. y A.,30509300700,Agro - Real Estate,CS53D,USD,True,True,False,,True,100.8,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+CVS3,[CVS],,Sin mapear,CVS3V,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+CVS4,[CVS],,Sin mapear,CVS4V,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DEC2,Empresa Distrib. de Electricidad Salta S.A.,30690633635,Energía - Electricidad,DEC2O,ARS,True,True,True,A+(arg),True,97.0645,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+DF1L,[DF1],,Sin mapear,DF1LC DF1LD,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DFS1,[DFS],,Sin mapear,DFS1L,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DHSE,CREDICUOTAS CONSUMO S.A.,30710911580,,DHSEO DHSEX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DHSG,Credicuotas Consumo S.A.,30710911580,Financiero - Crédito Consumo,DHSGO,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DHSH,Credicuotas Consumo S.A.,30710911580,Financiero - Crédito Consumo,DHSHO,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DI2L,[DI2],,Sin mapear,DI2LC DI2LD,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DI2LC.S,[DI2],,Sin mapear,DI2LC.SB,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DI2LD.S,[DI2],,Sin mapear,DI2LD.SB,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DIC2,[DIC],,Sin mapear,DIC2L,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DIC2L.S,[DIC],,Sin mapear,DIC2L.SB,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DNC3,EDENOR S.A.,30655116202,,DNC3D,USD,True,True,True,A+(arg),True,101.85,USD,True,1,USD,True,6.356,True,True,,outlier (YTM o duration fuera de rango)
+DNC5,EDENOR S.A.,30655116202,,DNC5Y,USD,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+DNC7,EDENOR S.A.,30655116202,,DNC7C DNC7Y,EXT USD,True,True,True,A+(arg),True,103.85,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+DNCA,EDENOR S.A.,30655116202,,DNCAC DNCAD DNCAX DNCAY,ARS EXT USD,True,True,True,A+(arg),True,100.7,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+EAC1,MSU GREEN ENERGY S.A.U.,30714155128,,EAC1D EAC1O,ARS USD,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+EAC3,MSU GREEN ENERGY S.A.U.,30714155128,,EAC3Y,USD,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+EMC1,[EMC],,Sin mapear,EMC1D EMC1O EMC1X,ARS USD,True,True,False,,True,105.75,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+FO4B,[FO4],,Sin mapear,FO4BD,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+FPC1,[FPC],,Sin mapear,FPC1O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+FTL1,FCA CIA. FINANCIERA SA,30692304884,,FTL1O,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+FTN1,[FTN],,Sin mapear,FTN1X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+FTN3,[FTN],,Sin mapear,FTN3X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+FYC1,[FYC],,Sin mapear,FYC1O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GMCG,GENERACION MEDITERRANEA S.A.,30682434720,,GMCGO,ARS,True,True,True,D(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GN37,Genneia S.A.,30665234114,Energía - Renovable,GN37O GN37Z,ARS EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GN41,Genneia S.A.,30665234114,Energía - Renovable,GN41O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GN42,Genneia S.A.,30665234114,Energía - Renovable,GN42O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GN43,Genneia S.A.,30665234114,Energía - Renovable,GN43O,ARS,True,True,False,,True,101.7052,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+GN47,Genneia S.A.,30665234114,Energía - Renovable,GN47C GN47O GN47X,ARS EXT,True,True,False,,True,97.664,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+GN48,Genneia S.A.,30665234114,Energía - Renovable,GN48C GN48D GN48O,ARS EXT USD,True,True,False,,True,102.8,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+GN49,Genneia S.A.,30665234114,Energía - Renovable,GN49D GN49O,ARS USD,True,True,False,,True,109.0,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+GOC4,GENERACION LITORAL SA,33715184139,,GOC4O,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GYC3,[GYC],,Sin mapear,GYC3O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+GYC4,[GYC],,Sin mapear,GYC4D,USD,True,True,False,,True,99.25,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+GYC5,[GYC],,Sin mapear,GYC5D GYC5O,ARS USD,True,True,False,,True,101.4,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+HBCA,BANCO HIPOTECARIO S.A.,30500011072,,HBCAO,ARS,True,True,True,AA-(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+HBCB,BANCO HIPOTECARIO S.A.,30500011072,,HBCBO,ARS,True,True,True,AA-(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+HBCF,BANCO HIPOTECARIO S.A.,30500011072,,HBCFY,USD,True,True,True,AA-(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+HJCB,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCBO,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+HJCF,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCFC HJCFO,ARS EXT,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+HJCG,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCGO,ARS,True,True,True,AA(arg),True,96.9904,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+HJCH,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCHD,USD,True,True,True,AA(arg),True,104.95,USD,True,4,USD,True,5.49,True,False,-0.31,
+HJCI,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCID,USD,True,True,True,AA(arg),True,101.6,USD,True,5,USD,True,6.124,True,False,0.21,
+HJCJ,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCJD HJCJO,ARS USD,True,True,True,AA(arg),True,105.8,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+HJCK,John Deere Credit Cía. Financiera S.A.,30707024859,Financiero - Crédito Industrial,HJCKD HJCKO,ARS USD,True,True,True,AA(arg),True,105.05,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+HVS1,[HVS],,Sin mapear,HVS1Y,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+IRCF,IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,IRCFC,EXT,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+IRCJ,IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,IRCJC IRCJD,EXT USD,True,True,True,AAA(arg),True,103.1,USD,True,2,USD,True,5.222,True,False,-0.027,
+IRCL,IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,IRCLD IRCLO,ARS USD,True,True,True,AAA(arg),True,102.35,USD,True,1,USD,True,41.754,True,True,,outlier (YTM o duration fuera de rango)
+IRCN,IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,IRCND,USD,True,True,True,AAA(arg),True,103.1,USD,True,4,USD,True,4.99,True,False,-0.56,
+IRCO,IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,IRCOY,USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+IRCP,IRSA Inversiones y Representaciones S.A.,30524688673,Real Estate,IRCPY,USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+JNC5,[JNC],,Sin mapear,JNC5Y,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LDCG,[LDC],,Sin mapear,LDCGO,ARS,True,True,False,,True,97.6236,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+LIC6,[LIC],,Sin mapear,LIC6O,ARS,True,True,False,,True,32.2965,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+LMS6,BLM DESARROLLOS SA,30718221516,,LMS6C LMS6X LMS6Y,ARS EXT USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LMS7,BLM DESARROLLOS SA,30718221516,,LMS7C LMS7D LMS7X LMS7Y,ARS EXT USD,True,True,True,,True,84.56,EXT,True,10,USD,True,6.67,True,False,2.06,
+LMS8,BLM DESARROLLOS SA,30718221516,,LMS8D LMS8X LMS8Y,ARS USD,True,True,True,,True,106.2,USD,True,4,USD,True,-5.155,True,True,,outlier (YTM o duration fuera de rango)
+LMS9,BLM DESARROLLOS SA,30718221516,,LMS9D LMS9Y,USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LR6B,Laboratorios Richmond S.A.C.I.F.,30501152826,Salud - Farma,LR6BC LR6BO,ARS EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LR7B,LABORATORIOS RICHMOND S.A.C.I.F.,30501152826,,LR7BO,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LUC3,[LUC],,Sin mapear,LUC3X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LUC4,[LUC],,Sin mapear,LUC4D LUC4X,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+LUC5,[LUC],,Sin mapear,LUC5D LUC5X,ARS USD,True,True,False,,True,101.4,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MCC2,[MCC],,Sin mapear,MCC2C MCC2Y,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MCC3,[MCC],,Sin mapear,MCC3C,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MGCE,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCED MGCEO MGCEX,ARS USD,True,True,True,AAA(arg),True,100.95,USD,True,1,USD,True,-0.612,True,False,-10.266,
+MGCM,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCMC MGCMX,ARS EXT,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MGCN,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCND MGCNO MGCNX,ARS USD,True,True,True,AAA(arg),True,103.0,USD,True,5,USD,True,4.81,True,False,-0.089,
+MGCO,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCOC MGCOX,ARS EXT,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MGCQ,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCQC MGCQO MGCQZ,ARS EXT,True,True,True,AAA(arg),True,104.2,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MGCR,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCRX MGCRZ,ARS EXT,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MGCT,Pampa Energía S.A.,30526552659,Energía - Electricidad,MGCTC MGCTD,EXT USD,True,True,True,AAA(arg),True,99.32,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MIC3,MIRGOR S.A.,30578036071,,MIC3D MIC3O,ARS USD,True,True,True,,True,101.4,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MIC6,MIRGOR S.A.,30578036071,,MIC6O,ARS,True,True,True,,True,96.3708,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MJC1,[MJC],,Sin mapear,MJC1O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MR39,Generación Mediterránea / Central Térmica Roca S.A.,33711944899,Energía - Electricidad,MR39D MR39O MR39Z,ARS EXT USD,True,True,False,,True,77.05,USD,True,11,USD,True,20.171,True,False,1.529,
+MR41,Generación Mediterránea / Central Térmica Roca S.A.,33711944899,Energía - Electricidad,MR41D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MSSB,MSU S.A.,30607597193,Energía,MSSBX,ARS,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MSSE,MSU S.A.,30607597193,Energía,MSSEC MSSED MSSEO MSSEZ,ARS EXT USD,True,True,True,A+(arg),True,105.95,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MSSF,MSU S.A.,30607597193,Energía,MSSFO,ARS,True,True,True,A+(arg),True,98.2095,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MSSG,MSU S.A.,30607597193,Energía,MSSGC MSSGO,ARS EXT,True,True,True,A+(arg),True,96.9904,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+MTCG,Mastellone Hermanos S.A.,30547242331,Alimentos - Lácteos,MTCGO MTCGX,ARS,True,True,True,,True,101.8063,ARS/CCL,True,1,USD,True,13.236,True,True,,outlier (YTM o duration fuera de rango)
+MU31,[MU3],,Sin mapear,MU31D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+MU32,[MU3],,Sin mapear,MU32D MU32O MU32Z,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+NBS1,Balanz Capital Valores S.A.,30710630670,Financiero,NBS1C NBS1O NBS1Y,ARS EXT USD,True,True,True,A(arg),True,98.7147,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+NHC1,NUEVO BANCO DEL CHACO S.A.,30670157799,,NHC1O NHC1X,ARS,True,True,True,A-(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+NLCJ,[NLC],,Sin mapear,NLCJC NLCJD NLCJO NLCJX NLCJY NLCJZ,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+NLCJC.S,[NLC],,Sin mapear,NLCJC.SB,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+NLCJD.S,[NLC],,Sin mapear,NLCJD.SB,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+NLCJO.S,[NLC],,Sin mapear,NLCJO.SB,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+NPCD,[NPC],,Sin mapear,NPCDD,USD,True,True,False,,True,100.35,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+OLC2,OLEODUCTOS DEL VALLE S.A.,30658840165,,OLC2D OLC2X,ARS USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OLC3,OLEODUCTOS DEL VALLE S.A.,30658840165,,OLC3D,USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OLC4,OLEODUCTOS DEL VALLE S.A.,30658840165,,OLC4D OLC4O OLC4Z,ARS EXT USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OLC6,OLEODUCTOS DEL VALLE S.A.,30658840165,,OLC6C OLC6Y,EXT USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OLC7,OLEODUCTOS DEL VALLE S.A.,30658840165,,OLC7C OLC7Y,EXT USD,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OR3B,Agronorte S.R.L.,30547794482,Agro,OR3BD OR3BP,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OT42,[OT4],,Sin mapear,OT42D,USD,True,True,False,,True,106.25,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+OTS2,[OTS],,Sin mapear,OTS2D OTS2Y,USD,True,True,False,,True,102.35,USD,True,4,USD,True,5.217,True,False,-0.252,
+OTS3,[OTS],,Sin mapear,OTS3D,USD,True,True,False,,True,103.0,USD,True,10,USD,True,5.98,True,False,0.197,
+OTS5,[OTS],,Sin mapear,OTS5O,ARS,True,True,False,,True,98.4722,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+OTS6,[OTS],,Sin mapear,OTS6O,ARS,True,True,False,,True,100.3582,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+OZC3,EMPRESA DISTRIB DE ELECTRICIDAD DE MENDOZA S.A.,30699542454,,OZC3O,ARS,True,True,True,A+(arg),True,97.3272,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+OZC6,EMPRESA DISTRIB DE ELECTRICIDAD DE MENDOZA S.A.,30699542454,,OZC6C,EXT,True,True,True,A+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+OZC7,EMPRESA DISTRIB DE ELECTRICIDAD DE MENDOZA S.A.,30699542454,,OZC7O,ARS,True,True,True,A+(arg),True,0.0727,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PB1M,PROMEDON S.A.,30619780635,,PB1MC PB1MD,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PECJ,PETROLERA ACONCAGUA ENERGIA S.A.,30714814229,,PECJO,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PECK,PETROLERA ACONCAGUA ENERGIA S.A.,30714814229,,PECKD PECKO,ARS USD,True,True,True,,True,51.1894,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PECM,PETROLERA ACONCAGUA ENERGIA S.A.,30714814229,,PECMD,USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PECN,PETROLERA ACONCAGUA ENERGIA S.A.,30714814229,,PECND PECNO,ARS USD,True,True,True,,True,68.4,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PFC2,PATAGONIA FRUITS TRADE S.A,30690967541,,PFC2D,USD,True,True,False,,True,105.4,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PFC3,PATAGONIA FRUITS TRADE S.A,30690967541,,PFC3D,USD,True,True,False,,True,99.8,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PHC3,[PHC],,Sin mapear,PHC3D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PLC1,Pluspetrol S.A.,30678224010,Energía - Petróleo y Gas,PLC1X,ARS,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PLC3,Pluspetrol S.A.,30678224010,Energía - Petróleo y Gas,PLC3O,ARS,True,True,True,AAA(arg),True,101.9545,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PLC4,Pluspetrol S.A.,30678224010,Energía - Petróleo y Gas,PLC4C PLC4O PLC4X,ARS EXT,True,True,True,AAA(arg),True,105.25,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PLC6,Pluspetrol S.A.,30678224010,Energía - Petróleo y Gas,PLC6C PLC6X,ARS EXT,True,True,True,AAA(arg),True,99.36,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PM31,PRODEMAN S.A.,33669088499,,PM31P,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PN34,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN34C PN34O,ARS EXT,True,True,False,,True,99.81,EXT,True,3,USD,True,5.872,True,False,0.457,
+PN35,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN35C PN35O PN35X PN35Z,ARS EXT,True,True,False,,True,102.3114,ARS/CCL,True,7,USD,True,6.644,True,False,0.693,
+PN36,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN36C PN36D,EXT USD,True,True,False,,True,103.0,EXT,True,11,USD,True,-26.783,True,False,-6.047,
+PN37,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN37C PN37D PN37X,ARS EXT USD,True,True,False,,True,103.0,USD,True,5,USD,True,5.095,True,False,0.109,
+PN38,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN38C PN38D,EXT USD,True,True,False,,True,104.0,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PN40,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN40Y,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PN41,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN41C PN41Y,EXT USD,True,True,False,,True,105.0,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PN42,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN42C,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PN43,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PN43C PN43D PN43X,ARS EXT USD,True,True,False,,True,109.95,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PNDC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNDCY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PNEC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNECC PNECO PNECX,ARS EXT,True,True,False,,True,83.7216,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PNFC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNFCD,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PNIC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNICX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PNJC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNJCY PNJCZ,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PNRC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNRCX PNRCZ,ARS EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PNXC,Pan American Energy LLC (PAE Sucursal),30714813583,Energía - Petróleo y Gas,PNXCC PNXCX,ARS EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PNZC,PAN AMERICAN ENERGY LLC (PAE SUCURSAL),30714813583,,PNZCX PNZCY,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PQCQ,PETROQUIMICA COMODORO RIVADAVIA S.A,30563598111,,PQCQO,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PQCR,Petroquímica Comodoro Rivadavia S.A.,30563598111,Industria - Petroquímica,PQCRO,ARS,True,True,True,AA(arg),True,94.9698,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PQCS,Petroquímica Comodoro Rivadavia S.A.,30563598111,Industria - Petroquímica,PQCSC PQCSO,ARS EXT,True,True,True,AA(arg),True,100.2167,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+PQCT,Petroquímica Comodoro Rivadavia S.A.,30563598111,Industria - Petroquímica,PQCTC PQCTY,EXT USD,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PS34,PSA Finance Argentina Cía. Financiera S.A.,30707847367,Financiero - Crédito Automotriz,PS34X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PS37,PSA Finance Argentina Cía. Financiera S.A.,30707847367,Financiero - Crédito Automotriz,PS37X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+PUC2,[PUC],,Sin mapear,PUC2D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RAC5,[RAC],,Sin mapear,RAC5Y RAC5Z,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RB59,Rombo Cía. Financiera S.A.,33707124909,Financiero - Crédito Automotriz,RB59X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RB60,Rombo Cía. Financiera S.A.,33707124909,Financiero - Crédito Automotriz,RB60O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RB64,Rombo Cía. Financiera S.A.,33707124909,Financiero - Crédito Automotriz,RB64X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RB66,Rombo Cía. Financiera S.A.,33707124909,Financiero - Crédito Automotriz,RB66X,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RC1C,ARCOR S.A.I.C.,30502793175,,RC1CD RC1CY,USD,True,True,False,,True,110.4,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+RC2C,ARCOR S.A.I.C.,30502793175,,RC2CC RC2CO RC2CX,ARS EXT,True,True,False,,True,98.5396,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+RC3C,Arcor S.A.I.C.,30502793175,Consumo - Alimentos,RC3CD RC3CX,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RC4C,ARCOR S.A.I.C.,30502793175,,RC4CX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RC5C,ARCOR S.A.I.C.,30502793175,,RC5CD RC5CO,ARS USD,True,True,False,,True,100.1,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+RCCR,Arcor S.A.I.C.,30502793175,Consumo - Alimentos,RCCRY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+ROC1,[ROC],,Sin mapear,ROC1D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RUCE,CERAMICA RUTA 16 S.R.L.,30710080085,,RUCED,USD,True,True,False,,True,100.55,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+RVS1,[RVS],,Sin mapear,RVS1D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+RZ9A,Rizobacter Argentina S.A.,30593174057,Agro - Biotech,RZ9AD RZ9AO RZ9AX,ARS USD,True,True,False,,True,44.1172,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+RZ9B,Rizobacter Argentina S.A.,30593174057,Agro - Biotech,RZ9BD RZ9BO,ARS USD,True,True,False,,True,63.9867,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+RZAB,Rizobacter Argentina S.A.,30593174057,Agro - Biotech,RZABY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SBC1,SAN BAUTISTA DEL SUR SA,30715659340,,SBC1C SBC1Z,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SBC2,SAN BAUTISTA DEL SUR SA,30715659340,,SBC2D,USD,True,True,False,,True,104.25,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+SBC3,SAN BAUTISTA DEL SUR SA,30715659340,,SBC3D,USD,True,True,False,,True,100.5,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+SIC1,[SIC],,Sin mapear,SIC1D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SNAA,S.A. SAN MIGUEL,30511190238,,SNAAO,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SNAB,S.A. San Miguel,30511190238,Agro - Frutícola,SNABO,ARS,True,True,True,,True,69.3751,ARS/CCL,True,1,USD,True,524.217,True,True,,outlier (YTM o duration fuera de rango)
+SNEA,SION S.A.,30690076043,,SNEAO SNEAZ,ARS EXT,True,True,False,,True,42.4333,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+SNEB,SION S.A.,30690076043,,SNEBC,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SNSD,SION S.A.,30690076043,,SNSDO,ARS,True,True,False,,True,63.4749,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+SNSE,SION S.A.,30690076043,,SNSEP,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SOC3,SPECIAL GRAINS S.A/PETROAGRO S.A.,30600615889,,SOC3O,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SPC1,[SPC],,Sin mapear,SPC1D SPC1O SPC1Y,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+STCF,[STC],,Sin mapear,STCFO,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+SXC1,MERCADO PAGO SERVICIOS DE PROCESAMIENTO S.R.L.,30716999498,,SXC1O,ARS,True,True,True,AAA(arg),True,0.07,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+SXC3,MERCADO PAGO SERVICIOS DE PROCESAMIENTO S.R.L.,30716999498,,SXC3O SXC3X,ARS,True,True,True,AAA(arg),True,0.0707,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+SXC5,MERCADO PAGO SERVICIOS DE PROCESAMIENTO S.R.L.,30716999498,,SXC5X,ARS,True,True,True,AAA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+T641,Tarjeta Naranja S.A.,30685376349,Financiero - Crédito Consumo,T641O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+T661,Tarjeta Naranja S.A.,30685376349,Financiero - Crédito Consumo,T661D,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+T662,Tarjeta Naranja S.A.,30685376349,Financiero - Crédito Consumo,T662C T662Y,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+T671,Tarjeta Naranja S.A.U.,30685376349,Financiero - Consumo,T671O T671X,ARS,True,True,False,,True,0.068,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+T672,Tarjeta Naranja S.A.U.,30685376349,Financiero - Consumo,T672O,ARS,True,True,False,,True,96.5863,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+T673,Tarjeta Naranja S.A.U.,30685376349,Financiero - Consumo,T673O,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+TE53,[TE5],,Sin mapear,TE53P,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+TLCD,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCDX,ARS,True,True,True,AA+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+TLCG,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCGO,ARS,True,True,True,AA+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+TLCM,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCMY,USD,True,True,True,AA+(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+TLCO,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCOO,ARS,True,True,True,AA+(arg),True,99.5701,ARS/CCL,True,5,USD,True,7.251,True,False,0.9,
+TLCP,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCPO TLCPZ,ARS EXT,True,True,True,AA+(arg),True,107.0936,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TLCQ,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCQC TLCQO,ARS EXT,True,True,True,AA+(arg),True,101.4358,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TLCT,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCTC TLCTD TLCTY,EXT USD,True,True,True,AA+(arg),True,105.6,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TLCU,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCUD,USD,True,True,True,AA+(arg),True,102.75,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TLCV,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCVC TLCVD TLCVO,ARS EXT USD,True,True,True,AA+(arg),True,103.0,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TLCW,Telecom Argentina S.A.,30639453738,Telecomunicaciones,TLCWC TLCWD TLCWO,ARS EXT USD,True,True,True,AA+(arg),True,96.0273,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TSC3,[TSC],,Sin mapear,TSC3C TSC3Y TSC3Z,EXT USD,True,True,False,,True,109.55,EXT,True,11,USD,True,6.972,True,False,0.265,
+TSC4,[TSC],,Sin mapear,TSC4C,EXT,True,True,False,,True,103.6,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TTC8,Tecpetrol S.A.,30592665472,Energía - Petróleo y Gas,TTC8O,ARS,True,True,True,AAA(arg),True,98.7416,ARS/CCL,True,3,USD,True,6.387,True,False,0.684,
+TTC9,Tecpetrol S.A.,30592665472,Energía - Petróleo y Gas,TTC9O,ARS,True,True,True,AAA(arg),True,101.1664,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TTCB,Tecpetrol S.A.,30592665472,Energía - Petróleo y Gas,TTCBO,ARS,True,True,True,AAA(arg),True,100.3447,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TTCE,Tecpetrol S.A.,30592665472,Energía - Petróleo y Gas,TTCEC TTCED TTCEO,ARS EXT USD,True,True,True,AAA(arg),True,100.0,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+TYCZ,TOYOTA COMPANIA FINANCIERA DE ARGENTINA,30709000426,,TYCZX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VA1A,[VA1],,Sin mapear,VA1AC VA1AD VA1AP,ARS EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VAC3,[VAC],,Sin mapear,VAC3P,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VBC1,[VBC],,Sin mapear,VBC1C,EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VBC2,[VBC],,Sin mapear,VBC2D,USD,True,True,False,,True,102.75,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+VE2L,RICARDO VENTURINO S.A,30698318895,,VE2LD,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCH,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCHC VSCHD VSCHX,ARS EXT USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCI,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCID VSCIX,ARS USD,True,True,True,,True,91.05,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+VSCJ,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCJD VSCJX,ARS USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCK,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCKD VSCKX,ARS USD,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCM,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCMO VSCMX,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCN,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCNC,EXT,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCO,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCOC VSCOX,ARS EXT,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCP,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCPX,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCQ,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCQC VSCQX,ARS EXT,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCR,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCRD VSCRX,ARS USD,True,True,True,,True,107.9,USD,True,11,USD,True,5.869,True,False,0.188,
+VSCT,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCTD VSCTX,ARS USD,True,True,True,,True,110.1,USD,True,20,USD,True,6.62,True,False,0.221,
+VSCU,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCUX,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VSCX,Vista Oil & Gas Argentina S.A.U.,33515950899,Energía - Petróleo y Gas,VSCXC,EXT,True,True,True,,True,104.25,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+VWCD,VOLKSWAGEN FINANCIAL SERVICES COMPAÑIA FINANCIERA SA,30682419578,,VWCDO,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+VWCF,Volkswagen Financial Services Cía. Financiera S.A.,30682419578,Financiero - Crédito Automotriz,VWCFX,ARS,True,True,True,AA(arg),False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+WBS1,BANCO MARIVA S.A.,30516420444,,WBS1O,ARS,True,True,True,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+XMC1,Minera Exar S.A.,30709667587,Minería - Litio,XMC1C XMC1D XMC1O,ARS EXT USD,True,True,True,AA(arg),True,102.3,USD,True,3,USD,True,6.417,True,False,0.426,
+YCAM,[YCA],,Sin mapear,YCAMC YCAMX,ARS EXT,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YFCA,YPF Energía Eléctrica S.A.,30714128309,Energía - Electricidad,YFCAX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YFCD,YPF ENERGIA ELECTRICA S.A.,30714128309,,YFCDO,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YFCM,YPF Energía Eléctrica S.A.,30714128309,Energía - Electricidad,YFCMO YFCMY,ARS USD,True,True,False,,True,99.4017,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YFCN,YPF Energía Eléctrica S.A.,30714128309,Energía - Electricidad,YFCNY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YFCO,YPF Energía Eléctrica S.A.,30714128309,Energía - Electricidad,YFCOY,USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YM34,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM34C YM34X YM34Z,ARS EXT,True,True,False,,True,107.3,EXT,True,16,USD,True,7.443,True,False,1.695,
+YM35,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM35C YM35D YM35X YM35Y,ARS EXT USD,True,True,False,,True,101.85,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YM37,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM37C YM37D YM37O YM37X,ARS EXT USD,True,True,False,,True,99.48,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YM38,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM38C YM38D YM38O YM38X,ARS EXT USD,True,True,False,,True,105.15,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YM39,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM39C YM39D YM39O,ARS EXT USD,True,True,False,,True,109.95,EXT,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YM40,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM40X YM40Y,ARS USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YM41,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM41D YM41X YM41Y,ARS USD,True,True,False,,True,102.65,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YM42,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM42D YM42X,ARS USD,True,True,False,,True,106.6,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YM43,YPF S.A.,30546689979,Energía - Petróleo y Gas,YM43D,USD,True,True,False,,True,99.6,USD,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YMCI,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCIC YMCIO YMCIZ,ARS EXT,True,True,False,,True,107.85,EXT,True,7,USD,True,6.205,True,False,0.602,
+YMCJ,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCJC YMCJO YMCJX,ARS EXT,True,True,False,,True,102.95,EXT,True,15,USD,True,6.632,True,False,0.545,
+YMCP,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCPX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YMCR,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCRO,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YMCT,YPF S.A.,30546689979,,YMCTX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YMCW,YPF S.A.,30546689979,,YMCWO YMCWX,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+YMCX,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCXO YMCXX YMCXZ,ARS EXT,True,True,False,,True,108.4407,ARS/CCL,True,11,USD,True,7.097,True,False,0.77,
+YMCY,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCYO,ARS,True,True,False,,True,100.6141,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+YMCZ,YPF S.A.,30546689979,Energía - Petróleo y Gas,YMCZO,ARS,True,True,False,,True,101.3685,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+ZF3B,Zafra S.A.,30592486268,Agro,ZF3BP,ARS,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA
+ZPC1,PLAZA LOGISTICA S.R.L.,30655942382,,ZPC1O,ARS,True,True,False,,True,0.0678,ARS/CCL,False,0,,False,,False,,,MAE devuelve respuesta vacía (sin detalle)
+ZPC3,PLAZA LOGISTICA S.R.L.,30655942382,,ZPC3Y ZPC3Z,EXT USD,True,True,False,,False,,—,False,0,,False,,False,,,sin precio USD válido en BYMA

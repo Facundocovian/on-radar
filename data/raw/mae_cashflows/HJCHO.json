@@ -1,0 +1,54 @@
+{
+  "especie": "HJCHO",
+  "numeroCuponActual": "003",
+  "renta": 3.47,
+  "amortizacion": 0.0,
+  "amasR": 3.47,
+  "moneda": "USD",
+  "descripcion": "ON.JOHN DEERE CL XVI E FRECUEN",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-17T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.47,
+      "renta": 3.47,
+      "amortizacion": 0.0,
+      "amasR": 3.47
+    },
+    {
+      "fechaPago": "2027-01-17T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.53,
+      "renta": 3.53,
+      "amortizacion": 0.0,
+      "amasR": 3.53
+    },
+    {
+      "fechaPago": "2027-07-17T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.47,
+      "renta": 3.47,
+      "amortizacion": 0.0,
+      "amasR": 3.47
+    },
+    {
+      "fechaPago": "2028-01-17T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.53,
+      "renta": 3.53,
+      "amortizacion": 100.0,
+      "amasR": 103.53
+    }
+  ]
+}

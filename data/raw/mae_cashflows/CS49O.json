@@ -1,0 +1,49 @@
+{
+  "especie": "CS49O",
+  "numeroCuponActual": "001",
+  "renta": 3.625,
+  "amortizacion": 0,
+  "amasR": 3.625,
+  "moneda": "USD",
+  "descripcion": "ON.CRESUD S.A.C.I.F. Y A.",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "_manual": true,
+  "_coupon_annual": 0.0725,
+  "_frequency": 2,
+  "_confidence": "confirmed",
+  "_notes": "Cl.XLIX, 7.25% semi-annual bullet. Confirmado.",
+  "detalle": [
+    {
+      "fechaPago": "2026-09-02T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.625,
+      "renta": 3.625,
+      "amortizacion": 0.0,
+      "amasR": 3.625
+    },
+    {
+      "fechaPago": "2027-03-02T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.625,
+      "renta": 3.625,
+      "amortizacion": 0.0,
+      "amasR": 3.625
+    },
+    {
+      "fechaPago": "2027-09-02T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.625,
+      "renta": 3.625,
+      "amortizacion": 100.0,
+      "amasR": 103.625
+    }
+  ]
+}

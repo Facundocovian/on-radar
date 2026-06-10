@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Logs locales
+logs/
+
+# Script de ejecución local (no necesario en CI)
+run_daily.sh
+
+# Archivos grandes de datos estáticos (PDFs, Excel fuente)
+data/raw/*.pdf
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Excel generado (grande, regenerable)
+outputs/ons_summary.xlsx
+
+# Secrets (por si se agrega en el futuro)
+.env
+*.env

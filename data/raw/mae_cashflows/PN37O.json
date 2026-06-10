@@ -1,0 +1,64 @@
+{
+  "especie": "PN37O",
+  "numeroCuponActual": "004",
+  "renta": 3.15,
+  "amortizacion": 0.0,
+  "amasR": 3.15,
+  "moneda": "USD",
+  "descripcion": "ON.PAN AMERICAN ENERGY C 37 EF",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-11-13T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.15,
+      "renta": 3.15,
+      "amortizacion": 0.0,
+      "amasR": 3.15
+    },
+    {
+      "fechaPago": "2027-05-13T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.1,
+      "renta": 3.1,
+      "amortizacion": 0.0,
+      "amasR": 3.1
+    },
+    {
+      "fechaPago": "2027-11-13T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.15,
+      "renta": 3.15,
+      "amortizacion": 0.0,
+      "amasR": 3.15
+    },
+    {
+      "fechaPago": "2028-05-13T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.12,
+      "renta": 3.12,
+      "amortizacion": 0.0,
+      "amasR": 3.12
+    },
+    {
+      "fechaPago": "2028-11-13T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.15,
+      "renta": 3.15,
+      "amortizacion": 100.0,
+      "amasR": 103.15
+    }
+  ]
+}
