@@ -173,7 +173,7 @@ def enrich(
         )
         r = r.replace("", pd.NA)
         mask_missing = df["rating_lp"].isna() & df["cuit"].notna()
-        df.loc[mask_missing, "rating_lp"] = df.loc[mask_missing, "cuit"].map(r)
+        df.loc[mask_missing, "rating_lp"] = df.loc[mask_missing, "cuit"].map(r.astype(object))
 
     # ── Rating bucket ────────────────────────────────────────────────────────
     df["rating_bucket"] = df["rating_lp"].map(RATING_BUCKET).fillna("Unrated")
