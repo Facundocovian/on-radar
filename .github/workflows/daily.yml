@@ -2,10 +2,14 @@ name: Pipeline diario
 
 on:
   schedule:
-    # Lunes a viernes a las 21:15 UTC = 18:15 ARS (UTC-3)
-    - cron: '15 21 * * 1-5'
+    # Cada 30 min durante la rueda: 14:00–20:30 UTC = 11:00–17:30 ARS, lun–vie
+    - cron: '*/30 14-20 * * 1-5'
   workflow_dispatch:
     # Permite correr manualmente desde GitHub → Actions → "Run workflow"
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false   # si ya está corriendo, la nueva espera en cola
 
 jobs:
   pipeline:
