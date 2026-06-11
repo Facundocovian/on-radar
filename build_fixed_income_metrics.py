@@ -53,6 +53,7 @@ logger = logging.getLogger(__name__)
 
 MAE_URL       = "https://api.marketdata.mae.com.ar/api/emisiones/flujofondos/{ticker}"
 ENRICHED_CSV  = Path("outputs/ons_enriched.csv")
+MASTER_CSV    = Path("outputs/ons_master.csv")
 RATINGS_CSV   = Path("data/ratings_master.csv")
 OUTPUT_CSV    = Path("outputs/fixed_income_metrics.csv")
 MAE_CACHE_DIR = Path("data/raw/mae_cashflows")
@@ -73,6 +74,28 @@ def settlement_date() -> date:
 # ─────────────────────────────────────────────────────────────────────────────
 # Fuentes de precios
 # ─────────────────────────────────────────────────────────────────────────────
+
+def load_all_prices_from_master() -> pd.DataFrame:
+    """
+    Lee TODOS los instrumentos de ons_master.csv (variantes C/D/Z/O por bono)
+    con monto_operado, para seleccionar precio por liquidez real.
+    """
+    if not MASTER_CSV.exists():
+        return pd.DataFrame()
+    df = pd.read_csv(MASTER_CSV)
+    # Strip BOM del primer encabezado si existe
+    if df.columns[0].startswith("﻿"):
+        df = df.rename(columns={df.columns[0]: df.columns[0].lstrip("﻿")})
+    rename = {}
+    if "ticker"           in df.columns: rename["ticker"]           = "symbol"
+    if "ultimo_precio"    in df.columns: rename["ultimo_precio"]    = "price"
+    if "tipo_liquidacion" in df.columns: rename["tipo_liquidacion"] = "settlement"
+    df = df.rename(columns=rename)
+    df["price"]         = pd.to_numeric(df.get("price",         pd.Series(dtype=float)), errors="coerce").fillna(0)
+    df["settlement"]    = pd.to_numeric(df.get("settlement",    pd.Series(dtype=float)), errors="coerce").fillna(2)
+    df["monto_operado"] = pd.to_numeric(df.get("monto_operado", pd.Series(dtype=float)), errors="coerce").fillna(0)
+    return df
+
 
 def load_prices_from_enriched() -> pd.DataFrame:
     if not ENRICHED_CSV.exists():
@@ -168,39 +191,53 @@ def get_best_price(
     ccl: Optional[float],
 ) -> Tuple[Optional[float], str, str]:
     """
-    Busca el mejor precio para un ticker de MAE en el DataFrame de precios.
+    Busca el mejor precio USD para un ticker MAE eligiendo el variante
+    (C=EXT/CI, D=USD/48hs, Z=cable) con mayor monto_operado.
 
     Prioridad:
-      1. EXT (C suffix) — precio directo en USD como % par
-      2. USD (D suffix) — idem
-      3. ARS (O suffix) / CCL implícito — conversión ARS→USD
+      1. Variante USD/EXT con mayor monto_operado (C, D o Z)
+      2. ARS (O suffix) / CCL implícito como fallback
 
     Returns (price_as_pct_par, price_ticker_usado, price_currency)
     """
-    base = mae_ticker[:-1]  # quitar último carácter (sufijo de moneda MAE)
+    base = mae_ticker[:-1]  # CACBO → CACB
 
-    def _lookup(symbol: str) -> Optional[float]:
-        rows = prices_df[
-            (prices_df["symbol"] == symbol) & prices_df["price"].gt(0)
-        ]
+    monto_col = next(
+        (c for c in ("monto_operado", "volume") if c in prices_df.columns),
+        None,
+    )
+
+    candidates = []
+    for suffix, label in (("C", "EXT"), ("D", "USD"), ("Z", "USD")):
+        symbol = base + suffix
+        rows = prices_df[(prices_df["symbol"] == symbol) & prices_df["price"].gt(1)]
         if rows.empty:
-            return None
-        # Preferir settlement 2 (CI/48hs)
+            continue
         ci = rows[rows["settlement"] == 2]
-        best = ci if not ci.empty else rows
-        return float(best.sort_values("price", ascending=False).iloc[0]["price"])
+        use = ci if not ci.empty else rows
+        best_row = (
+            use.sort_values(monto_col, ascending=False).iloc[0]
+            if monto_col else use.sort_values("price", ascending=False).iloc[0]
+        )
+        monto = float(best_row[monto_col]) if monto_col else 0.0
+        candidates.append({
+            "symbol": symbol,
+            "label":  label,
+            "price":  float(best_row["price"]),
+            "monto":  monto,
+        })
 
-    # 1. EXT (C)
-    for suffix, label in (("C", "EXT"), ("D", "USD")):
-        candidate = base + suffix
-        p = _lookup(candidate)
-        if p and p > 1:
-            return p, candidate, label
+    if candidates:
+        best = max(candidates, key=lambda x: x["monto"])
+        return best["price"], best["symbol"], best["label"]
 
-    # 2. ARS (O) con conversión CCL
+    # Fallback: ARS con conversión CCL
     candidate_o = base + "O"
-    p_ars = _lookup(candidate_o)
-    if p_ars and p_ars > 100 and ccl and ccl > 0:
+    rows_o = prices_df[(prices_df["symbol"] == candidate_o) & prices_df["price"].gt(100)]
+    if not rows_o.empty and ccl and ccl > 0:
+        ci_o = rows_o[rows_o["settlement"] == 2]
+        use_o = ci_o if not ci_o.empty else rows_o
+        p_ars = float(use_o.sort_values("price", ascending=False).iloc[0]["price"])
         p_usd = p_ars / ccl
         logger.info(
             f"  Precio {candidate_o}: {p_ars:,.0f} ARS / CCL {ccl:,.0f} "
@@ -508,7 +545,11 @@ def main() -> None:
     if args.live:
         prices_df = fetch_prices_live()
     else:
-        prices_df = load_prices_from_enriched()
+        # ons_master tiene TODOS los variantes (C/D/Z/O) con monto_operado
+        # para que get_best_price elija el más líquido
+        prices_df = load_all_prices_from_master()
+        if prices_df.empty:
+            prices_df = load_prices_from_enriched()
         logger.info(f"Precios cacheados: {len(prices_df)} instrumentos")
 
     ccl = estimate_ccl(prices_df)
