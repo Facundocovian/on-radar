@@ -59,8 +59,18 @@ jobs:
         run: |
           git config --global user.name "ON Radar Bot"
           git config --global user.email "action@github.com"
+
+          # Protección: si BYMA devolvió menos de 15 bonos con YTM válido
+          # (fuera de horario o datos sparse), no pisamos los outputs ricos.
+          N_BONOS=$(tail -n +2 outputs/fixed_income_metrics.csv | wc -l | tr -d ' ')
+          echo "Bonos con métricas: $N_BONOS"
+          if [ "$N_BONOS" -lt 15 ]; then
+            echo "⚠️  Menos de 15 bonos — pipeline fuera de horario o datos incompletos. Outputs no commiteados."
+            exit 0
+          fi
+
           git add outputs/ data/processed/liquidity_history.csv public/index.html
           git diff --staged --quiet && echo "Sin cambios." || (
-            git commit -m "chore: pipeline $(date '+%Y-%m-%d')" &&
+            git commit -m "chore: pipeline $(date '+%Y-%m-%d %H:%M UTC')" &&
             git push
           )
