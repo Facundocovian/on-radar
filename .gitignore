@@ -22,3 +22,4 @@ outputs/ons_summary.xlsx
 # Secrets (por si se agrega en el futuro)
 .env
 *.env
+.vercel
