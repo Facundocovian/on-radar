@@ -172,6 +172,7 @@ def enrich(
             .set_index("cuit")["rating_lp"]
         )
         r = r.replace("", pd.NA)
+        df["rating_lp"] = df["rating_lp"].astype(object)
         mask_missing = df["rating_lp"].isna() & df["cuit"].notna()
         df.loc[mask_missing, "rating_lp"] = df.loc[mask_missing, "cuit"].map(r.astype(object))
 
