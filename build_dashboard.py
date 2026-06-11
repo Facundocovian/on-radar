@@ -202,7 +202,7 @@ def cards_html(df: pd.DataFrame) -> str:
               <div style="font-size:0.75rem;color:#777">{rating} · {currency} · vence {mat_date}</div>
             </div>
             <div style="text-align:right;flex-shrink:0;padding-left:12px">
-              <div style="font-size:1.25rem;font-weight:700;color:{main_color}">{ytm}</div>
+              <div style="font-size:1.25rem;font-weight:700;color:{main_color}">{ytm} <span style="font-size:0.7rem;font-weight:400;color:#888">TIR</span></div>
               <div style="font-size:0.78rem;color:#555">{spread} vs comparables</div>
               <div style="font-size:0.75rem;color:#777">RV score {rv}</div>
             </div>
