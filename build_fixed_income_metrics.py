@@ -669,16 +669,20 @@ def main() -> None:
 
     if results:
         OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-        out_df = pd.DataFrame(results)[
-            [
-                "symbol", "issuer", "rating_lp",
-                "price", "price_source", "currency",
-                "maturity_date",
-                "ytm", "macaulay_duration", "modified_duration", "current_yield",
-                "n_cashflows", "cashflow_confidence", "structure_type",
-                "next_payment_date", "final_payment_date",
-            ]
+        all_cols = [
+            "symbol", "issuer", "rating_lp",
+            "price", "price_source", "currency",
+            "maturity_date",
+            "ytm", "macaulay_duration", "modified_duration", "current_yield",
+            "n_cashflows", "cashflow_confidence", "structure_type",
+            "next_payment_date", "final_payment_date",
+            # Datos por especie
+            "primary_species", "ytm_mep", "ytm_cable",
+            "tir_dispersion_bp", "has_desarbitraje",
+            "monto_primary", "qty_ops_primary", "spread_pct_primary",
         ]
+        available = [c for c in all_cols if c in results[0]]
+        out_df = pd.DataFrame(results)[available]
         out_df.to_csv(OUTPUT_CSV, index=False)
         logger.info(f"\nExportado: {OUTPUT_CSV}  ({len(out_df)} filas)")
     else:
