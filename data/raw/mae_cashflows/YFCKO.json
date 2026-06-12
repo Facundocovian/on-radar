@@ -1,0 +1,34 @@
+{
+  "especie": "YFCKO",
+  "numeroCuponActual": "005",
+  "renta": 1.32,
+  "amortizacion": 0.0,
+  "amasR": 1.32,
+  "moneda": "USD",
+  "descripcion": "ON.YPF ENERGIA ELECTRICA CL 19",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-08-22T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.32,
+      "renta": 1.32,
+      "amortizacion": 0.0,
+      "amasR": 1.32
+    },
+    {
+      "fechaPago": "2026-11-22T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.32,
+      "renta": 1.32,
+      "amortizacion": 100.0,
+      "amasR": 101.32
+    }
+  ]
+}

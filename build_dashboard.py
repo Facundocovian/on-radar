@@ -43,8 +43,9 @@ def load_data() -> pd.DataFrame:
         "volume", "liquidity_score", "peer_avg_ytm",
         "upside_pct", "carry_advantage_pct", "theoretical_price",
         "cashflow_quality_score", "signal_confidence_score", "execution_score",
-        "liquidity_percentile", "peer_count", "peer_unique_issuers",
-        "peer_same_issuer_ratio",
+        "liquidity_percentile", "market_quality_score",
+        "peer_count", "peer_unique_issuers", "peer_same_issuer_ratio",
+        "tir_dispersion_bp",
     ]
     for col in num_cols:
         if col in df.columns:
@@ -79,12 +80,14 @@ def _alert_html(alerts_str) -> str:
     if not ids:
         return ""
     _ALERT_LABELS = {
-        "iliquidez":        ("⚠", "#E65100", "Posible distorsión por iliquidez"),
-        "no_ejecutable":    ("🚫", "#B71C1C", "Señal posiblemente no ejecutable"),
-        "precio_viejo":     ("⏱", "#7B1FA2", "Precio posiblemente desactualizado"),
-        "cashflow_estimado":("~", "#E65100", "Cashflows no verificados"),
-        "pocos_peers":      ("◌", "#1565C0", "Grupo de comparación pequeño"),
-        "intra_curva":      ("↺", "#555", "Anomalía de curva propia del emisor"),
+        "iliquidez":           ("⚠", "#E65100", "Posible distorsión por iliquidez"),
+        "no_ejecutable":       ("🚫", "#B71C1C", "Señal posiblemente no ejecutable"),
+        "precio_viejo":        ("⏱", "#7B1FA2", "Precio posiblemente desactualizado"),
+        "cashflow_estimado":   ("~", "#E65100", "Cashflows no verificados"),
+        "pocos_peers":         ("◌", "#1565C0", "Grupo de comparación pequeño"),
+        "intra_curva":         ("↺", "#555", "Anomalía de curva propia del emisor"),
+        "dato_poco_confiable": ("⚡", "#B71C1C", "Precio con baja calidad de mercado"),
+        "desarbitraje":        ("⇅", "#7B1FA2", "Dispersión MEP vs cable > 150bp"),
     }
     parts = []
     for aid in ids[:3]:   # máximo 3 alertas visibles
@@ -117,17 +120,27 @@ def cards_html(df: pd.DataFrame) -> str:
             (df["rv_score"] < 0) &
             ~df["is_outlier"].fillna(False)
         ].nsmallest(4, "rv_score")
+
+        poco_confiables = df[
+            (df["signal_category"] == "DATO_POCO_CONFIABLE") &
+            ~df["is_outlier"].fillna(False)
+        ].reindex(df[df["signal_category"] == "DATO_POCO_CONFIABLE"].sort_values("rv_score", key=abs, ascending=False).index)
     else:
         usable = df[~df["is_outlier"].fillna(False) & df["rv_score"].notna()]
         baratos = usable.nlargest(5, "rv_score")
         caros   = usable.nsmallest(4, "rv_score")
+        poco_confiables = pd.DataFrame()
 
     def card(row, tipo: str) -> str:
         is_cheap  = tipo == "barato"
         cat       = str(row.get("signal_category", "")) if has_sq else ""
 
         # Colores y badge principal
-        if cat == "POSIBLE_OPORTUNIDAD":
+        if cat == "DATO_POCO_CONFIABLE":
+            main_color, bg_color = "#546E7A", "#ECEFF1"
+            border_color         = "#78909C"
+            cat_label            = "⚡ DATO POCO CONFIABLE — precio sin operación reciente"
+        elif cat == "POSIBLE_OPORTUNIDAD":
             main_color, bg_color = "#E65100", "#FFF8F0"
             border_color         = "#FF9800"
             cat_label            = "◆ POSIBLE OPORTUNIDAD — REQUIERE VALIDACIÓN"
@@ -176,6 +189,23 @@ def cards_html(df: pd.DataFrame) -> str:
         cfq_badge  = _score_badge("Calidad de cashflows", row.get("cashflow_quality_score"),  abbrev="CF")
         sigc_badge = _score_badge("Confianza de la señal", row.get("signal_confidence_score"), abbrev="SC")
         exe_badge  = _score_badge("Ejecución",             row.get("execution_score"),          abbrev="EJ")
+        mq_badge   = _score_badge("Calidad del precio de mercado", row.get("market_quality_score"), abbrev="MQ",
+                                   thresholds=(40, 70))
+
+        # Especie + dispersión
+        species_label = str(row.get("primary_species", "")) if pd.notna(row.get("primary_species")) else ""
+        species_html  = (
+            f'<span style="font-size:0.72rem;color:{main_color};background:rgba(0,0,0,0.06);'
+            f'border-radius:3px;padding:1px 5px;margin-right:6px">{species_label}</span>'
+            if species_label else ""
+        )
+        dispers_bp = row.get("tir_dispersion_bp")
+        dispers_html = ""
+        if pd.notna(dispers_bp) and float(dispers_bp) > 150:
+            dispers_html = (
+                f'<span style="font-size:0.72rem;color:#7B1FA2;font-weight:600;margin-right:6px">'
+                f'⇅ MEP vs cable {float(dispers_bp):.0f}bp</span>'
+            )
 
         # Alertas
         alert_section = _alert_html(row.get("alerts", ""))
@@ -210,8 +240,11 @@ def cards_html(df: pd.DataFrame) -> str:
           <div style="margin-top:8px">
             {upside_html}{carry_html}
           </div>
-          <div style="margin-top:8px;display:flex;align-items:center;flex-wrap:wrap;gap:2px">
-            {cfq_badge}{sigc_badge}{exe_badge}
+          <div style="margin-top:6px;display:flex;align-items:center;flex-wrap:wrap;gap:2px">
+            {species_html}{dispers_html}
+          </div>
+          <div style="margin-top:6px;display:flex;align-items:center;flex-wrap:wrap;gap:2px">
+            {cfq_badge}{sigc_badge}{exe_badge}{mq_badge}
             <span style="margin-left:4px">{peers_info}</span>
           </div>
           {alert_section}
@@ -219,6 +252,22 @@ def cards_html(df: pd.DataFrame) -> str:
 
     baratos_html = "".join(card(r, "barato") for _, r in baratos.iterrows())
     caros_html   = "".join(card(r, "caro")   for _, r in caros.iterrows())
+
+    poco_confiables_html = ""
+    if has_sq and not poco_confiables.empty:
+        items = "".join(card(r, "barato" if r["rv_score"] > 0 else "caro")
+                        for _, r in poco_confiables.head(4).iterrows())
+        poco_confiables_html = f"""
+    <div style="margin-top:12px">
+      <h3 style="font-size:0.88rem;font-weight:600;color:#546E7A;margin-bottom:8px;
+                 text-transform:uppercase;letter-spacing:0.05em">
+        Señales con precio poco confiable
+        <span style="font-weight:400;color:#666;font-size:0.72rem;text-transform:none">
+          — bono con señal RV fuerte pero sin operaciones recientes (MQ &lt; 40)
+        </span>
+      </h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">{items}</div>
+    </div>"""
 
     legend = """
     <div style="font-size:0.72rem;color:#777;margin-top:6px;padding:8px 12px;
@@ -256,6 +305,7 @@ def cards_html(df: pd.DataFrame) -> str:
         {caros_html}
       </div>
     </div>
+    {poco_confiables_html}
     {legend}"""
 
 
@@ -415,16 +465,27 @@ def tabla_html(df: pd.DataFrame) -> str:
             "POTENCIALMENTE_CARO":   "#B71C1C",
             "POSIBLE_OPORTUNIDAD":   "#E65100",
             "ANOMALIA_CURVA_PROPIA": "#1565C0",
+            "DATO_POCO_CONFIABLE":   "#546E7A",
         }.get(cat, "#555")
         cat_short = {
             "POTENCIALMENTE_BARATO": "▲ Barato",
             "POTENCIALMENTE_CARO":   "▼ Caro",
             "POSIBLE_OPORTUNIDAD":   "◆ Validar",
             "ANOMALIA_CURVA_PROPIA": "↺ Curva",
+            "DATO_POCO_CONFIABLE":   "⚡ Poco conf.",
             "NEUTRO":                "",
         }.get(cat, "")
         cat_cell = (f'<span style="color:{cat_color};font-size:0.75rem;font-weight:600">'
                     f'{cat_short}</span>') if cat_short else ""
+
+        # Market quality + species + dispersion
+        mq_val    = r.get("market_quality_score")
+        mq_cell   = f"{float(mq_val):.0f}" if has_sq and pd.notna(mq_val) else "—"
+        sp_cell   = str(r.get("primary_species", "—")) if pd.notna(r.get("primary_species")) else "—"
+        disp_val  = r.get("tir_dispersion_bp")
+        disp_cell = (f'<span style="color:#7B1FA2;font-weight:600">{float(disp_val):.0f}</span>'
+                     if has_sq and pd.notna(disp_val) and float(disp_val) > 150
+                     else (f"{float(disp_val):.0f}" if has_sq and pd.notna(disp_val) else "—"))
 
         rows.append(f"""
           <tr style="background:{bg}">
@@ -439,15 +500,21 @@ def tabla_html(df: pd.DataFrame) -> str:
             <td style="text-align:center">{cfq_cell}</td>
             <td style="text-align:center">{sigc_cell}</td>
             <td style="text-align:center">{exe_cell}</td>
+            <td style="text-align:center">{mq_cell}</td>
+            <td style="text-align:center">{sp_cell}</td>
+            <td style="text-align:center">{disp_cell}</td>
             <td>{cat_cell}</td>
           </tr>""")
 
     rows_html = "\n".join(rows)
 
     quality_headers = ("""
-          <th style="padding:8px 10px;text-align:center">Calidad cashflows</th>
-          <th style="padding:8px 10px;text-align:center">Confianza señal</th>
-          <th style="padding:8px 10px;text-align:center">Ejecución</th>
+          <th style="padding:8px 10px;text-align:center">CF</th>
+          <th style="padding:8px 10px;text-align:center">SC</th>
+          <th style="padding:8px 10px;text-align:center">EJ</th>
+          <th style="padding:8px 10px;text-align:center">MQ</th>
+          <th style="padding:8px 10px;text-align:center">Especie</th>
+          <th style="padding:8px 10px;text-align:center">Disp. bp</th>
           <th style="padding:8px 10px;text-align:left">Señal</th>
     """ if has_sq else "")
 
@@ -474,9 +541,10 @@ def tabla_html(df: pd.DataFrame) -> str:
     </div>
     <p style="font-size:0.72rem;color:#888;margin-top:8px">
       ~ = cashflows estimados. RV &gt;1.5 = potencialmente barato. RV &lt;-1.5 = potencialmente caro.
-      Calidad cashflows / Confianza señal / Ejecución = scores de calidad (0–100, mayor = mejor).
-      Ganancia convergencia = variación de precio estimada si el bono cotizara en línea con sus comparables
-      (aproximación por duración modificada, primer orden).
+      CF = calidad cashflows · SC = confianza señal · EJ = ejecución · MQ = calidad del precio de mercado (0–100).
+      MQ &lt; 40 = bono sin operaciones recientes → señal poco confiable.
+      Especie = mercado primario del precio (MEP=D / cable=C / ARS=O).
+      Disp. bp = dispersión de TIR entre MEP y cable; &gt;150bp (en morado) = posible desarbitraje.
     </p>"""
 
 

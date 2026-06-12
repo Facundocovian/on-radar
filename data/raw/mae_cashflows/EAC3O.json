@@ -1,0 +1,74 @@
+{
+  "especie": "EAC3O",
+  "numeroCuponActual": "001",
+  "renta": 4.24,
+  "amortizacion": 0.0,
+  "amasR": 4.24,
+  "moneda": "USD",
+  "descripcion": "ON MSU GREEN ENERGY SA CL 3",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-20T00:00:00",
+      "numeroCupon": "001",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.24,
+      "renta": 4.24,
+      "amortizacion": 0.0,
+      "amasR": 4.24
+    },
+    {
+      "fechaPago": "2026-12-20T00:00:00",
+      "numeroCupon": "002",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.26,
+      "renta": 4.26,
+      "amortizacion": 0.0,
+      "amasR": 4.26
+    },
+    {
+      "fechaPago": "2027-06-20T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.24,
+      "renta": 4.24,
+      "amortizacion": 0.0,
+      "amasR": 4.24
+    },
+    {
+      "fechaPago": "2027-12-20T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.26,
+      "renta": 4.26,
+      "amortizacion": 0.0,
+      "amasR": 4.26
+    },
+    {
+      "fechaPago": "2028-06-20T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.26,
+      "renta": 4.26,
+      "amortizacion": 0.0,
+      "amasR": 4.26
+    },
+    {
+      "fechaPago": "2028-12-20T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.26,
+      "renta": 4.26,
+      "amortizacion": 100.0,
+      "amasR": 104.26
+    }
+  ]
+}

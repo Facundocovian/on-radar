@@ -1,0 +1,44 @@
+{
+  "especie": "YCAMO",
+  "numeroCuponActual": "018",
+  "renta": 3.48,
+  "amortizacion": 0.0,
+  "amasR": 3.48,
+  "moneda": "USD",
+  "descripcion": "ON.YPF EN U$D CL 53 VTO. 2027",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-21T00:00:00",
+      "numeroCupon": "018",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.48,
+      "renta": 3.48,
+      "amortizacion": 0.0,
+      "amasR": 3.48
+    },
+    {
+      "fechaPago": "2027-01-21T00:00:00",
+      "numeroCupon": "019",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.48,
+      "renta": 3.48,
+      "amortizacion": 0.0,
+      "amasR": 3.48
+    },
+    {
+      "fechaPago": "2027-07-21T00:00:00",
+      "numeroCupon": "020",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.48,
+      "renta": 3.48,
+      "amortizacion": 100.0,
+      "amasR": 103.48
+    }
+  ]
+}

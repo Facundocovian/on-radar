@@ -1,0 +1,154 @@
+{
+  "especie": "TTCAO",
+  "numeroCuponActual": "003",
+  "renta": 3.78,
+  "amortizacion": 0.0,
+  "amasR": 3.78,
+  "moneda": "USD",
+  "descripcion": "ON.TECPETROL S.A. CLASE 10",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-22T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.78,
+      "renta": 3.78,
+      "amortizacion": 0.0,
+      "amasR": 3.78
+    },
+    {
+      "fechaPago": "2027-01-22T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.84,
+      "renta": 3.84,
+      "amortizacion": 0.0,
+      "amasR": 3.84
+    },
+    {
+      "fechaPago": "2027-07-22T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.78,
+      "renta": 3.78,
+      "amortizacion": 0.0,
+      "amasR": 3.78
+    },
+    {
+      "fechaPago": "2028-01-22T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.84,
+      "renta": 3.84,
+      "amortizacion": 0.0,
+      "amasR": 3.84
+    },
+    {
+      "fechaPago": "2028-07-22T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.8,
+      "renta": 3.8,
+      "amortizacion": 0.0,
+      "amasR": 3.8
+    },
+    {
+      "fechaPago": "2029-01-22T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.84,
+      "renta": 3.84,
+      "amortizacion": 0.0,
+      "amasR": 3.84
+    },
+    {
+      "fechaPago": "2029-07-22T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.78,
+      "renta": 3.78,
+      "amortizacion": 0.0,
+      "amasR": 3.78
+    },
+    {
+      "fechaPago": "2030-01-22T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.84,
+      "renta": 3.84,
+      "amortizacion": 0.0,
+      "amasR": 3.84
+    },
+    {
+      "fechaPago": "2030-07-22T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.78,
+      "renta": 3.78,
+      "amortizacion": 0.0,
+      "amasR": 3.78
+    },
+    {
+      "fechaPago": "2031-01-22T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 36.84,
+      "renta": 3.84,
+      "amortizacion": 33.0,
+      "amasR": 36.84
+    },
+    {
+      "fechaPago": "2031-07-22T00:00:00",
+      "numeroCupon": "013",
+      "vr": 67.0,
+      "vrCartera": 67.0,
+      "cashFlow": 2.53,
+      "renta": 2.53,
+      "amortizacion": 0.0,
+      "amasR": 2.53
+    },
+    {
+      "fechaPago": "2032-01-22T00:00:00",
+      "numeroCupon": "014",
+      "vr": 67.0,
+      "vrCartera": 67.0,
+      "cashFlow": 35.58,
+      "renta": 2.58,
+      "amortizacion": 33.0,
+      "amasR": 35.58
+    },
+    {
+      "fechaPago": "2032-07-22T00:00:00",
+      "numeroCupon": "015",
+      "vr": 34.0,
+      "vrCartera": 34.0,
+      "cashFlow": 1.29,
+      "renta": 1.29,
+      "amortizacion": 0.0,
+      "amasR": 1.29
+    },
+    {
+      "fechaPago": "2033-01-22T00:00:00",
+      "numeroCupon": "016",
+      "vr": 34.0,
+      "vrCartera": 34.0,
+      "cashFlow": 35.31,
+      "renta": 1.31,
+      "amortizacion": 34.0,
+      "amasR": 35.31
+    }
+  ]
+}

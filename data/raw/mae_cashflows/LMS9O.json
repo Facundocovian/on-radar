@@ -1,0 +1,24 @@
+{
+  "especie": "LMS9O",
+  "numeroCuponActual": "007",
+  "renta": 1.53,
+  "amortizacion": 100.0,
+  "amasR": 101.53,
+  "moneda": "USD",
+  "descripcion": "ON.ALUAR ALUMINIO ARGENTINO S9",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-13T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.53,
+      "renta": 1.53,
+      "amortizacion": 100.0,
+      "amasR": 101.53
+    }
+  ]
+}

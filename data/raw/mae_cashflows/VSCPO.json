@@ -1,0 +1,74 @@
+{
+  "especie": "VSCPO",
+  "numeroCuponActual": "005",
+  "renta": 4.03,
+  "amortizacion": 0.0,
+  "amasR": 4.03,
+  "moneda": "USD",
+  "descripcion": "ON.VISTA ENERGY ARG SAU CXXIV",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-11-03T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.03,
+      "renta": 4.03,
+      "amortizacion": 0.0,
+      "amasR": 4.03
+    },
+    {
+      "fechaPago": "2027-05-03T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.97,
+      "renta": 3.97,
+      "amortizacion": 0.0,
+      "amasR": 3.97
+    },
+    {
+      "fechaPago": "2027-11-03T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 29.03,
+      "renta": 4.03,
+      "amortizacion": 25.0,
+      "amasR": 29.03
+    },
+    {
+      "fechaPago": "2028-05-03T00:00:00",
+      "numeroCupon": "008",
+      "vr": 75.0,
+      "vrCartera": 75.0,
+      "cashFlow": 27.99,
+      "renta": 2.99,
+      "amortizacion": 25.0,
+      "amasR": 27.99
+    },
+    {
+      "fechaPago": "2028-11-03T00:00:00",
+      "numeroCupon": "009",
+      "vr": 50.0,
+      "vrCartera": 50.0,
+      "cashFlow": 27.02,
+      "renta": 2.02,
+      "amortizacion": 25.0,
+      "amasR": 27.02
+    },
+    {
+      "fechaPago": "2029-05-03T00:00:00",
+      "numeroCupon": "010",
+      "vr": 25.0,
+      "vrCartera": 25.0,
+      "cashFlow": 25.99,
+      "renta": 0.99,
+      "amortizacion": 25.0,
+      "amasR": 25.99
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "especie": null,
+  "numeroCuponActual": null,
+  "renta": 0,
+  "amortizacion": 0,
+  "amasR": 0,
+  "moneda": null,
+  "descripcion": null,
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": []
+}

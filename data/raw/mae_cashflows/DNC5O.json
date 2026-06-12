@@ -1,0 +1,64 @@
+{
+  "especie": "DNC5O",
+  "numeroCuponActual": "004",
+  "renta": 4.71,
+  "amortizacion": 0.0,
+  "amasR": 4.71,
+  "moneda": "USD",
+  "descripcion": "ON.EDENOR S.A. CLASE 5",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-08-05T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.71,
+      "renta": 4.71,
+      "amortizacion": 0.0,
+      "amasR": 4.71
+    },
+    {
+      "fechaPago": "2027-02-05T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.79,
+      "renta": 4.79,
+      "amortizacion": 0.0,
+      "amasR": 4.79
+    },
+    {
+      "fechaPago": "2027-08-05T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.71,
+      "renta": 4.71,
+      "amortizacion": 0.0,
+      "amasR": 4.71
+    },
+    {
+      "fechaPago": "2028-02-05T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 4.79,
+      "renta": 4.79,
+      "amortizacion": 0.0,
+      "amasR": 4.79
+    },
+    {
+      "fechaPago": "2028-08-05T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 104.74,
+      "renta": 4.74,
+      "amortizacion": 100.0,
+      "amasR": 104.74
+    }
+  ]
+}

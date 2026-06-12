@@ -1,0 +1,24 @@
+{
+  "especie": "SNAAO",
+  "numeroCuponActual": "006",
+  "renta": 1.0,
+  "amortizacion": 100.0,
+  "amasR": 101.0,
+  "moneda": "USD",
+  "descripcion": "ON S.A. SAN MIGUEL S X CL A",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-29T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.0,
+      "renta": 1.0,
+      "amortizacion": 100.0,
+      "amasR": 101.0
+    }
+  ]
+}

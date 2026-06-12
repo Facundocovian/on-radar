@@ -1,0 +1,194 @@
+{
+  "especie": "MGCOO",
+  "numeroCuponActual": "003",
+  "renta": 3.93,
+  "amortizacion": 0.0,
+  "amasR": 3.93,
+  "moneda": "USD",
+  "descripcion": "ON PAMPA ENERGIA S.A. CL 23",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-16T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2026-12-16T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2027-06-16T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2027-12-16T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2028-06-16T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2028-12-16T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2029-06-16T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2029-12-16T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2030-06-16T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2030-12-16T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2031-06-16T00:00:00",
+      "numeroCupon": "013",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2031-12-16T00:00:00",
+      "numeroCupon": "014",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2032-06-16T00:00:00",
+      "numeroCupon": "015",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2032-12-16T00:00:00",
+      "numeroCupon": "016",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2033-06-16T00:00:00",
+      "numeroCupon": "017",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2033-12-16T00:00:00",
+      "numeroCupon": "018",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.95,
+      "renta": 3.95,
+      "amortizacion": 0.0,
+      "amasR": 3.95
+    },
+    {
+      "fechaPago": "2034-06-16T00:00:00",
+      "numeroCupon": "019",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.93,
+      "renta": 3.93,
+      "amortizacion": 0.0,
+      "amasR": 3.93
+    },
+    {
+      "fechaPago": "2034-12-16T00:00:00",
+      "numeroCupon": "020",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.95,
+      "renta": 3.95,
+      "amortizacion": 100.0,
+      "amasR": 103.95
+    }
+  ]
+}

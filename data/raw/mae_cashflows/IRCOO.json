@@ -1,0 +1,94 @@
+{
+  "especie": "IRCOO",
+  "numeroCuponActual": "003",
+  "renta": 3.6,
+  "amortizacion": 0.0,
+  "amasR": 3.6,
+  "moneda": "USD",
+  "descripcion": "ON.IRSA S.A CLASE 23 nuevo PR",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-23T00:00:00",
+      "numeroCupon": "003",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.6,
+      "renta": 3.6,
+      "amortizacion": 0.0,
+      "amasR": 3.6
+    },
+    {
+      "fechaPago": "2027-01-23T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.65,
+      "renta": 3.65,
+      "amortizacion": 0.0,
+      "amasR": 3.65
+    },
+    {
+      "fechaPago": "2027-07-23T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.6,
+      "renta": 3.6,
+      "amortizacion": 0.0,
+      "amasR": 3.6
+    },
+    {
+      "fechaPago": "2028-01-23T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.65,
+      "renta": 3.65,
+      "amortizacion": 0.0,
+      "amasR": 3.65
+    },
+    {
+      "fechaPago": "2028-07-23T00:00:00",
+      "numeroCupon": "007",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.62,
+      "renta": 3.62,
+      "amortizacion": 0.0,
+      "amasR": 3.62
+    },
+    {
+      "fechaPago": "2029-01-23T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.65,
+      "renta": 3.65,
+      "amortizacion": 0.0,
+      "amasR": 3.65
+    },
+    {
+      "fechaPago": "2029-07-23T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.6,
+      "renta": 3.6,
+      "amortizacion": 0.0,
+      "amasR": 3.6
+    },
+    {
+      "fechaPago": "2029-10-23T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.83,
+      "renta": 1.83,
+      "amortizacion": 100.0,
+      "amasR": 101.83
+    }
+  ]
+}

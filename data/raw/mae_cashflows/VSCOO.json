@@ -1,0 +1,34 @@
+{
+  "especie": "VSCOO",
+  "numeroCuponActual": "005",
+  "renta": 3.25,
+  "amortizacion": 0.0,
+  "amasR": 3.25,
+  "moneda": "USD",
+  "descripcion": "ON.VISTA ENERGY ARG SAU CXXIII",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-09-06T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 3.25,
+      "renta": 3.25,
+      "amortizacion": 0.0,
+      "amasR": 3.25
+    },
+    {
+      "fechaPago": "2027-03-06T00:00:00",
+      "numeroCupon": "006",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 103.25,
+      "renta": 3.25,
+      "amortizacion": 100.0,
+      "amasR": 103.25
+    }
+  ]
+}

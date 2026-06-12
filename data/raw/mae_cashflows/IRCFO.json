@@ -1,0 +1,64 @@
+{
+  "especie": "IRCFO",
+  "numeroCuponActual": "008",
+  "renta": 2.84,
+  "amortizacion": 17.5,
+  "amasR": 20.34,
+  "moneda": "USD",
+  "descripcion": "O.N IRSA CLASE 14",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-06-22T00:00:00",
+      "numeroCupon": "008",
+      "vr": 65.0,
+      "vrCartera": 65.0,
+      "cashFlow": 20.34,
+      "renta": 2.84,
+      "amortizacion": 17.5,
+      "amasR": 20.34
+    },
+    {
+      "fechaPago": "2026-12-22T00:00:00",
+      "numeroCupon": "009",
+      "vr": 47.5,
+      "vrCartera": 47.5,
+      "cashFlow": 2.08,
+      "renta": 2.08,
+      "amortizacion": 0.0,
+      "amasR": 2.08
+    },
+    {
+      "fechaPago": "2027-06-22T00:00:00",
+      "numeroCupon": "010",
+      "vr": 47.5,
+      "vrCartera": 47.5,
+      "cashFlow": 19.58,
+      "renta": 2.08,
+      "amortizacion": 17.5,
+      "amasR": 19.58
+    },
+    {
+      "fechaPago": "2027-12-22T00:00:00",
+      "numeroCupon": "011",
+      "vr": 30.0,
+      "vrCartera": 30.0,
+      "cashFlow": 1.31,
+      "renta": 1.31,
+      "amortizacion": 0.0,
+      "amasR": 1.31
+    },
+    {
+      "fechaPago": "2028-06-22T00:00:00",
+      "numeroCupon": "012",
+      "vr": 30.0,
+      "vrCartera": 30.0,
+      "cashFlow": 31.31,
+      "renta": 1.31,
+      "amortizacion": 30.0,
+      "amasR": 31.31
+    }
+  ]
+}

@@ -33,7 +33,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.analytics.signal_quality import score_row, _get
+from src.analytics.signal_quality import score_row, market_quality_score, _get
 
 logging.basicConfig(
     level=logging.INFO,
@@ -160,6 +160,53 @@ def enrich_execution_data(rv: pd.DataFrame, master: pd.DataFrame) -> pd.DataFram
     rv["spread_bps_current"] = rv["symbol"].apply(_spread)
     rv["days_stale"]         = rv["symbol"].apply(_days_stale)
 
+    return rv
+
+
+def compute_market_quality(
+    rv: pd.DataFrame,
+    metrics: pd.DataFrame,
+) -> pd.DataFrame:
+    """
+    Agrega market_quality_score (0-100) por bono usando datos de la especie primaria.
+
+    Requiere que fixed_income_metrics.csv tenga las columnas:
+      monto_primary, qty_ops_primary, spread_pct_primary
+    generadas por la versión actualizada de build_fixed_income_metrics.py.
+    """
+    rv = rv.copy()
+    has_data = (
+        not metrics.empty
+        and all(c in metrics.columns for c in ("monto_primary", "qty_ops_primary"))
+    )
+    if not has_data:
+        rv["market_quality_score"] = None
+        return rv
+
+    met = metrics.set_index("symbol")
+
+    scores = []
+    for _, row in rv.iterrows():
+        sym = row["symbol"]
+        if sym in met.index:
+            m_row     = met.loc[sym]
+            monto     = float(m_row.get("monto_primary")    or 0)
+            qty_ops   = int(float(m_row.get("qty_ops_primary")  or 0))
+            spread_p  = m_row.get("spread_pct_primary")
+            spread_p  = float(spread_p) if (spread_p is not None and not pd.isna(spread_p)) else None
+        else:
+            monto, qty_ops, spread_p = 0.0, 0, None
+
+        days_stale = _get(row, "days_stale")
+        score = market_quality_score(
+            monto_operado        = monto,
+            cantidad_operaciones = qty_ops,
+            spread_pct           = spread_p,
+            days_stale           = int(days_stale) if days_stale is not None else None,
+        )
+        scores.append(score)
+
+    rv["market_quality_score"] = scores
     return rv
 
 
@@ -347,12 +394,21 @@ def main() -> None:
     rv = enrich_execution_data(rv, master)
     rv = enrich_history_data(rv, history)
 
-    # ── Agregar structure_type desde fixed_income_metrics si no está en RV ───
+    # ── Agregar columnas de metrics que no vienen desde RV ───────────────────
     metrics = load_metrics()
-    if not metrics.empty and "structure_type" in metrics.columns:
-        st_map = metrics.set_index("symbol")["structure_type"]
-        if "structure_type" not in rv.columns:
-            rv["structure_type"] = rv["symbol"].map(st_map)
+    if not metrics.empty:
+        met = metrics.set_index("symbol")
+        # structure_type (preexistente)
+        if "structure_type" in met.columns and "structure_type" not in rv.columns:
+            rv["structure_type"] = rv["symbol"].map(met["structure_type"])
+        # Nuevas columnas de especie y calidad
+        for col in ("primary_species", "tir_dispersion_bp", "has_desarbitraje",
+                    "monto_primary", "qty_ops_primary", "spread_pct_primary"):
+            if col in met.columns and col not in rv.columns:
+                rv[col] = rv["symbol"].map(met[col])
+
+    # ── Market Quality Score (requiere days_stale + datos de métricas) ───────
+    rv = compute_market_quality(rv, metrics)
 
     # ── Calcular scores ──────────────────────────────────────────────────────
     logger.info("Calculando signal quality scores...")
@@ -372,7 +428,9 @@ def main() -> None:
         "signal_confidence_score",
         "execution_score",
         "liquidity_percentile",
+        "market_quality_score",
         "days_stale", "spread_bps_current",
+        "primary_species", "tir_dispersion_bp", "has_desarbitraje",
         "signal_category", "signal_label", "alerts", "alert_count",
         "is_outlier", "maturity_date",
     ]

@@ -1,0 +1,34 @@
+{
+  "especie": "SNSBO",
+  "numeroCuponActual": "004",
+  "renta": 2.37,
+  "amortizacion": 0.0,
+  "amasR": 2.37,
+  "moneda": "USD",
+  "descripcion": "ON S.A.SAN MIGUEL SERIE XI",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-14T00:00:00",
+      "numeroCupon": "004",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 2.37,
+      "renta": 2.37,
+      "amortizacion": 0.0,
+      "amasR": 2.37
+    },
+    {
+      "fechaPago": "2026-10-14T00:00:00",
+      "numeroCupon": "005",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 102.39,
+      "renta": 2.39,
+      "amortizacion": 100.0,
+      "amasR": 102.39
+    }
+  ]
+}

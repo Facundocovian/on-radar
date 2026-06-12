@@ -78,7 +78,7 @@ def settlement_date() -> date:
 def load_all_prices_from_master() -> pd.DataFrame:
     """
     Lee TODOS los instrumentos de ons_master.csv (variantes C/D/Z/O por bono)
-    con monto_operado, para seleccionar precio por liquidez real.
+    incluyendo monto_operado, spread, bid/ask y cantidad de operaciones.
     """
     if not MASTER_CSV.exists():
         return pd.DataFrame()
@@ -91,9 +91,12 @@ def load_all_prices_from_master() -> pd.DataFrame:
     if "ultimo_precio"    in df.columns: rename["ultimo_precio"]    = "price"
     if "tipo_liquidacion" in df.columns: rename["tipo_liquidacion"] = "settlement"
     df = df.rename(columns=rename)
-    df["price"]         = pd.to_numeric(df.get("price",         pd.Series(dtype=float)), errors="coerce").fillna(0)
-    df["settlement"]    = pd.to_numeric(df.get("settlement",    pd.Series(dtype=float)), errors="coerce").fillna(2)
-    df["monto_operado"] = pd.to_numeric(df.get("monto_operado", pd.Series(dtype=float)), errors="coerce").fillna(0)
+    for col in ("price", "settlement", "monto_operado",
+                "cantidad_operaciones", "spread_pct", "precio_compra", "precio_venta"):
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+    df["price"]      = df.get("price",      pd.Series(dtype=float)).fillna(0)
+    df["settlement"] = df.get("settlement", pd.Series(dtype=float)).fillna(2)
     return df
 
 
@@ -185,51 +188,72 @@ def estimate_ccl(prices_df: pd.DataFrame) -> Optional[float]:
     return ccl
 
 
+def get_all_species(
+    mae_ticker: str,
+    prices_df: pd.DataFrame,
+) -> Dict[str, Optional[Dict]]:
+    """
+    Retorna datos de mercado por especie (mep/cable/ars) sin transformar el precio.
+    Cada especie representa un mercado distinto — no son intercambiables.
+    """
+    base = mae_ticker[:-1]
+    monto_col = next(
+        (c for c in ("monto_operado", "volume") if c in prices_df.columns), None
+    )
+
+    def _lookup(symbol: str) -> Optional[Dict]:
+        rows = prices_df[(prices_df["symbol"] == symbol) & prices_df["price"].gt(0)]
+        if rows.empty:
+            return None
+        ci = rows[rows["settlement"] == 2]
+        use = ci if not ci.empty else rows
+        row = (
+            use.sort_values(monto_col, ascending=False).iloc[0]
+            if monto_col else use.iloc[0]
+        )
+        sp = row.get("spread_pct") if "spread_pct" in prices_df.columns else None
+        return {
+            "ticker":     symbol,
+            "price":      float(row["price"]),
+            "monto":      float(row.get(monto_col, 0) or 0) if monto_col else 0.0,
+            "qty_ops":    int(float(row.get("cantidad_operaciones", 0) or 0)),
+            "bid":        float(row.get("precio_compra", 0) or 0),
+            "ask":        float(row.get("precio_venta",  0) or 0),
+            "spread_pct": float(sp) if (sp is not None and not pd.isna(sp) and sp > 0) else None,
+        }
+
+    return {
+        "mep":   _lookup(base + "D"),
+        "cable": _lookup(base + "C") or _lookup(base + "Z"),
+        "ars":   _lookup(base + "O"),
+    }
+
+
 def get_best_price(
     mae_ticker: str,
     prices_df: pd.DataFrame,
     ccl: Optional[float],
 ) -> Tuple[Optional[float], str, str]:
     """
-    Busca el mejor precio USD para un ticker MAE eligiendo el variante
-    (C=EXT/CI, D=USD/48hs, Z=cable) con mayor monto_operado.
+    Precio USD primario para un ticker MAE.
 
-    Prioridad:
-      1. Variante USD/EXT con mayor monto_operado (C, D o Z)
-      2. ARS (O suffix) / CCL implícito como fallback
+    Prioridad fija por mercado: MEP (D) > cable (C) > cable-Z (Z) > ARS/CCL (O).
+    Las especies son mercados distintos — no se sustituyen entre sí.
+    El Market Quality Score refleja si ese precio es confiable.
 
     Returns (price_as_pct_par, price_ticker_usado, price_currency)
     """
-    base = mae_ticker[:-1]  # CACBO → CACB
+    base = mae_ticker[:-1]
 
-    monto_col = next(
-        (c for c in ("monto_operado", "volume") if c in prices_df.columns),
-        None,
-    )
-
-    candidates = []
-    for suffix, label in (("C", "EXT"), ("D", "USD"), ("Z", "USD")):
+    for suffix, label in (("D", "USD"), ("C", "EXT"), ("Z", "USD")):
         symbol = base + suffix
         rows = prices_df[(prices_df["symbol"] == symbol) & prices_df["price"].gt(1)]
         if rows.empty:
             continue
         ci = rows[rows["settlement"] == 2]
         use = ci if not ci.empty else rows
-        best_row = (
-            use.sort_values(monto_col, ascending=False).iloc[0]
-            if monto_col else use.sort_values("price", ascending=False).iloc[0]
-        )
-        monto = float(best_row[monto_col]) if monto_col else 0.0
-        candidates.append({
-            "symbol": symbol,
-            "label":  label,
-            "price":  float(best_row["price"]),
-            "monto":  monto,
-        })
-
-    if candidates:
-        best = max(candidates, key=lambda x: x["monto"])
-        return best["price"], best["symbol"], best["label"]
+        price = float(use.sort_values("price", ascending=False).iloc[0]["price"])
+        return price, symbol, label
 
     # Fallback: ARS con conversión CCL
     candidate_o = base + "O"
@@ -422,6 +446,35 @@ def process_ticker(
 
     structure = infer_structure_type(cashflows)
 
+    # ── Por-especie: YTM independiente por mercado (MEP / cable) ─────────────
+    species = get_all_species(mae_ticker, prices_df)
+
+    def _species_ytm(sp_data: Optional[Dict]) -> Optional[float]:
+        if sp_data is None or sp_data["price"] <= 1:
+            return None
+        p = sp_data["price"]
+        if vr_actual is not None and vr_actual < 100.0:
+            p = p * (vr_actual / 100.0)
+        return calculate_ytm(p, cashflows, settle)
+
+    ytm_mep   = _species_ytm(species.get("mep"))
+    ytm_cable = _species_ytm(species.get("cable"))
+
+    ytm_vals = [y for y in (ytm_mep, ytm_cable) if y is not None]
+    tir_dispersion_bp = round((max(ytm_vals) - min(ytm_vals)) * 10_000, 1) if len(ytm_vals) >= 2 else 0.0
+    has_desarbitraje  = tir_dispersion_bp > 150
+
+    # Especie primaria (la que determina el precio YTM principal)
+    if price_ticker.endswith("D"):
+        primary_species = "MEP"
+        sp_primary = species.get("mep")
+    elif price_ticker.endswith(("C", "Z")):
+        primary_species = "cable"
+        sp_primary = species.get("cable")
+    else:
+        primary_species = "ARS/CCL"
+        sp_primary = species.get("ars")
+
     return {
         "symbol":               mae_ticker,
         "issuer":               meta["issuer"],
@@ -439,6 +492,15 @@ def process_ticker(
         "structure_type":       structure,
         "next_payment_date":    str(future[0]["date"]),
         "final_payment_date":   str(future[-1]["date"]),
+        # Datos por especie
+        "primary_species":      primary_species,
+        "ytm_mep":              round(ytm_mep,   6) if ytm_mep   is not None else None,
+        "ytm_cable":            round(ytm_cable, 6) if ytm_cable is not None else None,
+        "tir_dispersion_bp":    tir_dispersion_bp,
+        "has_desarbitraje":     has_desarbitraje,
+        "monto_primary":        float(sp_primary["monto"])       if sp_primary else None,
+        "qty_ops_primary":      int(sp_primary["qty_ops"])       if sp_primary else None,
+        "spread_pct_primary":   float(sp_primary["spread_pct"])  if (sp_primary and sp_primary["spread_pct"] is not None) else None,
     }
 
 

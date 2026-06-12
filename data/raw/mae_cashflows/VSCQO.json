@@ -1,0 +1,104 @@
+{
+  "especie": "VSCQO",
+  "numeroCuponActual": "008",
+  "renta": 0.75,
+  "amortizacion": 0.0,
+  "amasR": 0.75,
+  "moneda": "USD",
+  "descripcion": "ON.VISTA ENERGY ARG SAU CL XXV",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-07-08T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.75,
+      "renta": 0.75,
+      "amortizacion": 0.0,
+      "amasR": 0.75
+    },
+    {
+      "fechaPago": "2026-10-08T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.76,
+      "renta": 0.76,
+      "amortizacion": 0.0,
+      "amasR": 0.76
+    },
+    {
+      "fechaPago": "2027-01-08T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.76,
+      "renta": 0.76,
+      "amortizacion": 0.0,
+      "amasR": 0.76
+    },
+    {
+      "fechaPago": "2027-04-08T00:00:00",
+      "numeroCupon": "011",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.74,
+      "renta": 0.74,
+      "amortizacion": 0.0,
+      "amasR": 0.74
+    },
+    {
+      "fechaPago": "2027-07-08T00:00:00",
+      "numeroCupon": "012",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.75,
+      "renta": 0.75,
+      "amortizacion": 0.0,
+      "amasR": 0.75
+    },
+    {
+      "fechaPago": "2027-10-08T00:00:00",
+      "numeroCupon": "013",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.76,
+      "renta": 0.76,
+      "amortizacion": 0.0,
+      "amasR": 0.76
+    },
+    {
+      "fechaPago": "2028-01-08T00:00:00",
+      "numeroCupon": "014",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.76,
+      "renta": 0.76,
+      "amortizacion": 0.0,
+      "amasR": 0.76
+    },
+    {
+      "fechaPago": "2028-04-08T00:00:00",
+      "numeroCupon": "015",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 0.75,
+      "renta": 0.75,
+      "amortizacion": 0.0,
+      "amasR": 0.75
+    },
+    {
+      "fechaPago": "2028-07-08T00:00:00",
+      "numeroCupon": "016",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 100.75,
+      "renta": 0.75,
+      "amortizacion": 100.0,
+      "amasR": 100.75
+    }
+  ]
+}

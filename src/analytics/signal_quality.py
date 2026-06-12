@@ -207,6 +207,47 @@ def execution_score(
 # Liquidity Percentile Rank
 # ─────────────────────────────────────────────────────────────────────────────
 
+def market_quality_score(
+    monto_operado: Optional[float],
+    cantidad_operaciones: Optional[int],
+    spread_pct: Optional[float],
+    days_stale: Optional[int] = None,
+) -> float:
+    """
+    Score 0-100 de calidad del dato de precio para la especie primaria.
+
+    Pesos:
+      40% recencia (operó hoy = 100, no operó = 0 → score capeado en 30)
+      25% volumen (log scale: 1M USD = 100)
+      20% operaciones (log scale: 500+ = 100)
+      15% spread bid/ask (0% = 100, 5%+ = 0; desconocido = 20)
+
+    Score < 40 → DATO_POCO_CONFIABLE en signal_category.
+    """
+    monto = float(monto_operado or 0)
+    qty   = int(cantidad_operaciones or 0)
+
+    has_traded = monto > 0
+
+    recency = 100.0 if has_traded else 0.0
+
+    vol = min(100.0, math.log10(max(1, monto)) / 6.0 * 100.0) if has_traded else 0.0
+
+    ops = min(100.0, math.log1p(qty) / math.log1p(500) * 100.0) if qty > 0 else 0.0
+
+    if spread_pct is not None and not pd.isna(spread_pct) and float(spread_pct) > 0:
+        sp = max(0.0, 100.0 - float(spread_pct) * 20.0)
+    else:
+        sp = 20.0
+
+    score = recency * 0.40 + vol * 0.25 + ops * 0.20 + sp * 0.15
+
+    if not has_traded:
+        score = min(score, 30.0)
+
+    return round(score, 1)
+
+
 def liquidity_percentile_rank(vol_value: float, vol_series: pd.Series) -> float:
     """
     Retorna el percentil (0–100) del volumen de un bono dentro del universo dado.
@@ -282,6 +323,21 @@ _ALERT_DEFS = [
             str(_get(r, "signal_type", "")) == "intra_curve"
         ),
     },
+    {
+        "id":       "dato_poco_confiable",
+        "severity": "danger",
+        "mensaje":  "Precio con baja calidad de mercado — validar antes de actuar",
+        "check":    lambda r: (
+            abs(_get(r, "rv_score", 0)) >= 1.5 and
+            float(_get(r, "market_quality_score", 100) or 100) < 40
+        ),
+    },
+    {
+        "id":       "desarbitraje",
+        "severity": "warning",
+        "mensaje":  "Dispersión entre MEP y cable > 150bp — posible desarbitraje entre especies",
+        "check":    lambda r: bool(_get(r, "has_desarbitraje", False)),
+    },
 ]
 
 
@@ -324,13 +380,15 @@ def signal_category(
     signal_type: Optional[str],
     signal_confidence: Optional[float],
     exec_score: Optional[float],
+    market_quality: Optional[float] = None,
 ) -> str:
     """
-    Clasifica la señal en 4 categorías mutuamente excluyentes.
+    Clasifica la señal en categorías mutuamente excluyentes.
 
     POTENCIALMENTE_BARATO       → señal fuerte + confianza alta
     POSIBLE_OPORTUNIDAD         → señal fuerte + confianza media (requiere validación)
     ANOMALIA_CURVA_PROPIA       → señal fuerte pero peers mayormente mismo emisor
+    DATO_POCO_CONFIABLE         → señal fuerte pero calidad de precio < 40 (bono no operó hoy)
     NEUTRO                      → señal débil o insuficiente
     """
     if rv_score is None or pd.isna(rv_score):
@@ -343,6 +401,10 @@ def signal_category(
 
     if abs(rv) < 1.5:
         return "NEUTRO"
+
+    # Calidad de precio insuficiente → la señal no es accionable
+    if market_quality is not None and not pd.isna(market_quality) and float(market_quality) < 40:
+        return "DATO_POCO_CONFIABLE"
 
     if stype == "intra_curve":
         return "ANOMALIA_CURVA_PROPIA"
@@ -358,6 +420,7 @@ _CATEGORY_LABEL: Dict[str, str] = {
     "POTENCIALMENTE_CARO":    "POTENCIALMENTE CARO",
     "POSIBLE_OPORTUNIDAD":    "POSIBLE OPORTUNIDAD — REQUIERE VALIDACIÓN",
     "ANOMALIA_CURVA_PROPIA":  "ANOMALÍA DE CURVA PROPIA",
+    "DATO_POCO_CONFIABLE":    "DATO POCO CONFIABLE",
     "NEUTRO":                 "",
 }
 
@@ -410,17 +473,21 @@ def score_row(row: Any, universe_vol_series: pd.Series) -> Dict:
         days_traded_30 = _get(row, "days_traded_30"),
     )
 
+    mq = _get(row, "market_quality_score")
+
     cat   = signal_category(
         rv_score          = _get(row, "rv_score"),
         signal_type       = _get(row, "signal_type"),
         signal_confidence = sig_c,
         exec_score        = exe,
+        market_quality    = mq,
     )
     label  = signal_label(cat)
     alerts = compute_alerts({
         **{k: _get(row, k) for k in [
             "rv_score", "signal_type", "cashflow_confidence",
-            "peer_count", "days_stale", "execution_score",
+            "peer_count", "days_stale",
+            "has_desarbitraje", "market_quality_score",
         ]},
         "execution_score": exe,
     })

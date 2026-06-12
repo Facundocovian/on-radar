@@ -1,0 +1,44 @@
+{
+  "especie": "YFCGO",
+  "numeroCuponActual": "008",
+  "renta": 1.5,
+  "amortizacion": 0.0,
+  "amasR": 1.5,
+  "moneda": "USD",
+  "descripcion": "ON.YPF ENERGIA ELECTRICA CL 15",
+  "precio": 0,
+  "tir": 0,
+  "md": 0,
+  "detalle": [
+    {
+      "fechaPago": "2026-08-27T00:00:00",
+      "numeroCupon": "008",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.5,
+      "renta": 1.5,
+      "amortizacion": 0.0,
+      "amasR": 1.5
+    },
+    {
+      "fechaPago": "2026-11-27T00:00:00",
+      "numeroCupon": "009",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 1.5,
+      "renta": 1.5,
+      "amortizacion": 0.0,
+      "amasR": 1.5
+    },
+    {
+      "fechaPago": "2027-02-27T00:00:00",
+      "numeroCupon": "010",
+      "vr": 100.0,
+      "vrCartera": 100.0,
+      "cashFlow": 101.5,
+      "renta": 1.5,
+      "amortizacion": 100.0,
+      "amasR": 101.5
+    }
+  ]
+}
